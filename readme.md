@@ -41,8 +41,8 @@ There is no required order to complete the assignments in, but I will recommend 
 
 1. [shell](assignment/shell.md)
 2. [git](assignment/git.md)
-3. [Python](assigment/python.md)
-4. [SQL](sql/readme.md)
+3. [Python](assignment/python.md)
+4. [SQL](assignment/readme.md)
 5. [the project](project/readme.md)
 5. [Theory (math/stats/prob)](assignment/theory.md)
 
