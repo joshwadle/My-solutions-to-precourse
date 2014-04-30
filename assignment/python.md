@@ -73,6 +73,12 @@ You can also use this to load system-wide libraries.
     
     In [3]: 
 
+### Berkeley Bootcamp
+
+Please follow along and complete the exercises/assignments from the Berkeley Python [bootcamp](http://www.pythonbootcamp.info/schedule).  This will get you up to speed on all of the scientific libraries we will be using.  
+
+Also complete the scikit-learn [tutorial](https://github.com/jakevdp/sklearn_pycon2014) and pandas [workshop](http://nbviewer.ipython.org/github/jvns/talks/blob/master/pydatanyc2013/PyData%20NYC%202013%20tutorial.ipynb) ([video](https://vimeo.com/79835526))
+
 ## References
 No need to Read these -- use them to look up anything the exercise covers that you do not know
 
