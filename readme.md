@@ -2,6 +2,16 @@
 
 We we want you to be somewhat comfortable with the software environments you'll be using and general programming principles so we can jump into curriculum on day one.  There will be a workstation for each student setup with the required environment, so you do not need to worry about which versions of what to install on your computer or deal with the frustration of getting all the libraries to play nicely.
 
+## tl;dr
+
+* [Git Immersion](http://gitimmersion.com/)
+* [UNIX data manipulation](http://planspace.org/2013/05/21/command-line-data-manipulation/)
+* [Berkeley bootcamp](http://www.pythonbootcamp.info/schedule): this will get you up to speed on all of the scientific libraries we will be using.  
+* [scikit-learn tutorial](https://github.com/jakevdp/sklearn_pycon2014) 
+* [pandas workshop](http://nbviewer.ipython.org/github/jvns/talks/blob/master/pydatanyc2013/PyData%20NYC%202013%20tutorial.ipynb) (with [video](https://vimeo.com/79835526))
+* [SQL Zoo (with SQLite)](http://sqlzoo.net/wiki/Main_Page)
+* [Stats/Probability](http://courses.washington.edu/css490/2012.Winter/lecture_slides/02_math_essentials.pdf)
+
 ## Where to do exercises
 You may find yourself writing notes and small bits of code throughout this precourse work.
 
@@ -19,7 +29,7 @@ There is a lot in this repository.  By far the most important things to focus on
 
 ## Test yourself
 
-As long as you can complete what is described in the `project/` directory's readme.md you should be ready for the first day of class.  Also here are some technology specific tutorial to test your knowledge and focus your studying:
+As long as you can complete what is described in the `project/` directory's readme.md you should be ready for the first day of class.  Also here are some technology specific tutorials to test your knowledge and focus your studying:
 
 * [Git Immersion](http://gitimmersion.com/)
 * [UNIX/Python tutorial](http://inst.eecs.berkeley.edu/~cs188/sp12/projects/tutorial/tutorial.html)
