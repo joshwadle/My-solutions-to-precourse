@@ -14,27 +14,6 @@ You will be expected to know the content/concepts of these tutorials at the star
 * [SQL Zoo (with SQLite)](http://sqlzoo.net/wiki/Main_Page)
 * [Stats/Probability](http://courses.washington.edu/css490/2012.Winter/lecture_slides/02_math_essentials.pdf)
 
-## Where to do exercises
-Fork this repository on GitHub so that you can add your notes and code to it. This will also make it easier for us to help you should you have any questions or difficulty about the precourse work.
-
-## Setup
-
-Setting up a data science environment can often be a daunting process, especially for folks who may be new to programming and the Unix command line.  Thankfully we can stand on the shoulders of giants and somewhat painlessly get a Mac or Linux (sorry Windows) box setup in a few minutes with some smart scripting.
-
-## Assignment
-
-The `assignment/` folder contains various markdown files (`.md`).  Each of these has a section called 'Assignment'.  You should complete what is described in each of these sections.  For most of the tutorials, you do not need to submit your results (look at the What to Submit section below).
-
-There is a lot in this repository.  By far the most important things to focus on for day 1 are Python and UNIX/shell.  Listed below are some resources/tutorials that you should be able to complete and understand by the first day of class.  Please reach out if you have any questions on any of this.
-
-## Test yourself
-
-As long as you can complete what is described in the `project/` directory's readme.md you should be ready for the first day of class.  Also here are some technology specific tutorials to test your knowledge and focus your studying:
-
-* [Git Immersion](http://gitimmersion.com/)
-* [UNIX/Python tutorial](http://inst.eecs.berkeley.edu/~cs188/sp12/projects/tutorial/tutorial.html)
-* [Stats/Probability](http://courses.washington.edu/css490/2012.Winter/lecture_slides/02_math_essentials.pdf)
-
 ### Short project
 
 In order for you to get familiar with a few different languages,
@@ -60,7 +39,28 @@ You will be sending in your submissions using git:
 1. Fork this repository
 2. Create a directory called "solutions"
 3. Add your files to your solutions folder
-4. Make a pull request
+4. Make a [pull request](https://help.github.com/articles/using-pull-requests)
+
+## Where to do exercises
+Fork this repository on GitHub so that you can add your notes and code to it. This will also make it easier for us to help you should you have any questions or difficulty about the precourse work.
+
+## Setup
+
+Setting up a data science environment can often be a daunting process, especially for folks who may be new to programming and the Unix command line.  Thankfully we can stand on the shoulders of giants and somewhat painlessly get a Mac or Linux (sorry Windows) box setup in a few minutes with some smart scripting.
+
+## Assignment
+
+The `assignment/` folder contains various markdown files (`.md`).  Each of these has a section called 'Assignment'.  You should complete what is described in each of these sections.  For most of the tutorials, you do not need to submit your results (look at the What to Submit section below).
+
+There is a lot in this repository.  By far the most important things to focus on for day 1 are Python and UNIX/shell.  Listed below are some resources/tutorials that you should be able to complete and understand by the first day of class.  Please reach out if you have any questions on any of this.
+
+## Test yourself
+
+As long as you can complete what is described in the `project/` directory's readme.md you should be ready for the first day of class.  Also here are some technology specific tutorials to test your knowledge and focus your studying:
+
+* [Git Immersion](http://gitimmersion.com/)
+* [UNIX/Python tutorial](http://inst.eecs.berkeley.edu/~cs188/sp12/projects/tutorial/tutorial.html)
+* [Stats/Probability](http://courses.washington.edu/css490/2012.Winter/lecture_slides/02_math_essentials.pdf)
 
 ## Order
 
