@@ -4,7 +4,7 @@ We we want you to be somewhat comfortable with the software environments you'll 
 
 ## tl;dr
 
-You will be expected to know the content/concepts of these tutorials at the start of the course.  Scroll down below to find instructions on what to submit and how to submit your solutions.
+You will be expected to know the content/concepts of these tutorials (git/Github, Python, SQL, basic pandas and scikit-learn, basic probability/stats) at the start of the course.  Scroll down below to find instructions on what to submit and how to submit your solutions.
 
 * [Git Immersion](http://gitimmersion.com/) (extra: Github [Pages](http://dannguyen.github.io/github-for-portfolios/))
 * [UNIX data manipulation](http://planspace.org/2013/05/21/command-line-data-manipulation/)
