@@ -15,9 +15,7 @@ You will be expected to know the content/concepts of these tutorials at the star
 * [Stats/Probability](http://courses.washington.edu/css490/2012.Winter/lecture_slides/02_math_essentials.pdf)
 
 ## Where to do exercises
-You may find yourself writing notes and small bits of code throughout this precourse work.
-
-This repository is a decent place to put those; fork this repository on GitHub so that you can add your notes and whatnot to it. This will also make it easier for us to help you should you have any questions or difficulty about the precourse work.
+Fork this repository on GitHub so that you can add your notes and code to it. This will also make it easier for us to help you should you have any questions or difficulty about the precourse work.
 
 ## Setup
 
@@ -25,7 +23,7 @@ Setting up a data science environment can often be a daunting process, especiall
 
 ## Assignment
 
-The `assignment/` folder contains various markdown files (`.md`).  Each of these has a section called 'Assignment'.  You should complete what is described in each of these sections.
+The `assignment/` folder contains various markdown files (`.md`).  Each of these has a section called 'Assignment'.  You should complete what is described in each of these sections.  For most of the tutorials, you do not need to submit your results (look at the What to Submit section below).
 
 There is a lot in this repository.  By far the most important things to focus on for day 1 are Python and UNIX/shell.  Listed below are some resources/tutorials that you should be able to complete and understand by the first day of class.  Please reach out if you have any questions on any of this.
 
@@ -46,6 +44,23 @@ Follow the directions in the [project directory](project/readme.md), and
 repeat the analysis in Python and SQL.
 
 __NOTE: We will no longer be using R in the curriculum and you are not expected to know it__
+
+## What to submit
+
+You should submit your results to these exercises:
+
+1. Python code for [UNIX/Python tutorial](http://inst.eecs.berkeley.edu/~cs188/sp12/projects/tutorial/tutorial.html)
+2. Solution to project in Python
+3. Solution to project in SQL
+
+### How to submit
+
+You will be sending in your submissions using git:
+
+1. Fork this repository
+2. Create a directory called "solutions"
+3. Add your files to your solutions folder
+4. Make a pull request
 
 ## Order
 
