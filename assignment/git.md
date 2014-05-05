@@ -1,36 +1,39 @@
-# UNIX/shell/databases
-
-The course will focus heavily on UNIX utilities and tools.
-It would be helpful to have a basic familiarity with the command line and shell.
+# Git
+git is a distributed version control system (dvcs) that allows developers
+to easily commit and rollback changes and collaborate with one another.
+We'll use it everyday in class.
 
 ## Install Git
-If you run GNU/Linux, you can probably install git from your package manager;
+GNU/Linux: install git from your package manager;
 it'll probably be called "git".
 
-If you're on Windows or Mac, download Git from the [Git website](http://git-scm.com/downloads).
+Mac: install with MacPorts or Homebrew (install [Homebrew](http://brew.sh/)
+if you don't have either).
 
-## Literature
-You should understand (or be familiar with) the things in the following materials.
-If you already know these topics, feel free to skip things.
+Windows: download and install git from the 
+[Git website](http://git-scm.com/downloads)
 
-* [Linus Torvalds on git](http://www.youtube.com/watch?v=4XpnKHJAok8)
-* [git basics](http://www.codeschool.com/courses/try-git)
-* [Git Immersion](http://gitimmersion.com/)
-* [Git vs. Github?](http://www.jahya.net/blog/?2013-05-git-vs-github)
+## Readings
+You should understand (or be familiar with) the things in the following
+materials. If you already know these topics, feel free to skip things.
 
 You don't have to memorize anything; we mainly want you to know about these
 things and feel comfortable typing things in a terminal.
 
-## GitHub
+1. Intro: [Git vs. Github?](http://www.jahya.net/blog/?2013-05-git-vs-github)
+1. Mini Tutorial: [git basics](http://www.codeschool.com/courses/try-git)
+1. Tutorial: [Git Immersion](http://gitimmersion.com/)
+1. Video: [Creator of git Linus Torvalds on git](http://www.youtube.com/watch?v=4XpnKHJAok8)
 
 ## Assignment
-Create a repository on [GitHub](https://github.com), and push a file to it.
-This will involve making a GitHub account if you don't already have one.
+Initialize a git repository on your machine with a single file. Create an
+account (if you don't already have one) and a repository on
+[GitHub](https://github.com), push your local repository to GitHub.
 
-https://www.atlassian.com/git/tutorial/git-basics
-
-http://nodeschool.io/#git-it
-
-## Other resources
-
+## Additional Resources
 * [Git documentation](http://git-scm.com/doc)
+* [Atlassian git tutorial](https://www.atlassian.com/git/tutorial/git-basics)
+* [Terminal-based git tutorial](http://nodeschool.io/#git-it)
+* Cheatsheets
+  * [Visual cheatsheet](http://ndpsoftware.com/git-cheatsheet.html#loc=workspace;)
+  * [GitHub git cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
