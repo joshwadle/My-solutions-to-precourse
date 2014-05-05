@@ -84,8 +84,6 @@ This is the least important part of the precourse work, so skip it if you don't 
 ## Getting help
 Feel free to contact us whenever you could use some help with anything in the precourse work.
 
-Consult the [list of additional references and resources][references] if you'd
+Consult the [list of additional references and resources](extra/references.md) if you'd
 like to further cover anything.
-
-[references]: './extra/references.md'
 
