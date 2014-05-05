@@ -68,12 +68,12 @@ It's best to go through each of the sections above. However, at minimum, go
 through these tutorials.
 
 * [UNIX data manipulation](http://planspace.org/2013/05/21/command-line-data-manipulation/)
-* [Git Immersion](http://gitimmersion.com/) (extra: Github [Pages](http://dannguyen.github.io/github-for-portfolios/))
+* [Git Immersion](http://gitimmersion.com/)
 * [Berkeley bootcamp](http://www.pythonbootcamp.info/schedule): this will get you up to speed on all of the scientific libraries we will be using.
 * [pandas workshop](http://nbviewer.ipython.org/github/jvns/talks/blob/master/pydatanyc2013/PyData%20NYC%202013%20tutorial.ipynb) (with [video](https://vimeo.com/79835526))
-* [SQL Zoo (with SQLite)](http://sqlzoo.net/wiki/Main_Page)
+* [SQL Zoo](http://sqlzoo.net/wiki/Main_Page)
 * [scikit-learn tutorial](https://github.com/jakevdp/sklearn_pycon2014) 
-* [Stats/Probability](http://courses.washington.edu/css490/2012.Winter/lecture_slides/02_math_essentials.pdf)
+* [Math Essentials](http://courses.washington.edu/css490/2012.Winter/lecture_slides/02_math_essentials.pdf)
 
 ## Extra
 
