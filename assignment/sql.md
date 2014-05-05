@@ -1,5 +1,10 @@
-SQL
-===
+# SQL
+
+Structured Query Language (SQL) is used to interact with data stored in
+relational databases.
+
+There are many relational databases (PostgreSQL, MySQL, etc.) but they all share
+SQL as a query language. We'll be using SQLite.
 
 ## Install SQLite
 If you are running Mac or GNU/Linux, you probably already have SQLite3 installed.
@@ -14,23 +19,22 @@ If you're on Windows, download the Windows binaries from [here](http://www.sqlit
 More directions are [here](http://mislav.uniqpath.com/rails/install-sqlite3/).
 
 ## Basic commands
-Then run it.
 
 ```sh
-sqlite3 beds.sqlite
+$ sqlite3 beds.sqlite
 ```
 
 Display headers
 
-    .header on
+    >> .header on
 
 A single SQLite3 database can contain many tables. List the tables.
 
-    .tables
+    >> .tables
 
 Show a table schema
 
-    .schema beds
+    >> .schema beds
 
 Get the whole table. (This will take a while.)
 
@@ -62,5 +66,8 @@ Order
 SELECT * FROM beds ORDER BY Bed_Census_Date;
 ```
 
-## More
-Do exercises 1 to 12 of [Learn SQL the Hard way](http://sql.learncodethehardway.org/book/).
+## Assignment
+* [SQL Zoo](http://sqlzoo.net/wiki/Main_Page): tutorials 1-7 
+
+## Additonal Resources
+* [Learn SQL the Hard Way](http://sql.learncodethehardway.org/book/).
