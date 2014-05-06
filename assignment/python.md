@@ -58,12 +58,71 @@ You can also use this to load system-wide libraries.
     abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
     
     In [3]: 
-
 ## Assignment
 
 1. Go through the [Python tutorial](http://inst.eecs.berkeley.edu/~cs188/sp12/projects/tutorial/tutorial.html) and submit `buyLotsOfFruit.py` and `shopSmart.py`.
 1. Follow along and complete the exercises/assignments from the [Berkeley Python bootcamp](http://www.pythonbootcamp.info/schedule).  This will get you up to speed on all of the scientific libraries we will be using.
 1. Complete the [pandas workshop](http://nbviewer.ipython.org/github/jvns/talks/blob/master/pydatanyc2013/PyData%20NYC%202013%20tutorial.ipynb) ([video](https://vimeo.com/79835526))
+
+## What you should know
+
+### Python
+
+* Basic data structures and associated methods
+  * int, float
+  * string
+  * list
+  * dict
+  * set
+  * range
+* Control structures
+  * if, elif, else
+  * while
+  * for
+  * break, continue, pass
+* Enumerations
+  * for loops
+  * list comprehensions
+  * enumerate
+  * zip
+* Functions
+  * Declaration
+  * Calling
+  * Keyword arguments
+* Object orientation
+  * Classes
+  * Methods
+  * Properties (instance variables)
+  * self
+* Modules
+  * import
+  * aliasing (`import pandas as pd`)
+  * global import (`from pandas import *`)
+* IO
+  * Read a file
+  * Write to a file
+
+### NumPy
+
+The NumPy workhorse is the `array` which is a high-performance matrix.
+
+Think in matrices and matrix manipulation. Anything that can be vectorized
+should be vectorized.
+
+* Create: ones, zeros, eye, empty, random.random, random.randn
+* size, shape, ndim
+* min, max, mean, var
+* Matrix multiplication
+* Indexing, slicing, boolean indexing
+* Broadcasting
+* `np.linalg`: inv, det, solve, eig
+
+### Pandas
+
+* Series
+* DataFrame
+* Indexing, slicing, boolean indexing
+* Broadcasting
 
 ## References
 No need to read these -- use them to look up things you encounter that you don't
@@ -74,5 +133,6 @@ know.
 * [Python Docs](http://docs.python.org/2/)
 * [IPython docs](http://ipython.org/ipython-doc/rel-0.13.1/index.html)
 * [Think Python](http://www.greenteapress.com/thinkpython/thinkpython.pdf)
+* [Intro to Pandas Data Structures](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dsintro)
 * [Scipy Lectures](http://scipy-lectures.github.io/)
 * [Scikit-learn tutorial](https://github.com/jakevdp/sklearn_pycon2014) 
