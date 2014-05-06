@@ -62,28 +62,11 @@ It's good workflow to commit and push to your fork often, even when you're not d
 
 If we've made changes to the repository after you forked it and you want to update your repository to reflect them, you can run this command: `git pull https://github.com/zipfian/precourse master`
 
-## Key Tutorials
-
-It's best to go through each of the sections above. However, at minimum, go
-through these tutorials.
-
-* [UNIX data manipulation](http://planspace.org/2013/05/21/command-line-data-manipulation/)
-* [Git Immersion](http://gitimmersion.com/)
-* [Berkeley bootcamp](http://www.pythonbootcamp.info/schedule): this will get you up to speed on all of the scientific libraries we will be using.
-* [pandas workshop](http://nbviewer.ipython.org/github/jvns/talks/blob/master/pydatanyc2013/PyData%20NYC%202013%20tutorial.ipynb) (with [video](https://vimeo.com/79835526))
-* [SQL Zoo](http://sqlzoo.net/wiki/Main_Page)
-* [scikit-learn tutorial](https://github.com/jakevdp/sklearn_pycon2014) 
-* [Math Essentials](http://courses.washington.edu/css490/2012.Winter/lecture_slides/02_math_essentials.pdf)
-
-## Extra
-
-The `extra` directory has some references on operating systems and text editors that you might consider installing and learning. It also references some tutorials on HTML, CSS, and javascript basics.
-
-This is the least important part of the precourse work, so skip it if you don't have time.
-
 ## Getting help
 Feel free to contact us whenever you could use some help with anything in the precourse work.
 
 Consult the [list of additional references and resources](extra/references.md) if you'd
-like to further cover anything.
+like to further cover anything. The `extra` directory also contains some
+additional references on operating systems and text editors as well as
+HTML/CSS/JavaScript.
 
