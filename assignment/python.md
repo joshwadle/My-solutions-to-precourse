@@ -63,7 +63,6 @@ You can also use this to load system-wide libraries.
 
 1. Go through the [Python tutorial](http://inst.eecs.berkeley.edu/~cs188/sp12/projects/tutorial/tutorial.html) and submit `buyLotsOfFruit.py` and `shopSmart.py`.
 1. Follow along and complete the exercises/assignments from the [Berkeley Python bootcamp](http://www.pythonbootcamp.info/schedule).  This will get you up to speed on all of the scientific libraries we will be using.
-1. Complete the [scikit-learn tutorial](https://github.com/jakevdp/sklearn_pycon2014) 
 1. Complete the [pandas workshop](http://nbviewer.ipython.org/github/jvns/talks/blob/master/pydatanyc2013/PyData%20NYC%202013%20tutorial.ipynb) ([video](https://vimeo.com/79835526))
 
 ## References
@@ -76,3 +75,4 @@ know.
 * [IPython docs](http://ipython.org/ipython-doc/rel-0.13.1/index.html)
 * [Think Python](http://www.greenteapress.com/thinkpython/thinkpython.pdf)
 * [Scipy Lectures](http://scipy-lectures.github.io/)
+* [Scikit-learn tutorial](https://github.com/jakevdp/sklearn_pycon2014) 
