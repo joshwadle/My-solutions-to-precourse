@@ -43,3 +43,4 @@ When there is a concept that the slides do not explain in enough detail, use [Kh
 * [A Modern Introduction to Probability and Statistics](http://www.cis.temple.edu/~latecki/Courses/CIS2033-Spring12/A_modern_intro_probability_statistics_Dekking05.pdf)
 * [A First Course in Linear Algebra](http://linear.ups.edu/download/fcla-3.11-tablet.pdf)
 * [OpenIntro Statistics](https://www.dropbox.com/s/tokfd9t86rbbstp/os2.pdf)
+* [Matrix Cookbook](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf) (pdf)
