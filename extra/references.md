@@ -7,6 +7,7 @@ List below are many great references to get a deeper dive in each of these topic
 #### Tutorials
 * [IPython Crash Course](http://nbviewer.ipython.org/github/kialio/python-bootcamp/blob/master/DataFiles_and_Notebooks/04_IPythonNotebookIntroduction/ipython-tutor.ipynby) tutorial in IPython.
 * [Crash into Python](http://stephensugden.com/crash_into_python/): Python for developers from other languages
+* [Software Carpentry: Python](http://software-carpentry.org/v5/novice/python/index.html)
 * [Scientific Python notebook](http://nbviewer.ipython.org/gist/rpmuller/5920182)
 * [Berkeley Scientific Python Bootcamp](http://register.pythonbootcamp.info/): Crash course in Python and it's scientific libraries
 * [Python Tutorial](http://docs.python.org/2/tutorial/index.html): The official docs and tutorial
