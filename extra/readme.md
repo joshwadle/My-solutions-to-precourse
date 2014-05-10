@@ -1,5 +1,7 @@
 # Extra Credit
 
+[Applied Data Science (Part 1)](http://columbia-applied-data-science.github.io/appdatasci.pdf): Create an automated data pipeline
+
 ## Operating system
 We'll use provide standard GNU/Linux computers during the course, so you won't
 need to install any special software on your own computer, but it would be good
