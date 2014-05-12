@@ -23,7 +23,7 @@ The most important sections for day 1 are **shell** and **Python**.
 
 You will all be keeping a blog throughout the course. You may want to set that
 up now so that you can blog about your prepration. Here are some [blogging
-options]('extra/blog/readme.md').
+options](extra/blog/readme.md).
 
 ## The Project
 
