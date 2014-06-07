@@ -31,9 +31,10 @@ they're both great. Here are some tutorials you can try.
 
 ## Web programming
 
-While the course will not explicitly cover web programming technologies, it will be essential to understand how the internet/websites work as you will be obtaining data from it as well as publishing results to it.
+While the course will not explicitly cover web programming technologies, it will be essential to understand how the internet/websites work as you will be obtaining data from it as well as publishing results to it. A great basic tutorial to creating a dynamic website with Flask can be found here: [http://opentechschool.github.io/python-flask/](http://opentechschool.github.io/python-flask/)
 
 Here is a colleciton of the best resources I could find out there: [Bitly bundle](http://bitly.com/bundles/o_57ca5qnmvg/1)
+
 
 ### References (No need to Read these -- use them to look up anything the exercise covers that you do not know)
 
