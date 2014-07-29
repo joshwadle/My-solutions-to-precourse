@@ -15,11 +15,11 @@ you complete the work in the "Assignment" section of each document.
 Try to get into good habits of development early, since we will be pair programming in the class we will be standardizing on a [development workflow](workflow.md).  Please try to follow this as you complete the precourse curriculum.
 
 1. [shell](assignment/shell.md)
-1. [Python](assignment/python)
 1. [git](assignment/git.md)
+1. [Python](assignment/python)
 1. [SQL](assignment/sql.md)
-1. [markdown tutorial](http://markdowntutorial.com/)
 1. [Project](project/readme.md)
+1. [markdown tutorial](http://markdowntutorial.com/)
 1. [Theory (math/stats/prob)](assignment/theory.md)
 
 The most important sections for day 1 are **shell** and **Python**.
