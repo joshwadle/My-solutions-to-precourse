@@ -21,6 +21,7 @@ Try to get into good habits of development early, since we will be pair programm
 1. [Project](project/readme.md)
 1. [markdown tutorial](http://markdowntutorial.com/)
 1. [Theory (math/stats/prob)](assignment/theory.md)
+1. [Intro to Machine Learning (with sklearn)](http://nbviewer.ipython.org/github/fonnesbeck/Bios366/blob/master/notebooks/Section6_1-Scikit-Learn.ipynb)
 
 The most important sections for day 1 are **shell** and **Python**.
 
