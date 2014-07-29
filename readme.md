@@ -6,16 +6,19 @@ Please read this entire document before getting started on the following
 sections.
 
 You'll be going through several readings and tutorials and ultimately submitting
-several assigments, the most important of which is a short project to be done in
+several assignments, the most important of which is a short project to be done in
 Python and SQL.
 
 Progress through the following sections in any order you'd like. Make sure
 you complete the work in the "Assignment" section of each document.
 
+Try to get into good habits of development early, since we will be pair programming in the class we will be standardizing on a [development workflow](workflow.md).  Please try to follow this as you complete the precourse curriculum.
+
 1. [shell](assignment/shell.md)
-1. [Python](assignment/python.md)
+1. [Python](assignment/python)
 1. [git](assignment/git.md)
 1. [SQL](assignment/sql.md)
+1. [markdown tutorial](http://markdowntutorial.com/)
 1. [Project](project/readme.md)
 1. [Theory (math/stats/prob)](assignment/theory.md)
 
