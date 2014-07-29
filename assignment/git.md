@@ -21,19 +21,21 @@ You don't have to memorize anything; we mainly want you to know about these
 things and feel comfortable typing things in a terminal.
 
 1. Intro: [Git vs. Github?](http://www.jahya.net/blog/?2013-05-git-vs-github)
-1. Mini Tutorial: [git basics](http://www.codeschool.com/courses/try-git)
-1. Tutorial: [Git Immersion](http://gitimmersion.com/)
-1. Video: [Creator of git Linus Torvalds on git](http://www.youtube.com/watch?v=4XpnKHJAok8)
+2. [Git Reference](http://gitbookio.gitbooks.io/progit/en/index.html)
 
 ## Assignment
-Initialize a git repository on your machine with a single file. Create an
-account (if you don't already have one) and a repository on
-[GitHub](https://github.com), push your local repository to GitHub.
+
+1. [Complete git-it](http://nodeschool.io/#git-it)
+2. Initialize a git repository on your machine with a single file. Create an account (if you don't already have one) and a repository on [GitHub](https://github.com), push your local repository to GitHub.
+3. Submit solutions to the precourse curriculum project in a [pull request]()
+
 
 ## Additional Resources
-* [Git documentation](http://git-scm.com/doc)
+
+* Mini Tutorial: [git basics](http://www.codeschool.com/courses/try-git)
+* Tutorial: [Git Immersion](http://gitimmersion.com/)
+* Video: [Creator of git Linus Torvalds on git](http://www.youtube.com/watch?v=4XpnKHJAok8)[Git documentation](http://git-scm.com/doc)
 * [Atlassian git tutorial](https://www.atlassian.com/git/tutorial/git-basics)
-* [Terminal-based git tutorial](http://nodeschool.io/#git-it)
 * Cheatsheets
   * [Visual cheatsheet](http://ndpsoftware.com/git-cheatsheet.html#loc=workspace;)
   * [GitHub git cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
