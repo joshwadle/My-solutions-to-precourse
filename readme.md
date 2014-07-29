@@ -37,7 +37,7 @@ You should submit the following:
 2. [problems.py](assignment/python/problems.py), [words.py](assignment/python/words.py), and [fizzbuzz.py](assignment/python/fizzbuzz.py) solutions
 2. Solution to project in Python
 3. Solution to project in SQL
-4. A readme.md file describing your approach/process to completing the project.
+4. A readme.md file (written in Markdown) describing your approach/process to completing the project.
 
 ### How to submit
 
