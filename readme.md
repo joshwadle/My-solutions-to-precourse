@@ -28,24 +28,15 @@ You will all be keeping a blog throughout the course. You may want to set that
 up now so that you can blog about your prepration. Here are some [blogging
 options](extra/blog/readme.md).
 
-## The Project
-
-In order for you to get familiar with a few different languages, we'd like you
-to conduct a very basic analysis in Python and SQL.  __This the best guide/test
-of your knowledge for the first day of class.__
-
-Follow the directions in the [project directory](project/readme.md), and
-repeat the analysis in Python and SQL.
-
-__NOTE: We will no longer be using R in the curriculum and you are not expected to know it__
-
-## Submitting Assigments
+## Submitting Assignments
 
 You should submit the following:
 
 1. Python code for [UNIX/Python tutorial](http://inst.eecs.berkeley.edu/~cs188/sp12/projects/tutorial/tutorial.html). There's two problems for you to submit buried in the file. You should submit `buyLotsOfFruit.py` and `shopSmart.py`
+2. [problems.py](assignment/python/problems.py), [words.py](assignment/python/words.py), and [fizzbuzz.py](assignment/python/fizzbuzz.py) solutions
 2. Solution to project in Python
 3. Solution to project in SQL
+4. A readme.md file describing your approach/process to completing the project.
 
 ### How to submit
 
@@ -64,6 +55,17 @@ if you haven't already
 It's good workflow to commit and push to your fork often, even when you're not done. Then you have older versions of your work in case you screw something up or lose something. We will get a notification of your submission once you submit a pull request.
 
 If we've made changes to the repository after you forked it and you want to update your repository to reflect them, you can run this command: `git pull https://github.com/zipfian/precourse master`
+
+## The Project
+
+In order for you to get familiar with a few different languages, we'd like you
+to conduct a very basic analysis in Python and SQL.  __This the best guide/test
+of your knowledge for the first day of class.__
+
+Follow the directions in the [project directory](project/readme.md), and
+repeat the analysis in Python and SQL.
+
+__NOTE: We will no longer be using R in the curriculum and you are not expected to know it__
 
 ## Getting help
 Feel free to contact us whenever you could use some help with anything in the precourse work.

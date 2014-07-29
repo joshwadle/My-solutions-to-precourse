@@ -31,7 +31,7 @@ When there is a concept that the slides do not explain in enough detail, use [Kh
 * [Review of Probability Theory](http://cs229.stanford.edu/section/cs229-prob.pdf)
 * [Linear Algebra Review](http://cs229.stanford.edu/section/cs229-linalg.pdf)
 * [Linear Algebra in Four Pages](http://cnd.mcgill.ca/~ivan/miniref/linear_algebra_in_4_pages.pdf)
-* [Advanced Assessment](theory/assessment.pdf)
+* [Advanced Assessment](assess/assessment.pdf)
 
 ### Lectures
 * [Math for Machine Learning](http://courses.washington.edu/css490/2012.Winter/lecture_slides/02_math_essentials.pdf)
