@@ -1,4 +1,4 @@
-## Python skillz
+## Python practice
 
 We'll be getting more comfortable with Python built-in functions and data structures.
 
@@ -17,54 +17,25 @@ We use the [Anaconda](https://store.continuum.io/cshop/anaconda/) Python 2.7
 (not Python 3) distribution and use [conda](http://www.continuum.io/blog/conda)
 to install any additional packages. You should install Anaconda now.
 
-## Python Terminal
-Run `python` from a terminal, and you'll get to a Python
-terminal where you can test out Python interactively.
-You can exit with control-D or `exit`.
+### Resources
 
-There's a better terminal called IPython. Run `ipython` to enter it.
+If you still feel new to python, you might benefit from looking at one of these resources:
+* [Dive Into Python](http://www.diveintopython.net/)
+* [Learn Python the Hard Way](http://learnpythonthehardway.org/)
 
-Within the IPython terminal, you can type "`%run <filename>`"
-to effectively copy the contents of a file into the terminal.
+Please read through these [notes](python.md) which go over some more advanced python topics.
 
-    In [1]: %run example.py
-    
-    In [2]: example()
-    Hi
+Python also has great documentation.
 
-You can do something quite similar from an ordinary shell. If you write 
-some Python code in a file, then run `python filename.py`, the same thing
-happens, except that the Python session ends right after the file is run;
-that is, it's as if you copied the contents of the file into the terminal
-and then closed the terminal.
-
-### `import`
-
-You load other python files with `import`.  You can use this to load other
-files.
-
-    In [1]: import example
-    
-    In [2]: example.example()
-    Hi
-    
-
-You can also use this to load system-wide libraries.
-
-    In [1]: import string
-    
-    In [2]: print string.ascii_letters
-    abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+The [Python tutorial](https://docs.python.org/2/tutorial/) and
+[Python library](https://docs.python.org/2/library/) are great resources if
+you need to look up how something is done in Python.
     
 ## Assignment
 
-#### 0. Python Basics
-
-1. Go through the [Python tutorial](http://inst.eecs.berkeley.edu/~cs188/sp12/projects/tutorial/tutorial.html) and submit `buyLotsOfFruit.py` and `shopSmart.py`.
-
 #### 1. Practice with built-ins
 
-Fill in the functions in problems.py.
+Fill in the functions in `problems.py`.
 
 These are all one-liners that use a bunch of handy built-in functions.
 
@@ -115,13 +86,6 @@ Pandas can be a very frustrating and mysterious library, it will be essential to
 
 1. Complete the [pandas workshop](http://nbviewer.ipython.org/github/jvns/talks/blob/master/pydatanyc2013/PyData%20NYC%202013%20tutorial.ipynb) ([video](https://vimeo.com/79835526))
 
-#### 4. Bonus Projects
-
-If you're done with all the above, well done! For additional practice, choose one of these projects to implement:
-
-* Hangman game
-* Towers of Hanoi
-* Number in words (312 => "three hundred and twelve")
 
 ## What you should know
 
@@ -187,38 +151,4 @@ should be vectorized.
 * DataFrame
 * Indexing, slicing, boolean indexing
 * Broadcasting
-
-### Resources
-
-Here are the some [notes](python.md) on Python.
-
-And also Python has good documentation.
-
-The [Python tutorial](https://docs.python.org/2/tutorial/) and
-[Python library](https://docs.python.org/2/library/) are great resources if
-you need to look up how something is done in Python.
-
-Here are a few pages that may be particularly
-useful to you as you're working through today's exercise:
-* [Data Structures](https://docs.python.org/2/tutorial/datastructures.html):
-[lists](https://docs.python.org/2/tutorial/datastructures.html#more-on-lists)
-(particularly map, filter and list comprehensions) and
-[dictionaries](https://docs.python.org/2/tutorial/datastructures.html#dictionaries)
-* [Strings](https://docs.python.org/2/library/string.html): particularly
-strip and split
-
-## References
-No need to read these -- use them to look up things you encounter that you don't
-know.
-
-* [Python introduction](http://docs.python.org/2/tutorial/introduction.html)
-* [Intro to Python notebook](http://nbviewer.ipython.org/urls/bitbucket.org/amjoconn/watpy-learning-to-code-with-python/raw/3441274a54c7ff6ff3e37285aafcbbd8cb4774f0/notebook/Learn%20to%20Code%20with%20Python.ipynb)
-* [Python Docs](http://docs.python.org/2/)
-* [IPython docs](http://ipython.org/ipython-doc/rel-0.13.1/index.html)
-* [Think Python](http://www.greenteapress.com/thinkpython/thinkpython.pdf)
-* [Intro to Pandas Data Structures](http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dsintro)
-* [Scipy Lectures](http://scipy-lectures.github.io/)
-* [Scikit-learn tutorial](https://github.com/jakevdp/sklearn_pycon2014)
-* [Berkeley Python bootcamp](http://www.pythonbootcamp.info/schedule)
-
 

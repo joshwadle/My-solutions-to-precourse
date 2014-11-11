@@ -5,9 +5,7 @@ __Goal: to get you ready to jump into our curriculum on day 1.__
 Please read this entire document before getting started on the following
 sections.
 
-You'll be going through several readings and tutorials and ultimately submitting
-several assignments, the most important of which is a short project to be done in
-Python and SQL.
+You'll be going through several readings and tutorials and ultimately submitting a couple assignments, the most important of which is a short project to be done in Python and SQL.
 
 Progress through the following sections in any order you'd like. Make sure
 you complete the work in the "Assignment" section of each document.
@@ -23,18 +21,17 @@ Try to get into good habits of development early, since we will be pair programm
 1. [Theory (math/stats/prob)](assignment/theory.md)
 1. [Intro to Machine Learning (with sklearn)](http://nbviewer.ipython.org/github/fonnesbeck/Bios366/blob/master/notebooks/Section6_1-Scikit-Learn.ipynb)
 
-The most important sections for day 1 are **shell** and **Python**.
+**Python** is probably the most important of these. **shell**, **git** and **SQL** will also be very important in week 1. The **Theory** and **machine learning** will be important for week 2.
 
 You will all be keeping a blog throughout the course. You may want to set that
 up now so that you can blog about your prepration. Here are some [blogging
 options](extra/blog/readme.md).
 
-## Submitting Assignments
+## What to submit
 
 You should submit the following:
 
-1. Python code for [UNIX/Python tutorial](http://inst.eecs.berkeley.edu/~cs188/sp12/projects/tutorial/tutorial.html). There's two problems for you to submit buried in the file. You should submit `buyLotsOfFruit.py` and `shopSmart.py`
-2. [problems.py](assignment/python/problems.py), [words.py](assignment/python/words.py), and [fizzbuzz.py](assignment/python/fizzbuzz.py) solutions
+1. [problems.py](assignment/python/problems.py), [words.py](assignment/python/words.py), and [fizzbuzz.py](assignment/python/fizzbuzz.py) solutions
 2. Solution to project in Python
 3. Solution to project in SQL
 4. A readme.md file (written in Markdown) describing your approach/process to completing the project.
