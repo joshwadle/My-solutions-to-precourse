@@ -7,18 +7,17 @@ import numpy as np
 def one():
     '''
     INPUT: NONE
-    OUTPUT: A numpy row vector of 100 random integers all between the values of 0 and 10. (matrix)
+    OUTPUT: A numpy row vector of 100 sequential numbers starting at zero and ending at 99. (matrix)
 
     Create a row vector with numpy (1 x 100).
 
     Example:
     >>> 
-    >>> rv = one()
-    >>> print rv 
-    >>> [1, 1, 1, 6, ..., 9]
+    >>> answer = one()
+    >>> print answer 
+    >>> [ 0  1  2  3  4 ... 99 ]
     '''
     return answer
-
 
 def two():
     '''
@@ -43,9 +42,9 @@ def two():
 def three():
     '''
     INPUT: NONE
-    OUTPUT: A 6x6 numpy matrix 
+    OUTPUT: A 10 x 10 numpy matrix 
 
-    Create a square 6 by 6 matrix.
+    Create a square 10 by 10 matrix 
     
     Example:
     >>> 
@@ -102,14 +101,20 @@ def five():
 
 def six():
     '''
-    Create a (4 x 9) matrix with sequential ints 1 through 36. 
+    Create a (10 x 10) matrix with sequential ints 0 through 99. 
     
     Example: 
     >>> print answer
-    >>>> [[ 1  2  3  4  5  6  7  8  9]
-          [10 11 12 13 14 15 16 17 18]
-          [19 20 21 22 23 24 25 26 27]
-          [28 29 30 31 32 33 34 35 36]]
+    >>>> [[ 0  1  2  3  4  5  6  7  8  9]
+          [10 11 12 13 14 15 16 17 18 19]
+          [20 21 22 23 24 25 26 27 28 29]
+          [30 31 32 33 34 35 36 37 38 39]
+          [40 41 42 43 44 45 46 47 48 49]
+          [50 51 52 53 54 55 56 57 58 59]
+          [60 61 62 63 64 65 66 67 68 69]
+          [70 71 72 73 74 75 76 77 78 79]
+          [80 81 82 83 84 85 86 87 88 89]
+          [90 91 92 93 94 95 96 97 98 99]]
     '''
     return answer
 
@@ -125,10 +130,16 @@ def seven(M):
     Example: 
     >>> M = six()
     >>> print seven(M)
-    >>> [[ 1  2  3]
+    >>> [[ 0  1  2]
          [10 11 12]
-         [19 20 21]
-         [28 29 30]]
+         [20 21 22]
+         [30 31 32]
+         [40 41 42]
+         [50 51 52]
+         [60 61 62]
+         [70 71 72]
+         [80 81 82]
+         [90 91 92]]
 
     '''
     return answer 
@@ -143,8 +154,8 @@ def eight(M):
     Example: 
     >>> M = six()
     >>> print eight(M)
-    >>> [[19 20 21 22 23 24 25 26 27]
-         [28 29 30 31 32 33 34 35 36]]
+    >>> [[80 81 82 83 84 85 86 87 88 89]
+         [90 91 92 93 94 95 96 97 98 99]]
     '''
 
     return answer
@@ -156,16 +167,16 @@ def eight(M):
 def nine():
     '''  
     INPUT: None
-    OUTPUT: A numpy array with values [2 3 5 8 9]
+    OUTPUT: A numpy array with values [ [0,2,3,4,5,6,7,8,9] ]
     
-    Create this numpy array (called V): [2 3 5 8 9]
+    Create this numpy array (called V): [ [0,2,3,4,5,6,7,8,9] ]
     '''
     return V
 
 def ten():
     '''
-    INPUT: V (matrix from nine() )
-    OUTPUT: [ 2.5  3.5  5.5  8.5  9.5]
+    INPUT: V ( matrix from nine() )
+    OUTPUT: [[ 0.5  1.5  2.5  3.5  4.5  5.5  6.5  7.5  8.5  9.5]]
 
     Do a scalar addition by 0.5 to V.
     '''
@@ -177,6 +188,7 @@ def eleven():
     '''
     INPUT: V (matrix from nine() )
     Do a scalar multiple by -2.
+    OUTPUT:  [[  0  -2  -4  -6  -8 -10 -12 -14 -16 -18]]
 
     '''
     return answer
@@ -185,13 +197,17 @@ def eleven():
 
 def twelve():
     '''
-    INPUT: V (matrix from nine() )
+    INPUT: V ( matrix from nine() )
+    OUTPUT: B, answer = V+B
+
+    Create a 1 by 10 vector 'B', 
+    that when added to V,  will yeild the same results as function ten
+    V + B = [[ 0.5  1.5  2.5  3.5  4.5  5.5  6.5  7.5  8.5  9.5]]
     
-    Create a 1 by 5 vector 'b'
-    so that the following would get the same result as you did in #2: 
-    v + b (called broadcasting).
+
+    Return both the B vector and the answer
     '''
-    return answer
+    return B, answer
 
 
 # PART 3: MATRIX / VECTOR Multiplication
@@ -323,16 +339,18 @@ def twenty():
 def twenty_one():
     '''
     Create a 10x10 matrix that looks just like this
-M = [[ 0  1  2  3  4  5  6  7  8  9]
-     [10 11 12 13 14 15 16 17 18 19]
-     [20 21 22 23 24 25 26 27 28 29]
-     [30 31 32 33 34 35 36 37 38 39]
-     [40 41 42 43 44 45 46 47 48 49]
-     [50 51 52 53 54 55 56 57 58 59]
-     [60 61 62 63 64 65 66 67 68 69]
-     [70 71 72 73 74 75 76 77 78 79]
-     [80 81 82 83 84 85 86 87 88 89]
-     [90 91 92 93 94 95 96 97 98 99]]
+    DO NOT JUST COPY AND PASTE THIS MATRIX, YOU MUST CREATE THIS PROGRAMMATICALLY
+
+    M = [[  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.]
+         [ 10.  11.  12.  13.  14.  15.  16.  17.  18.  19.]
+         [ 20.  21.  22.  23.  24.  25.  26.  27.  28.  29.]
+         [ 30.  31.  32.  33.  34.  35.  36.  37.  38.  39.]
+         [ 40.  41.  42.  43.  44.  45.  46.  47.  48.  49.]
+         [ 50.  51.  52.  53.  54.  55.  56.  57.  58.  59.]
+         [ 60.  61.  62.  63.  64.  65.  66.  67.  68.  69.]
+         [ 70.  71.  72.  73.  74.  75.  76.  77.  78.  79.]
+         [ 80.  81.  82.  83.  84.  85.  86.  87.  88.  89.]
+         [ 90.  91.  92.  93.  94.  95.  96.  97.  98.  99.]]
     '''
     return M
 
@@ -364,4 +382,14 @@ def twenty_four(M):
     OUTPUT:  row_sum, row_mean, row_std
     '''
     return row_sum, row_mean, row_std
+
+# print np.linspace(0.0, 99.0 , 100.0).reshape(10,10)
+# print np.arange(0,100,1).reshape(10,10)[-2:]
+V =  np.arange(0,10,1).reshape(1, 10)
+B = np.zeros(10)
+B.fill(0.5)
+B.reshape(10,1)
+
+print B
+print V + B
 

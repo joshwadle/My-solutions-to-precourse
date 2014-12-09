@@ -7,6 +7,7 @@ import Linear_Algebra_Assignment as problems
 
 #1
 def test_one():
+    answer = np.linspace(0, 100, 1)
     result = problems.one()
     n.assert_equal(result.shape, (100,))
 
@@ -32,46 +33,47 @@ def test_five():
     n.assert_equal(result.all(), answer.all())
 
 def test_six():
-    answer = np.arange(1, 37).reshape(4,9)
+    answer = np.arange(0,100,1).reshape(10,10)
     result = problems.six()
     n.assert_equal(result.all(), answer.all())
 
 def test_seven():
-    M = problems.six()
+    M = np.arange(0,100,1).reshape(10,10)
     result = problems.seven(M)
     answer = M[:,:3]
     n.assert_equal(result.all(), answer.all())
 
 def test_eight():
-    M = problems.six()
+    M = np.arange(0,100,1).reshape(10,10)
     result = problems.six(M)
-    answer = M[2:4]
-    n.assert_equal(result, answer)
+    answer = M[-2:]
+    n.assert_equal(result.all(), answer.all())
 
 def test_nine():
-    answer = np.array([2, 3, 5, 8, 9])
+    V =  np.arange(0,10,1).reshape(1, 10)
     result = problems.nine()
     n.assert_equal(answer.all(), result.all())
 
 def test_ten():
-    V = np.array([2, 3, 5, 8, 9])
+    V =  np.arange(0,10,1).reshape(1, 10)
     answer = V + [0.5]
     result = problems.ten(V)
     n.assert_equal(result.all() , answer.all())
 
 
 def test_eleven():
-    V = np.array([2, 3, 5, 8, 9])
+    V =  np.arange(0,10,1).reshape(1, 10)
     answer = V * [-2]
     result = problems.eleven(V)
     n.assert_equal(result.all() , answer.all())
 
 
 def test_twelve():
-    V = np.array([2, 3, 5, 8, 9])
-    b = np.ones(5)
-    b.fill(0.5)
-    answer = V + b
+    V =  np.arange(0,10,1).reshape(1, 10)
+    B = np.zeros(10)
+    B.fill(0.5)
+    B.reshape(10,1)
+    answer = V + B
     result = problems.twelve(V)
     n.assert_equal(result.all() , answer.all())
 
@@ -79,7 +81,7 @@ def test_twelve():
 def test_thirteen():
     answer_col = np.random.randint(10, size=(3, 1))
     answer_row = np.random.randint(10, size=(1, 3))
-    answer_sq = np.random.randint(10, size=(3,3))
+    answer_sq = np.random.randint(10, size=(3, 3))
     col, row, sq = problems.thirteen()
     n.assert_equal(col.shape, answer_col.shape)
     n.assert_equal(row.shape, answer_row.shape)
@@ -146,4 +148,9 @@ def test_twenty():
     answer = A + B
     result = problems.twenty()
     n.assert_equal(result.all(), answer.all() )
+
+def test_twenty_one():
+    answer = np.arange(0,100).reshape(10,10)
+    result = problems.twenty_one
+    n.assert_equal(result.shape, answer.shape)
 
