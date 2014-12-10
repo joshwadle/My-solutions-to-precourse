@@ -1,17 +1,14 @@
 import numpy as np
 import nose.tools as n
-from StringIO import StringIO
+import linear_algebra_assignment as problems
 
-## HERE IMPORT STUDENTS PROBLEMS.PY FILE
-import Linear_Algebra_Assignment as problems
 
-#1
 def test_one():
     answer = np.linspace(0, 100, 1)
     result = problems.one()
     n.assert_equal(result.shape, (100,))
 
-# 2
+
 def test_two():
     result = problems.two()
     n.assert_equal(result.shape, (100,1))
@@ -22,20 +19,24 @@ def test_three():
     result = problems.three()
     n.assert_equal(result.shape, answer.shape)
 
+
 def test_four():
     answer = np.random.randint(10, size=(2,3))
     result = problems.four()
     n.assert_equal(result.shape, answer.shape)
+
 
 def test_five():
     answer = np.identity(6)
     result = problems.five()
     n.assert_equal(result.all(), answer.all())
 
+
 def test_six():
     answer = np.arange(0,100,1).reshape(10,10)
     result = problems.six()
     n.assert_equal(result.all(), answer.all())
+
 
 def test_seven():
     M = np.arange(0,100,1).reshape(10,10)
@@ -43,16 +44,19 @@ def test_seven():
     answer = M[:,:3]
     n.assert_equal(result.all(), answer.all())
 
+
 def test_eight():
     M = np.arange(0,100,1).reshape(10,10)
     result = problems.six(M)
     answer = M[-2:]
     n.assert_equal(result.all(), answer.all())
 
+
 def test_nine():
-    V =  np.arange(0,10,1).reshape(1, 10)
+    answer = np.arange(0,10,1).reshape(1, 10)
     result = problems.nine()
     n.assert_equal(answer.all(), result.all())
+
 
 def test_ten():
     V =  np.arange(0,10,1).reshape(1, 10)
@@ -153,4 +157,3 @@ def test_twenty_one():
     answer = np.arange(0,100).reshape(10,10)
     result = problems.twenty_one
     n.assert_equal(result.shape, answer.shape)
-

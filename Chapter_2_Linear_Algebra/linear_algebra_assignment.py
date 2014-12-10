@@ -17,7 +17,8 @@ def one():
     >>> print answer 
     >>> [ 0  1  2  3  4 ... 99 ]
     '''
-    return answer
+    return None
+
 
 def two():
     '''
@@ -36,7 +37,7 @@ def two():
          ...
           [ 50.        ]]
     '''
-    return answer
+    return None
 
 
 def three():
@@ -57,8 +58,7 @@ def three():
          [24 25 26 27 28 29]
          [30 31 32 33 34 35]]
     '''
-
-    return answer
+    return None
 
 
 def four():
@@ -76,7 +76,7 @@ def four():
     >>> [[7 8 2]
          [9 4 3]]
     '''
-    return answer
+    return None
 
 
 def five():
@@ -96,8 +96,8 @@ def five():
          [ 0.  0.  0.  0.  1.  0.]
          [ 0.  0.  0.  0.  0.  1.]]
     '''
+    return None
 
-    return answer
 
 def six():
     '''
@@ -116,7 +116,7 @@ def six():
           [80 81 82 83 84 85 86 87 88 89]
           [90 91 92 93 94 95 96 97 98 99]]
     '''
-    return answer
+    return None
 
 
 def seven(M):
@@ -142,7 +142,7 @@ def seven(M):
          [90 91 92]]
 
     '''
-    return answer 
+    return None
 
 
 
@@ -157,8 +157,7 @@ def eight(M):
     >>> [[80 81 82 83 84 85 86 87 88 89]
          [90 91 92 93 94 95 96 97 98 99]]
     '''
-
-    return answer
+    return None
 
 
 # PART 2: SCALAR OPERATIONS
@@ -171,7 +170,8 @@ def nine():
     
     Create this numpy array (called V): [ [0,2,3,4,5,6,7,8,9] ]
     '''
-    return V
+    return None
+
 
 def ten():
     '''
@@ -180,8 +180,7 @@ def ten():
 
     Do a scalar addition by 0.5 to V.
     '''
-    return answer
-
+    return None
 
 
 def eleven():
@@ -189,10 +188,8 @@ def eleven():
     INPUT: V (matrix from nine() )
     Do a scalar multiple by -2.
     OUTPUT:  [[  0  -2  -4  -6  -8 -10 -12 -14 -16 -18]]
-
     '''
-    return answer
-
+    return None
 
 
 def twelve():
@@ -207,7 +204,7 @@ def twelve():
 
     Return both the B vector and the answer
     '''
-    return B, answer
+    return None, None
 
 
 # PART 3: MATRIX / VECTOR Multiplication
@@ -220,7 +217,7 @@ def thirteen():
     Return as column_vector, row_vector, square_matrix
     '''
 
-    return column_vector, row_vector, square_matrix
+    return None, None, None
 
 
 def fourteen(column_vector, row_vector):
@@ -233,7 +230,7 @@ def fourteen(column_vector, row_vector):
     Say column_vector is a 2 x 1 and row_vector is a 1 x 3, output will be a 2 x 3 matrix.
 
     '''
-    return answer
+    return None
 
 def fifteen(column_vector, row_vector, square_matrix):
     '''
@@ -249,16 +246,14 @@ def fifteen(column_vector, row_vector, square_matrix):
     If it lets you do both directions, 
         you probably are doing elementwise multiplication instead of matrix multiplication!
     '''
-    return c_answer, r_answer
+    return None, None
 
 
 def sixteen(column_vector, row_vector):
     '''
     Compute the dot product of row_vector and column_vector.
     '''
-    return answer
-
-
+    return None
 
 
 # PART 4: MATRIX MATRIX MULTIPLICATION 
@@ -282,7 +277,7 @@ def seventeen():
             answer_three BOOLEAN, 
             answer_four Tuple or None
     '''
-    return answer_one, answer_two, answer_three, answer_four
+    return None, None, None, None
 
 
 def eighteen():
@@ -301,13 +296,11 @@ def eighteen():
             answer_three NUMPY MATRIX
 
     '''
-
-    return answer_one, answer_two, answer_three
+    return None, None, None
 
 
 # PART 5: Elementwise Matrix Operations
 #======================================
-
 def nineteen():
     '''
     Create 2 random 6 x 2 matrices as A and B.
@@ -315,9 +308,10 @@ def nineteen():
     Add, subtract, multiply and divide A and B (This will be the same shape).
     
     INPUT: None
-    OUTPUT: answer_square, answer_add, answer_subtract, answer_multiply, answer_divide
+    OUTPUT: answer_square, answer_add, answer_subtract, answer_multiply,
+            answer_divide
     '''
-    return answer_square, answer_add, answer_subtract, answer_multiply, answer_divide
+    return None, None, None, None, None
 
 
 def twenty():
@@ -332,8 +326,7 @@ def twenty():
     answer = add Matrix A to Matrix B
     return answer
     '''
-
-    return answer
+    return None
 
 
 def twenty_one():
@@ -352,7 +345,7 @@ def twenty_one():
          [ 80.  81.  82.  83.  84.  85.  86.  87.  88.  89.]
          [ 90.  91.  92.  93.  94.  95.  96.  97.  98.  99.]]
     '''
-    return M
+    return None
 
 
 def twenty_two(M):
@@ -361,7 +354,7 @@ def twenty_two(M):
     INPUT: M is matrix from function twenty_one
     OUTPUT:  answer_sum, answer_mean, answer_std
     '''
-    return answer_sum, answer_mean, answer_std
+    return None, None, None
 
 
 def twenty_three(M):
@@ -371,7 +364,7 @@ def twenty_three(M):
     INPUT: M is matrix from function twenty_one
     OUTPUT:  col_sum, col_mean, col_std
     '''
-    return col_sum, col_mean, col_std
+    return None, None, None
 
 
 def twenty_four(M):
@@ -381,15 +374,4 @@ def twenty_four(M):
     INPUT: M is matrix from function twenty_one
     OUTPUT:  row_sum, row_mean, row_std
     '''
-    return row_sum, row_mean, row_std
-
-# print np.linspace(0.0, 99.0 , 100.0).reshape(10,10)
-# print np.arange(0,100,1).reshape(10,10)[-2:]
-V =  np.arange(0,10,1).reshape(1, 10)
-B = np.zeros(10)
-B.fill(0.5)
-B.reshape(10,1)
-
-print B
-print V + B
-
+    return None, None, None
