@@ -27,8 +27,6 @@ print col_vector
 print col_vector.shape
 >>> (3, 1)
 
-In addition, add question making them do one a matrix multiply, and submit it by photograph of the actual pen and paper they used to answer the question use math is fun resource
-http://www.mathsisfun.com/algebra/matrix-introduction.html
 ```
 Overview
 ==============================
