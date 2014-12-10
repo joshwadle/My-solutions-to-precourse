@@ -72,4 +72,3 @@ Consult the [list of additional references and resources](extra/references.md) i
 like to further cover anything. The `extra` directory also contains some
 additional references on operating systems and text editors as well as
 HTML/CSS/JavaScript.
-
