@@ -41,7 +41,7 @@ Overview
 
 Resources
 ====================
-Numpy is great, but it can be annoying.  What i see most people struggle with is the way that matrices are referenced. Basically its the opposite of what we are used to when reference objects.  If we have a matrix that has 5 columns and 3 rows. Its normal to think, `(rise over run)`, `(x, y)`,  aka `( 5 x 3 )`.  However, the shape of this matrix in numpy is `( 3 x 5 )`. They never use `x, y` variables to explain a matrix. Insetead they use `m, n` where `m` references to the `rows` or the height of the matrix. And `n` references the `columns` of the matrix or the `width` of the matrix.
+Numpy is great, but it can be annoying.  What I see most people struggle with is the way that matrices are referenced. Basically its the opposite of what we are used to when reference objects.  If we have a matrix that has 5 columns and 3 rows. Its normal to think, `(rise over run)`, `(x, y)`,  aka `( 5 x 3 )`.  However, the shape of this matrix in numpy is `( 3 x 5 )`. They never use `x, y` variables to explain a matrix. Insetead they use `m, n` where `m` references to the `rows` or the height of the matrix. And `n` references the `columns` of the matrix or the `width` of the matrix.
 `y ~ m == rows == (axis=0)`
 `x ~ n == columns == (axis=1)`
 `(row,col) == (m,n) == (axis=0, axis=1) == (-y, x)`
