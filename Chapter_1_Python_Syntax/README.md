@@ -80,7 +80,7 @@ command in the command line:
 ---
 <br>
 
-# Tips and tricks
+# What you need to know
 
 ### You should know how to use everything in the list below.
 
@@ -122,11 +122,12 @@ Test yourself with these questions:
 
 1. What's the difference between a list and a generator? And the advantages of either?
 2. What is the advantage of storing a word list in a set rather than a list?
+
 ---
 <br>
 
 
-# How do to everything.
+# Below is how do to everything in the above list perfectly.
 * [Python Termimal (ipython)](#python-terminal)
 * [Advanced Python](#advanced-python)
 * [Generators](#generators)
