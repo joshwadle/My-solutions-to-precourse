@@ -1,12 +1,13 @@
 import numpy as np
 import nose.tools as n
-import linear_algebra_assignment as problems
+
+# IMPORT STUDENTS LINEAR ALGEBRA ASSIGNMENT AS FIRST ARGUMENT HERE
+import linear_algebra_assignment_SOLN as problems
 
 
 def test_one():
-    answer = np.linspace(0, 100, 1)
     result = problems.one()
-    n.assert_equal(result.shape, (100,))
+    n.assert_equal(result.shape, (1,100) )
 
 
 def test_two():
@@ -15,15 +16,13 @@ def test_two():
 
 
 def test_three():
-    answer = np.arange(36).reshape((6,6))
     result = problems.three()
-    n.assert_equal(result.shape, answer.shape)
+    n.assert_equal(result.shape, (6,6))
 
 
 def test_four():
-    answer = np.random.randint(10, size=(2,3))
     result = problems.four()
-    n.assert_equal(result.shape, answer.shape)
+    n.assert_equal(result.shape, (2,3))
 
 
 def test_five():
@@ -40,14 +39,14 @@ def test_six():
 
 def test_seven():
     M = np.arange(0,100,1).reshape(10,10)
-    result = problems.seven(M)
+    result = problems.seven()
     answer = M[:,:3]
     n.assert_equal(result.all(), answer.all())
 
 
 def test_eight():
     M = np.arange(0,100,1).reshape(10,10)
-    result = problems.six(M)
+    result = problems.eight()
     answer = M[-2:]
     n.assert_equal(result.all(), answer.all())
 
@@ -78,8 +77,8 @@ def test_twelve():
     B.fill(0.5)
     B.reshape(10,1)
     answer = V + B
-    result = problems.twelve(V)
-    n.assert_equal(result.all() , answer.all())
+    result_B, result_answer = problems.twelve(V)
+    n.assert_equal(result_B.all() , result_answer.all())
 
 
 def test_thirteen():
@@ -98,24 +97,26 @@ def test_fourteen():
     answer_answer = answer_col * answer_row
 
     result = problems.fourteen(answer_col, answer_row)
-    n.assert_equal(result, answer_answer)
+    n.assert_equal( result.all(), answer_answer.all() )
 
 def test_fifteen():
     c = np.random.randint(10, size=(3, 1))
-    r = np.random.randint(10, size=(1, 3)) #row_vector = np.random.randint(10, size=(3,))
+    r = np.random.randint(10, size=(1, 3))
     s = np.random.randint(10, size=(3, 3))
     c_answer = s.dot(c)
     r_answer = r.dot(s)
     c_result, r_result = problems.fifteen(c, r, s)
-    n.assert_equal(c_result, c_answer)
-    n.assert_equal(r_result, r_answer)
+    n.assert_equal(c_result.all(), c_answer.all() )
+    n.assert_equal(r_result.all(), r_answer.all() )
+
+
 
 def test_sixteen():
     c = np.random.randint(10, size=(3, 1))
     r = np.random.randint(10, size=(1, 3))
     answer = r.dot(c)
     result = problems.sixteen(c,r)
-    n.assert_equal(result, answer)
+    n.assert_equal(result.all(), answer.all() )
 
 def test_seventeen():
     a1 = False
@@ -135,13 +136,14 @@ def test_eighteen():
 
 
 def test_nineteen():
-    A = np.random.randint(10, size=(6,2))
-    B = np.random.randint(10, size=(6,2))
+    A = np.random.rand(6,2)
+    B = np.random.rand(6,2)
     answer_square = np.square(A)
     answer_add  = A + B
     answer_subtract = A - B
     answer_multiply = A * B
     answer_divide =  A / B
+    
     rsq, radd, rsub, rmult, rdiv = problems.nineteen()
     n.assert_equal([rsq.shape, radd.shape, rsub.shape, rmult.shape, rdiv.shape], [answer_square.shape, answer_add.shape, answer_subtract.shape, answer_multiply.shape, answer_divide.shape])
 
@@ -154,6 +156,39 @@ def test_twenty():
     n.assert_equal(result.all(), answer.all() )
 
 def test_twenty_one():
-    answer = np.arange(0,100).reshape(10,10)
-    result = problems.twenty_one
-    n.assert_equal(result.shape, answer.shape)
+    answer = np.linspace(1, 100, 100).reshape(10,10)
+    result = problems.twenty_one()
+    n.assert_equal(result.all() , answer.all() )
+
+
+
+def test_twenty_two():
+    M = np.linspace(1, 100, 100).reshape(10,10)
+    answer_sum, answer_mean, answer_std = M.sum(), M.mean(), M.std()
+    result_sum, result_mean, result_std = problems.twenty_two(M)
+
+    n.assert_equal( result_sum.all(), answer_sum.all() )
+    n.assert_equal( result_mean.all(), answer_mean.all() )
+    n.assert_equal( result_std.all(), answer_std.all() )
+
+
+
+def test_twenty_three():
+    M = np.linspace(1, 100, 100).reshape(10,10)
+    answer_sum, answer_mean, answer_std = M.sum(axis=0), M.mean(axis=0), M.std(axis=0)
+    result_sum, result_mean, result_std = problems.twenty_three(M)
+    
+    n.assert_equal( result_sum.all(), answer_sum.all() )
+    n.assert_equal( result_mean.all(), answer_mean.all() )
+    n.assert_equal( result_std.all(), answer_std.all() )
+
+
+
+def test_twenty_four():
+    M = np.linspace(1, 100, 100).reshape(10,10)
+    answer_sum, answer_mean, answer_std = M.sum(axis=1), M.mean(axis=1), M.std(axis=1)
+    result_sum, result_mean, result_std = problems.twenty_three(M)
+    
+    n.assert_equal( result_sum.all(), answer_sum.all() )
+    n.assert_equal( result_mean.all(), answer_mean.all() )
+    n.assert_equal( result_std.all(), answer_std.all() )
