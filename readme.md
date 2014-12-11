@@ -1,7 +1,7 @@
 # Zipfian Academy Precourse Curriculum
 
 ### "I wish I did more precourse stuff."   
-**–Every single Zipfian graduate**
+*–Every single Zipfian graduate*
 
 __Goal: to get you ready to jump into our curriculum on day 1.__
 
