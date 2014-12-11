@@ -1,5 +1,7 @@
-## Chapter 1:  Python Best Practices
+# Chapter 1:  Python Best Practices
+## "I wish I did more precourse stuff."  –Every single Zipfian Graduate
 
+**Read all instructions below, then fill in the functions provided for you in each file located in the code folder** 
 Practice makes perfect, therefore our first official Zipfian assignemnts will be just that.  Practicing python.  In particular we'll be getting more comfortable with Python built-in functions and data structures.
 
 The course will heavily use Python for most of its analyses/projects.  It is not
@@ -49,7 +51,7 @@ in [2_words.py](code/2_words.py). These will give you practice with reading file
 Take a look at the [Collections module](https://docs.python.org/2/library/collections.html).
 You may be able to use `DefaultDict` and `Counter` to simplify your code.
 
-#### 3. FIZZ BUZZ fun with Python
+#### 3. Fizz Buzz fun with Python
 
 FizzBuzz is infamous for being a simple programming problem that [a lot of software
 engineers struggle with](http://blog.codinghorror.com/why-cant-programmers-program/).
