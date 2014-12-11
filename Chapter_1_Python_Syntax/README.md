@@ -1,5 +1,4 @@
 # Chapter 1:  Python Best Practices
-## "I wish I did more precourse stuff."  –Every single Zipfian Graduate
 
 **Read all instructions below, then fill in the functions provided for you in each file located in the code folder** 
 Practice makes perfect, therefore our first official Zipfian assignemnts will be just that.  Practicing python.  In particular we'll be getting more comfortable with Python built-in functions and data structures.
