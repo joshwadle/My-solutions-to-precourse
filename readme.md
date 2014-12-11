@@ -8,7 +8,7 @@ __Goal: to get you ready to jump into our curriculum on day 1.__
 Please read this entire document before getting started on the following
 sections.
 
-Before class beings on Jan 5th, you are expected read the contents in each chapter above, complete the code assignments for that chapter, and hand them in. 
+Before class beings, you are expected read the contents in each chapter above, complete the code assignments for that chapter, and hand them in. 
 
 Please complete and hand in each chapter sequentially. 
 
