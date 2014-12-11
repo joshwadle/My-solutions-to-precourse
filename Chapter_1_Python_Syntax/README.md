@@ -37,14 +37,14 @@ you need to look up how something is done in Python.
 
 #### 1. Practice with built-ins
 
-Fill in the functions in `1_problems.py`.
+Fill in the functions in [1_problems.py](code/1_problems.py).
 
 These are all one-liners that use a bunch of handy built-in functions.
 
 #### 2. Generating text
 
 Fill in the functions `word_counts`, `associated_words` and `make_random_story`
-in 2_words.py. These will give you practice with reading files, strings and dictionaries.
+in [2_words.py](code/2_words.py). These will give you practice with reading files, strings and dictionaries.
 
 Take a look at the [Collections module](https://docs.python.org/2/library/collections.html).
 You may be able to use `DefaultDict` and `Counter` to simplify your code.
@@ -54,7 +54,7 @@ You may be able to use `DefaultDict` and `Counter` to simplify your code.
 FizzBuzz is infamous for being a simple programming problem that [a lot of software
 engineers struggle with](http://blog.codinghorror.com/why-cant-programmers-program/).
 
-* Implement the function `fizzbuzz` in 3_fizzbuzz.py. Don't worry, this is not the main point of this question.
+* Implement the function `fizzbuzz` in [3_fizzbuzz.py](code/3_fizzbuzz.py). Don't worry, this is not the main point of this question.
 
 * Modify the function definition so that the following calls all work. You should have 3 and 5 be the default parameters.
 ([documentation](https://docs.python.org/2/tutorial/controlflow.html#default-argument-values))
