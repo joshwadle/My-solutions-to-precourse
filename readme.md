@@ -31,7 +31,7 @@ If we've made changes to the repository after you forked it and you want to upda
 __NOTE: We will no longer be using R in the curriculum and you are not expected to know it__
 
 ## Getting help
-Feel free to contact us whenever you could use some help with anything in the precourse work.
+Feel free to contact me directly if you have any questions via zack.desario@galvanize.it 
 
 Consult the [list of additional references and resources](extra/references.md) if you'd
 like to further cover anything. The `extra` directory also contains some
