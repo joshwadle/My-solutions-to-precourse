@@ -1,9 +1,11 @@
-Project: New York State Nursing Home Weekly Bed Census
-===
-# Instructions
+# Chapter 4 SQL
+<br>
+## Chapter 4 Instructions
 In this chapter you will be using SQL to answer the questions in the assignment.txt using the data provided.  Please fill in the `assignment.txt` with your own answers.  Each answer should be the SQL query you wrote, and the result it returned.
 
-## Data
+
+
+## The Data To Use
 This directory contains New York State's
 [nursing home weekly bed census](https://health.data.ny.gov/Health/Nursing-Home-Weekly-Bed-Census-Beginning-2009/uhyy-xp9s?)
 in a few different formats.
