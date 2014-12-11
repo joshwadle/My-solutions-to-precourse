@@ -1,14 +1,15 @@
 # Zipfian Academy Precourse Curriculum
 
-## "I wish I did more precourse stuff."  –Every single Zipfian graduate
+### "I wish I did more precourse stuff."  –Every single Zipfian graduate
 
 __Goal: to get you ready to jump into our curriculum on day 1.__
+
 Please read this entire document before getting started on the following
 sections.
 
-You are expected the read the contents in each chapter above, complete the code assignments for that chapter, and hand them in.
+Before class beings on Jan 5th, you are expected read the contents in each chapter above, complete the code assignments for that chapter, and hand them in. 
 
-Please complete them sequentially. 
+Please complete and hand in each chapter sequentially. 
 
 ### How to hand-in/submit the assignments.
 You will submit your solutions with a git [pull request](https://help.github.com/articles/using-pull-requests). Here are step by step instructions of how to do this:
