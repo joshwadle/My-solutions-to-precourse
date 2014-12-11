@@ -29,8 +29,6 @@ It's good workflow to commit and push to your fork often, even when you're not d
 
 If we've made changes to the repository after you forked it and you want to update your repository to reflect them, you can run this command: `git pull https://github.com/zipfian/precourse master`
 
-__NOTE: We will no longer be using R in the curriculum and you are not expected to know it__
-
 ## Getting help
 Feel free to contact me directly if you have any questions via zack.desario@galvanize.it 
 
