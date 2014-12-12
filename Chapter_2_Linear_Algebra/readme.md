@@ -1,5 +1,24 @@
 Precourse Chapter on Linear Algebra
 ===================================
+
+# Instructions
+Fill in the functions found in the provided linear_algebra_assignment.py file.  A test file is provided to check your answers (that is the `test_linear_algebra_assignment.pyc` file).  
+To run your code through the test, open a terminal window in the director you are working in, and type in
+```shell
+$ nosetests test_linear_algebra_assignment.pyc
+```
+If you do not have noestests installed, please review the previous chapters instructions and install Anaconda.  
+
+1. Matrix vs Vectors  [questions one through eight]
+2. Scalar Operations [questions nine through 12]
+3. Matrix Vector Multiplication [questions 13-16]
+4. Matrix Matrix Multiplication [questions 17 and 18]
+5. Elementwise Matrix Operations [questions 19-24]
+6. Axis wise operations [none yet]
+7. Rank [none yet]
+8. Extra Credit
+
+
 This will cover all of the basic operations you can do with matrices, as well as some properties of linear algebra with relevant machine learning.
 
 For nearly all of our matrix operations, we will be using a python library named `numpy`
@@ -27,16 +46,7 @@ print col_vector
 print col_vector.shape
 >>> (3, 1)
 ```
-Overview
-==============================
-1. Matrix vs Vectors  [questions one through eight]
-2. Scalar Operations [questions nine through 12]
-3. Matrix Vector Multiplication [questions 13-16]
-4. Matrix Matrix Multiplication [questions 17 and 18]
-5. Elementwise Matrix Operations [questions 19-24]
-6. Axis wise operations [none yet]
-7. Rank [none yet]
-8. Extra Credit
+
 
 
 Resources
