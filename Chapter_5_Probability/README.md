@@ -19,7 +19,7 @@ Here is a recommended order to read the lecture notes in
  - poisson_lecture
  - normal_exponential_lecture
  ```
-
+In addition to the PDF's provided, Khan Academy offers a very nice probability course online for free:  https://www.khanacademy.org/math/probability
 
 There are 10 questions in ```probability_assignment.md``` covering various
 aspects of basic probability theory. They represent the baseline understanding
