@@ -19,8 +19,8 @@ You will submit your solutions with a git [pull request](https://help.github.com
 1. [Install git](https://help.github.com/articles/set-up-git) on your computer
 if you haven't already
 1. Clone the repository on your computer: `git clone https://github.com/<your username>/precourse`
-1. Create a directory called "solutions" and add your files to the solutions folder
-1. Add your files to the repository: `git add solutions`
+1. Edit the assignment files with your solutions
+1. Add your changes to the repository: `git add <file you edited>`
 1. Commit your changes: `git commit -m "My solutions to precourse"`
 1. Push your changes to your fork: `git push origin master`
 1. Make a pull request by going to https://github.com/zipfian/precourse and clicking "Pull Requests" and then "New Pull Request"
