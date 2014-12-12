@@ -32,6 +32,6 @@ If we've made changes to the repository after you forked it and you want to upda
 Feel free to contact me directly if you have any questions via zack.desario@galvanize.it
 
 Consult the [list of additional references and resources](extra/references.md) if you'd
-like to further cover anything. The `extra` directory also contains some
+like to further cover anything. The `Extra_Credit` directory also contains some
 additional references on operating systems and text editors as well as
 HTML/CSS/JavaScript.
