@@ -32,6 +32,8 @@ Choose a nursing home ("Facility"), and subset the data by that nursing home.  A
 <br>
 
 ## Getting started with Pandas
+I highly recommend taking 10 min, and watching the creator of Pandas intro video located here:  http://pandas.pydata.org/
+
 Pandas main workhorse is the Pandas DataFrame. A DataFrame represents a tabular, spreadsheet-like data structure containing an ordered collection of columns, each of which can be a different value type (numeric, string, boolean, etc.).
 
 *The DataFrame has both a row and column index;* it can be thought of kind of like collection of dictionaries that have BOTH vertical and horizontal keys.  The vertical key is the like the column, all the horizontal key is like the index.  
@@ -429,9 +431,14 @@ Out[224]:
 8 c
 
 ```
----
+
 ## Applying a function to a column
 ```python
 texts['Weight'] = texts['msg'].apply(lambda x: len(str(x)))
 texts['Weight'] = texts['Weight'].astype(int)
 ```
+---
+<br>
+# Learn More
+Pandas has many many functions, enough to fill a 300 page book (which we have in class).
+Here is a link to the official documentation: http://pandas.pydata.org/pandas-docs/stable/10min.html
