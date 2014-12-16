@@ -26,7 +26,10 @@ if you haven't already
 
 It's good workflow to commit and push to your fork often, even when you're not done. Then you have older versions of your work in case you screw something up or lose something. We will get a notification of your submission once you submit a pull request.
 
-If we've made changes to the repository after you forked it and you want to update your repository to reflect them, you can run this command: `git pull https://github.com/zipfian/precourse master`
+#### Common git issues
+1. If we've made changes to the repository after you forked it and you want to update your repository to reflect them, you can run this command: `git pull https://github.com/zipfian/precourse master`
+
+2. If you try to push and get "Repository does not exist" this probably means that you cloned from the Zipfian repo rather than your fork. Make sure you did step 1 and created a fork. Then run this command to push: `git push https://github.com/<your username>/precourse master`
 
 ## Getting help
 Feel free to contact me directly if you have any questions via zack.desario@galvanize.it
