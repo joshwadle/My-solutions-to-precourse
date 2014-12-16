@@ -27,7 +27,7 @@ need to use hypothesis testing.
 - What test do we use in the following situations?
 
     - Test if Ferraris have a higher top speed than Porsches
-    - Test if the mean battery life of Andriods is greater than 24 hours
-    - Test if productivity increases upon the adminstration of caffine
+    - Test if the mean battery life of Android's is greater than 24 hours
+    - Test if productivity increases upon the administration of caffeine
 
 ```answer here```
