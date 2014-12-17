@@ -12,9 +12,9 @@ def one():
     Create a row vector with numpy (1 x 100).
 
     Example:
-    >>> 
+    >>>
     >>> answer = one()
-    >>> print answer 
+    >>> print answer
     >>> [[ 0  1  2  3  4 ... 99 ]]
     '''
     return None
@@ -27,11 +27,11 @@ def two():
     OUTPUT: A column vector of 100 sequential floats all between 0 and 50. (matrix)
 
     Create a column vector with numpy (100 x 1).
-    
+
     Example:
-    >>> 
+    >>>
     >>> cv = two()
-    >>> print cv 
+    >>> print cv
     >>> [[  0.        ]
          [  0.50505051]
          [  1.01010101]
@@ -45,14 +45,14 @@ def two():
 def three():
     '''
     INPUT: NONE
-    OUTPUT: A 6 x 6 numpy matrix 
+    OUTPUT: A 6 x 6 numpy matrix
 
-    Create a square 6 by 6 matrix 
-    
+    Create a square 6 by 6 matrix
+
     Example:
-    >>> 
+    >>>
     >>> M = three()
-    >>> print M 
+    >>> print M
     >>> [[ 0  1  2  3  4  5]
          [ 6  7  8  9 10 11]
          [12 13 14 15 16 17]
@@ -65,13 +65,13 @@ def three():
 
 
 def four():
-    ''' 
+    '''
     INPUT: NONE
-    OUTPUT: A random 2 x 3 numpy matrix 
-    
+    OUTPUT: A random 2 x 3 numpy matrix
+
     Create a random 2 x 3 matrix.
-    You should be able to do this with one command  (look at the numpy random module). 
-    
+    You should be able to do this with one command  (look at the numpy random module).
+
     Example:
     >>>
     >>> M = four()
@@ -89,8 +89,8 @@ def five():
 
     INPUT: NONE
     OUTPUT: 6 x 6 identity matrix
-    
-    Example: 
+
+    Example:
     >>> I = five()
     >>> print I
     >>> [[ 1.  0.  0.  0.  0.  0.]
@@ -106,9 +106,9 @@ def five():
 
 def six():
     '''
-    Create a (10 x 10) matrix with sequential ints 0 through 99. 
-    
-    Example: 
+    Create a (10 x 10) matrix with sequential ints 0 through 99.
+
+    Example:
     >>> print answer
     >>>> [[ 0  1  2  3  4  5  6  7  8  9]
           [10 11 12 13 14 15 16 17 18 19]
@@ -126,14 +126,14 @@ def six():
 
 
 def seven():
-    ''' 
+    '''
     INPUT: Matrix output from function six.
-    OUTPUT:  First three columns of Matrix from function six. 
-    
-    Call function six() and save it as M, 
+    OUTPUT:  First three columns of Matrix from function six.
+
+    Call function six() and save it as M,
     Return just the first 3 columns of M
 
-    Example: 
+    Example:
     >>> M = six()
     >>> print seven(M)
     >>> [[ 0  1  2]
@@ -155,9 +155,9 @@ def seven():
 def eight():
     '''
     INPUT: Matrix output from function six.
-    OUTPUT:  Last two ROWS of Matrix from function six. 
+    OUTPUT:  Last two ROWS of Matrix from function six.
 
-    Example: 
+    Example:
     >>> M = six()
     >>> print eight(M)
     >>> [[80 81 82 83 84 85 86 87 88 89]
@@ -172,10 +172,10 @@ def eight():
 # =========================
 
 def nine():
-    '''  
+    '''
     INPUT: None
     OUTPUT: A numpy array with values [ [0,1,2,3,4,5,6,7,8,9] ]
-    
+
     Create this numpy array (called V): [ [0,1,2,3,4,5,6,7,8,9] ]
     '''
     return None
@@ -203,30 +203,24 @@ def eleven(V):
     return None
 
 
-
-
 def twelve(V):
     '''
     INPUT: V ( matrix from nine() )
-    OUTPUT: B, answer = V+B
+    OUTPUT: answer = V+B
 
-    Create a 1 by 10 vector 'B', 
+    Create a 1 by 10 vector 'B',
     that when added to V,  will yeild the same results as function ten
     V + B = [[ 0.5  1.5  2.5  3.5  4.5  5.5  6.5  7.5  8.5  9.5]]
-    
 
-    Return both the B vector and the answer. Make sure the 'B' matrix is first in your return argument
+    Return your answer
     '''
-    return None, None
-
-
-
+    return None
 
 
 # PART 3: MATRIX / VECTOR Multiplication
 # ======================================
 def thirteen():
-    ''' 
+    '''
     Create column vector with 3 ints, called as column_vector.
     Create a row vector with 3 ints, called as row_vector.
     Create 3 x 3 square matrix called and square_matrix:
@@ -240,9 +234,9 @@ def fourteen(column_vector, row_vector):
     '''
     INPUT: Using column_vector and row_vector from thirteen() as the inputs
     OUTPUT:  n x m shaped vector where n is number of rows in row_vector and m is number of cols in col_vec
-    
-    Perform a vector vector multiply on column_vector and row_vector. 
-    This should output a n x m matrix where n is the number of rows in row_vector and m is the number of columns in column_vector. 
+
+    Perform a vector vector multiply on column_vector and row_vector.
+    This should output a n x m matrix where n is the number of rows in row_vector and m is the number of columns in column_vector.
     Say column_vector is a 2 x 1 and row_vector is a 1 x 3, output will be a 2 x 3 matrix.
 
     '''
@@ -258,13 +252,13 @@ def fifteen(column_vector, row_vector, square_matrix):
 
     c_answer is the matrix multiplication of column_vector and square_matrix
     r_answer is the matrix multiplication of row_vector and square_matrix
-    
 
-    For both column_vector and row_vector, matrix multiply by square_matrix. 
-    One will have to go on the left and one will have to go on the right. 
-    If it lets you do both directions, 
+
+    For both column_vector and row_vector, matrix multiply by square_matrix.
+    One will have to go on the left and one will have to go on the right.
+    If it lets you do both directions,
         you probably are doing elementwise multiplication instead of matrix multiplication!
-    
+
     Make sure you return c_answer first
     return c_answer, r_answer
     '''
@@ -285,25 +279,25 @@ def sixteen(column_vector, row_vector):
 
 
 
-# PART 4: MATRIX MATRIX MULTIPLICATION 
+# PART 4: MATRIX MATRIX MULTIPLICATION
 # ====================================
 def seventeen():
-    ''' 
-    question one:  If A is a 3 x 2 and B is a 4 x 3, can you matrix multiply them (AB)? 
+    '''
+    question one:  If A is a 3 x 2 and B is a 4 x 3, can you matrix multiply them (AB)?
     If question_one is true, set variable 'answer_one' equal to True, if false, set 'answer_one' equal to False
-    
-    question two: If so, what is the shape? 
+
+    question two: If so, what is the shape?
     If answer_one is True, set variable 'answer_two' equal to the shape of the matrix, if False, set 'answer_two' equal to None
-    
-    question three:  Can you matrix multiply them in the other direction (BA)? 
+
+    question three:  Can you matrix multiply them in the other direction (BA)?
         If true, set variable 'answer_three' equal to True, if false, set 'answer_three' equal to False
 
-    four:  If so, what's the shape of that? 
+    four:  If so, what's the shape of that?
         If answer_three is True, set variable 'answer_four' to be the shape of the matrix in answer_three, if False set 'answer_four' equal to None
 
-    OUTPUT: answer_one BOOLEAN, 
-            answer_two Tuple or None, 
-            answer_three BOOLEAN, 
+    OUTPUT: answer_one BOOLEAN,
+            answer_two Tuple or None,
+            answer_three BOOLEAN,
             answer_four Tuple or None
     '''
 
@@ -313,20 +307,13 @@ def seventeen():
 def eighteen():
     '''
     Create a random 3 x 6 matrix as 'rand_matrix'.
-
-    Matrix multiply rand_matrix and the transpose of rand_matrix as 'answer_one'
-
-    Reshape rand_matrix so that it can be multiplied by the original as 'answer_two'. (hint np.reshape() )
-
-    Return Matrix multiply 'rand_matrix' and 'answer_two' as 'answer_three'
+    Matrix multiply rand_matrix and the transpose of rand_matrix.
 
     INPUT: None
     OUTPUT: answer_one  NUMPY MATRIX
-            answer_two  NUMPY MATRIX
-            answer_three NUMPY MATRIX
 
     '''
-    return None, None, None
+    return None
 
 
 
@@ -341,7 +328,7 @@ def nineteen():
     Create 2 random 6 x 2 matrices as A and B.
     Square A (this will be the same shape).
     Add, subtract, multiply and divide A and B (This will be the same shape).
-    
+
     INPUT: None
     OUTPUT: answer_square, answer_add, answer_subtract, answer_multiply,
             answer_divide
@@ -352,7 +339,7 @@ def nineteen():
 def twenty():
     '''
     Create two matricies, A and B.
-    Make Matrix 'A' a 4x1 shaped matrix with values 1 through 4. 
+    Make Matrix 'A' a 4x1 shaped matrix with values 1 through 4.
     A = [ [1], [2], [3], [4] ]
 
     Make matrix B a 1x3 matrix that look like this:
@@ -369,7 +356,7 @@ def twenty_one():
     '''
     Create a 10 x 10 matrix of FLOATS that looks just like this
     DO NOT JUST COPY AND PASTE THIS MATRIX, YOU MUST CREATE THIS PROGRAMMATICALLY
-    
+
     Hint, np.linspace()
 
     M = [[  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.]
@@ -392,7 +379,7 @@ def twenty_two(M):
     Calculate the sum, mean, and standard deviation of the matrix we created in function twent_one
     INPUT: M is matrix from function twenty_one
     OUTPUT:  M_sum, M_mean, M_std  (please return variables in that order)
-    
+
     Example:
     M_sum = 5050.0
     '''
@@ -403,11 +390,11 @@ def twenty_two(M):
 def twenty_three(M):
     '''
     Calculate the column wise sums, mean and standard deviation of the matrix.
-    
+
     INPUT: M is matrix from function twenty_one
     OUTPUT:  col_sum, col_mean, col_std  (please return variables in that order)
 
-    Example 
+    Example
     col_sum = [ 460.  470.  480.  490.  500.  510.  520.  530.  540.  550.]
     '''
     return None, None, None
@@ -417,12 +404,11 @@ def twenty_three(M):
 def twenty_four(M):
     '''
     Calculate the row wise sums, mean and standard deviation of the matrix.
-    
+
     INPUT: M is matrix from function twenty_one
     OUTPUT:  row_sum, row_mean, row_std   (please return variables in that order)
-    
+
     Example:
     row_sum = [  55.  155.  255.  355.  455.  555.  655.  755.  855.  955.]
     '''
     return None, None, None
-
