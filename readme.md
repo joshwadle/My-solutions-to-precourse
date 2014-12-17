@@ -22,11 +22,14 @@ if you haven't already
 1. Add your changes to the repository: `git add <file you edited>`
 1. Commit your changes: `git commit -m "My solutions to precourse"`
 1. Push your changes to your fork: `git push origin master`
-1. Make a pull request by going to https://github.com/zipfian/precourse and clicking "Pull Requests" and then "New Pull Request"
+1. Make a pull request by going to https://github.com/<your_github_name>/precourse and clicking "Pull Requests" and then "New Pull Request"
 
 It's good workflow to commit and push to your fork often, even when you're not done. Then you have older versions of your work in case you screw something up or lose something. We will get a notification of your submission once you submit a pull request.
 
-If we've made changes to the repository after you forked it and you want to update your repository to reflect them, you can run this command: `git pull https://github.com/zipfian/precourse master`
+#### Common git issues
+1. If we've made changes to the repository after you forked it and you want to update your repository to reflect them, you can run this command: `git pull https://github.com/zipfian/precourse master`
+
+2. If you try to push and get "Repository does not exist" this probably means that you cloned from the Zipfian repo rather than your fork. Make sure you did step 1 and created a fork. Then run this command to push: `git push https://github.com/<your username>/precourse master`
 
 ## Getting help
 Feel free to contact me directly if you have any questions via zack.desario@galvanize.it
