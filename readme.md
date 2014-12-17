@@ -22,7 +22,7 @@ if you haven't already
 1. Add your changes to the repository: `git add <file you edited>`
 1. Commit your changes: `git commit -m "My solutions to precourse"`
 1. Push your changes to your fork: `git push origin master`
-1. Make a pull request by going to https://github.com/ **your github name** /precourse and clicking "Pull Requests" and then "New Pull Request"
+1. Make a pull request by going to https://github.com/**your-github-name**/precourse and clicking "Pull Requests" and then "New Pull Request"
 
 It's good workflow to commit and push to your fork often, even when you're not done. Then you have older versions of your work in case you screw something up or lose something. We will get a notification of your submission once you submit a pull request.
 
