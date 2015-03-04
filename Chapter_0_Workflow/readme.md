@@ -246,7 +246,7 @@ if __name__ == "__main__":
 ```
 $ ipython hello.py
 hello, world!
-22
+12
 ```
 
 As you continue to add to and modify your code, you'd rerun the file in the
@@ -359,10 +359,13 @@ import *`. This is very bad practice. It pollutes the global namespace (i.e. all
 the variable names declared on the top level) and it also won't work with
 `autoreload` in iPython, so don't do it.*
 
-*Note on `autoreload` functionality: The autoreload functionality is provided by
-iPython and enabled in a startup script in
-`~/.ipython/profile_default/startup/autoreload_startup.ipy`.
-Feel free to inspect that document and copy to your own machine.*
+To add `autoreload` functionality, feel free to inspect this
+[document](https://gist.github.com/rsepassi/2cdde6c6d4b36916cb37) and copy it to your own machine in the filepath `~/.ipython/profile_default/startup/autoreload_startup.ipy`*
+
+
+
+
+
 
 ### Interactive Debugging
 
