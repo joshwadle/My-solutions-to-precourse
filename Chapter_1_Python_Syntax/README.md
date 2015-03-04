@@ -1,13 +1,13 @@
 # Chapter 1:  Python Best Practices
 
-**Read all instructions below, then fill in the functions provided for you in each file located in the code folder** 
-Practice makes perfect, therefore our first official Zipfian assignemnts will be just that.  Practicing python.  In particular we'll be getting more comfortable with Python built-in functions and data structures.
+**Read all instructions below, then fill in the functions provided for you in each file located in the code folder**
+Practice makes perfect, therefore our first official Zipfian assignments will be just that.  Practicing python.  In particular we'll be getting more comfortable with Python built-in functions and data structures.
 
 The course will heavily use Python for most of its analyses/projects.  It is not
 necessary to be an expert in Python coming into the course (that is what we will
-teach you!) but it is helpful to be familiar with it's syntax.
+teach you!) but it is helpful to be familiar with its syntax.
 
-Not everyone knows Python (or what parts to focus on it in the classroom).  We
+Not everyone knows Python (or what parts to focus on in the classroom).  We
 have provided resources here to get any student familiar with another
 programming language up to speed with Python quickly (both in terms of syntax
 and style).
@@ -123,4 +123,3 @@ Test yourself with these questions:
 
 1. What's the difference between a list and a generator? And the advantages of either?
 2. What is the advantage of storing a word list in a set rather than a list?
-
