@@ -360,7 +360,7 @@ the variable names declared on the top level) and it also won't work with
 `autoreload` in iPython, so don't do it.*
 
 To add `autoreload` functionality, feel free to inspect this
-[document](https://gist.github.com/rsepassi/2cdde6c6d4b36916cb37) and copy it to your own machine in the filepath `~/.ipython/profile_default/startup/autoreload_startup.ipy`*
+[document](https://gist.github.com/rsepassi/2cdde6c6d4b36916cb37) and copy it to your own machine in the filepath `~/.ipython/profile_default/startup/autoreload_startup.ipy`
 
 
 
