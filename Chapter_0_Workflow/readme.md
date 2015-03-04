@@ -467,8 +467,8 @@ If you remember one thing and one thing only about version control it should be 
 
 Each commit is taking a snapshot of your work so far which enables you to go
 back in time to older versions of your program. You will most certainly find
-yourself in a situation where you had some working code, modified it to adda new
-feature or work out some kink, find that you've hopelessly ruined everything and
+yourself in a situation where you had some working code, modified it to add a new
+feature or work out some kink, only to find that you've hopelessly ruined everything and
 would give your left index finger just to get back to what you had before. Enter
 git.
 
