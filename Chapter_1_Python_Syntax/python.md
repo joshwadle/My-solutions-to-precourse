@@ -169,7 +169,7 @@ For simple things, you can do your for loop on one line. Let's say you want to c
 ```python
 doubled = []
 for item in L:
-    doubled.append(item)
+    doubled.append(item * 2)
 ```
 
 But using a list comprehension, you can do this:
