@@ -1,4 +1,4 @@
-# Zipfian Academy Precourse Curriculum
+# Galvanize DSI Precourse Curriculum
 
 ### "I wish I did more precourse stuff." *–every single Zipfian graduate*
 <br>
@@ -32,7 +32,8 @@ It's good workflow to commit and push to your fork often, even when you're not d
 2. If you try to push and get "Repository does not exist" this probably means that you cloned from the Zipfian repo rather than your fork. Make sure you did step 1 and created a fork. Then run this command to push: `git push https://github.com/<your username>/precourse master`
 
 ## Getting help
-Feel free to contact me directly if you have any questions via zack.desario@galvanize.it
+
+Feel free to contact us directly if you have any questions!
 
 Consult the [list of additional references and resources](extra/references.md) if you'd
 like to further cover anything. The `Extra_Credit` directory also contains some
