@@ -22,17 +22,21 @@ to install any additional packages. You should install Anaconda now.
 
 ## Resources
 
-If you still feel new to python, you might benefit from looking at one of these resources:
+If you still feel new to Python, you might benefit from looking at one of these resources:
 * [Dive Into Python](http://www.diveintopython.net/)
 * [Learn Python the Hard Way](http://learnpythonthehardway.org/)
+* [Effective Python](http://www.effectivepython.com/)
 
-Please read through these [notes](python.md) which go over some more advanced python topics.
+Here's a couple coursera courses on programming in Python as well:
+* [Learn to Program: The Fundamentals](https://www.coursera.org/course/programming1)
+* [Learn to Program: Crafting Quality Code](https://www.coursera.org/course/programming2)
 
-Python also has great documentation.
+Lecture notes:
+* [notes](python.md) goes over some more advanced python topics.
 
-The [Python tutorial](https://docs.python.org/2/tutorial/) and
-[Python library](https://docs.python.org/2/library/) are great resources if
-you need to look up how something is done in Python.
+Python also has great documentation which is helpful if you need to look up how something is done in Python:
+* [Python tutorial](https://docs.python.org/2/tutorial/)
+* [Python library](https://docs.python.org/2/library/)
 
 ## Assignment
 
