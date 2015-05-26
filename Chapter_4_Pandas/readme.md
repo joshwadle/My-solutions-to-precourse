@@ -35,6 +35,7 @@ Choose a nursing home ("Facility"), and subset the data by that nursing home.  A
 I highly recommend taking 10 min, and watching the creator of Pandas intro video located here:  http://pandas.pydata.org/
 
 Or... take a few hours, and watch this video instead:
+
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/w26x-z-BdWQ/0.jpg)](http://www.youtube.com/watch?v=w26x-z-BdWQ)
 
 Pandas main workhorse is the Pandas DataFrame. A DataFrame represents a tabular, spreadsheet-like data structure containing an ordered collection of columns, each of which can be a different value type (numeric, string, boolean, etc.).
