@@ -34,6 +34,9 @@ Choose a nursing home ("Facility"), and subset the data by that nursing home.  A
 ## Getting started with Pandas
 I highly recommend taking 10 min, and watching the creator of Pandas intro video located here:  http://pandas.pydata.org/
 
+Or... take a few hours, and watch this video instead:
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/w26x-z-BdWQ/0.jpg)](http://www.youtube.com/watch?v=w26x-z-BdWQ)
+
 Pandas main workhorse is the Pandas DataFrame. A DataFrame represents a tabular, spreadsheet-like data structure containing an ordered collection of columns, each of which can be a different value type (numeric, string, boolean, etc.).
 
 *The DataFrame has both a row and column index;* it can be thought of kind of like collection of dictionaries that have BOTH vertical and horizontal keys.  The vertical key is the like the column, all the horizontal key is like the index.  
@@ -147,9 +150,6 @@ I get the best use of this page just by hitting  `command+F` on my keyboard, and
 
 `df.icol()` , `df.irow() ` Select Row or Column by its integer position.
 
-
-##An excellent video intro to python:
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/w26x-z-BdWQ/0.jpg)](http://www.youtube.com/watch?v=w26x-z-BdWQ)
 
 ## Functions I use all the time.
 <table border="1" class="dataframe" style="overflow:visible";>
