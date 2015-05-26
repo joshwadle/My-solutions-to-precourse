@@ -148,6 +148,9 @@ I get the best use of this page just by hitting  `command+F` on my keyboard, and
 `df.icol()` , `df.irow() ` Select Row or Column by its integer position.
 
 
+##An excellent video intro to python:
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/w26x-z-BdWQ/0.jpg)](http://www.youtube.com/watch?v=w26x-z-BdWQ)
+
 ## Functions I use all the time.
 <table border="1" class="dataframe" style="overflow:visible";>
 <thead>
