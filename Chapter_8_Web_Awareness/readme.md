@@ -1,4 +1,4 @@
-# Web Awareness
+# Chapter 8: Web Awareness
 In this chapter, we will be reviewing basic HTML and CSS structure.  
 Your assignment is to build a basic bio page in HTML and CSS.  The main objective is to understand the fundamental structure of HTML tag elements (such as `<head>` or `<div>` ).
 <br>
