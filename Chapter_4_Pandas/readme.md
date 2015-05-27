@@ -1,6 +1,6 @@
-# Chapter 5 Pandas
+# Chapter 4 Pandas
 <br>
-## Chapter 5 Instructions
+## Instructions
 In this chapter you will be answering  **the same exact questions you answered in the SQL chapter, but by using Pandas instead of SQL.**  <br>
 *Fill in your answers in the functions provided  `assignment.py` file. *
 
