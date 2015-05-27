@@ -1,6 +1,6 @@
 # Chapter 3: SQL
 <br>
-## Chapter 3 Instructions
+## Instructions
 In this chapter you will be using SQL to answer the questions in the assignment.txt using the data provided.  Please fill in the `assignment.txt` with your own answers.  Each answer should be the SQL query you wrote, and the result it returned.
 
 
