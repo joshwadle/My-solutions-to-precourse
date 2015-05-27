@@ -1,4 +1,4 @@
-Precourse Chapter on Linear Algebra
+Chapter 2: Precourse Chapter on Linear Algebra
 ===================================
 
 # Instructions
