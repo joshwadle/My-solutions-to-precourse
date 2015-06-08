@@ -23,7 +23,7 @@ This will cover all of the basic operations you can do with matrices, as well as
 
 For nearly all of our matrix operations, we will be using a python library named `numpy`
 
-Numpy basically takes native python data structures, like lists, and gives them super math powers. So  operations that would be very difficult when using a regular python list, is a one liner when using numpy.  
+Numpy basically takes native python data structures, like lists, and gives them super math powers. So  operations that would be very difficult when using a regular python list are a one liner when using numpy.  
 
 ```
 import numpy as np
