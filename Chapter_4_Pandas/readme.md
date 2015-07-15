@@ -294,7 +294,7 @@ I get the best use of this page just by hitting  `command+F` on my keyboard, and
 </tr>
 <tr>
 <th>26</th>
-<td> df[ (df['col 1'] == 'boobies') &amp; (df['col 2'] ...</td>
+<td> df[ (df['col 1'] == 'something') &amp; (df['col 2'] ...</td>
 <td> return df when one col meets this condition AN...</td>
 </tr>
 <tr>
