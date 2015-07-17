@@ -7,7 +7,7 @@
 <br>
 __Goal__: Get you ready to jump into our curriculum on day 1
 
-Please read this entire document before getting started on the indidivual sections.
+Please read this entire document before getting started on the individual sections.
 
 Before classes begin, you are expected read the contents in each chapter, complete the code assignments for every chapter, and turn them in.
 
@@ -26,7 +26,7 @@ if you haven't already
 1. Push your changes to your fork: `git push origin master`
 1. Make a pull request by going to `https://github.com/<your username>/precourse` and clicking "Pull Requests" and then "New Pull Request". Then click "Create Pull Request". Put your name in the pull request title and then click "Create Pull Request" again.
 
-It's good workflow to commit and push to your personal fork often, even when you're not done. Then you have older versions of your work in case you screw something up or lose something. We will get a notification of your submission once you submit a pull request.
+It's good idea to commit and push to your personal fork often, even when you're not done. Then you have older versions of your work in case you screw something up or lose something. We will get a notification of your submission once you submit a pull request.
 
 ### Common git issues
 1. If we've made changes to the repository after you forked it and you want to update your repository to reflect them, you can run this command: `git pull https://github.com/zipfian/precourse master`
@@ -37,5 +37,4 @@ It's good workflow to commit and push to your personal fork often, even when you
 
 Feel free to contact us directly if you have any questions!
 
-Consult the [list of additional references and resources](Extra_Credit/references.md) if you'd like to further cover anything. The `Extra_Credit` directory also contains some
-additional references on operating systems and text editors as well as HTML/CSS/JavaScript.
+Consult the [list of additional references and resources](Extra_Credit/references.md) if you'd like to further cover anything. The `Extra_Credit` directory also contains some additional references on operating systems and text editors as well as HTML/CSS/JavaScript.
