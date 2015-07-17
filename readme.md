@@ -7,7 +7,7 @@
 <br>
 __Goal__: Get you ready to jump into our curriculum on day 1
 
-Please read this entire document before getting started on the following sections.
+Please read this entire document before getting started on the indidivual sections.
 
 Before classes begin, you are expected read the contents in each chapter, complete the code assignments for every chapter, and turn them in.
 
