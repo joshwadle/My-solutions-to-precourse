@@ -5,7 +5,7 @@
 — Every Data Science graduate
 
 <br>
-__Goal__: Get you ready to jump into our curriculum on day
+__Goal__: Get you ready to jump into our curriculum on day 1
 
 Please read this entire document before getting started on the following sections.
 
