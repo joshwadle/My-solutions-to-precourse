@@ -67,7 +67,7 @@ vect = np.array([-13, 9])
 column_vect = np.array([[13], [9]])
 ```
 
-You can also initialize a numpy arrow with all zeros or all ones:
+You can also initialize a numpy array with all zeros or all ones:
 ```python
 In [1]: np.ones((2, 4))
 Out[1]:
