@@ -274,7 +274,7 @@ array([[ 3, 22, 11,  5],
 
 ## Concatenate
 
-You can concatenate two matricies together, as long as their sizes match. The default to concatenate on axis 0, which means you are adding new columns to the matrix (so the number of rows must match). You can also concatenate on axis 1 (add new rows).
+You can concatenate two matricies together, as long as their sizes match. The default to concatenate on axis 0, which means you are adding new rows to the matrix (so the number of columns must match). You can also concatenate on axis 1 (add new columns in which case the number of rows must match).
 
 ```python
 In [1]: A = np.array([[1, 2], [3, 4]])
