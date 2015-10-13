@@ -536,4 +536,3 @@ __DO NOT commit large files to a Github repo (anything larger than ~20mb).  In c
   * Write, run, repeat
 1. Use git. Always be committing (ABC).
 
-![abc](http://cdn.memegenerator.net/instances/400x/24938700.jpg)
