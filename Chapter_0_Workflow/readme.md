@@ -36,12 +36,14 @@ Zipfian Way.
 Everyday here you'll be writing programs in Python. You have 2 options when
 you're developing:
 
-  1. Develop in a text editor (Sublime Text) and run the code with the Python
+  1. Develop in a text editor (Atom) and run the code with the Python
      interpreter (iPython in iTerm2)
   2. Develop in an interactive repl (read-eval-print loop, iPython in iTerm2)
 
 For the most part, you'll use option 1. Option 2 (developing in a repl) is best
 when you're trying out small bits of code.
+
+You can significantly increase your productivity by mastering your tools and continuing to invest in the craft of building software.  Learning and using a programming editor is a foundational skill.  If you know `vi` or `emacs`, continue to use them.  If you haven't mastered them, then `Atom` is a good option.  Editors are a personal choice and the source of bitter religious disputes.  Choose a professional editor which works for you.
 
 **Atom, iTerm2, and iPython will be your workhorses. Get to know them
 well.**
@@ -157,7 +159,7 @@ you are developing.
 
 ### Atom Shortcuts
 
-* To open Sublime Text from the command line: `$ subl file-or-directory`
+* To open Atom from the command line: `$ subl file-or-directory`
 * To open a new file: __META__ + __n__
 * To close a tab: __META__ + __w__
 * To save a file: __META__ + __s__
