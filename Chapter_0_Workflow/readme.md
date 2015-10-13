@@ -21,7 +21,7 @@ Zipfian Way.
 
 1. [Toolchain](#toolchain): know the tools, use the tools, love the tools
   * iTerm2
-  * Sublime Text
+  * Atom (an editor)
   * iPython
 1. [Keyboard Shortcuts](#keyboard-shortcuts)
   * Don't use the mouse!
@@ -43,7 +43,7 @@ you're developing:
 For the most part, you'll use option 1. Option 2 (developing in a repl) is best
 when you're trying out small bits of code.
 
-**Sublime Text, iTerm2, and iPython will be your workhorses. Get to know them
+**Atom, iTerm2, and iPython will be your workhorses. Get to know them
 well.**
 
 ### Hello World in 2 Acts
@@ -51,7 +51,7 @@ well.**
 
 #### __Act 1: Text Editor__
 
-*In Sublime Text:*
+*In Atom:*
 
 ```python
 # hello.py
@@ -155,13 +155,12 @@ you are developing.
 * To quit an application: __META__ + __q__
 * To close a window of an application: __META__ + __W__
 
-### Sublime Text Shortcuts
+### Atom Shortcuts
 
 * To open Sublime Text from the command line: `$ subl file-or-directory`
 * To open a new file: __META__ + __n__
 * To close a tab: __META__ + __w__
 * To save a file: __META__ + __s__
-* To find a file in the same project directory: __META__ + __p__
 
 ### Terminal/iTerm2 Shortcuts
 
@@ -206,10 +205,10 @@ The ideal workflow is to write a little bit of code, then ensure that the code
 is doing what you expect by inspecting some output or playing with it in an
 interactive environment. Plus, having a tight feedback loop is more fun.
 
-You will most often be writing code in Sublime Text and playing with it in
+You will most often be writing code in Atom and playing with it in
 iPython (in iTerm2).
 
-*Sublime Text:*
+*Atom:*
 
 ```
 # hello.py
@@ -225,7 +224,7 @@ Now you'd like to test out some of the code. The most straightforward way of
 doing so would be to insert some `print` statements into your file and run the
 file in the terminal.
 
-*Sublime Text:*
+*Atom:*
 
 ```
 # hello.py
@@ -268,7 +267,7 @@ modifications to the file, iPython will automagically reload the module (This
 is a setting that has been enabled on all the Zipfian workstations). Let's take
 a look.
 
-*Sublime Text:*
+*Atom:*
 
 ```
 # hello.py
@@ -315,7 +314,7 @@ guard).
 
 Now let's see how `autoreload` makes our life easier.
 
-*Sublime Text:*
+*Atom:*
 
 ```
 # hello.py
@@ -376,7 +375,7 @@ more.
 An interactive debugger allows you to step through your code line by line and
 inspect the local scope and the value of variables. Here's how it's used:
 
-*Sublime Text:*
+*Atom:*
 
 ```
 # hello.py
@@ -526,11 +525,11 @@ __DO NOT commit large files to a Github repo (anything larger than ~20mb).  In c
 
 1. Know the tools. Use the tools.
   * iTerm2
-  * Sublime Text
+  * Atom
   * iPython
 1. Use the keyboard. Don't use the mouse. Know your shortcuts.
 1. Keep a tight feedback loop when writing code.
-  * Write code in Sublime Text
+  * Write code in Atom
   * Import file into iPython
   * Write, run, repeat
 1. Use git. Always be committing (ABC).
