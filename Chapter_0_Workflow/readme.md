@@ -21,7 +21,7 @@ Zipfian Way.
 
 1. [Toolchain](#toolchain): know the tools, use the tools, love the tools
   * iTerm2
-  * Atom (an editor)
+  * Sublime Text or Atom (IDEs)
   * iPython
 1. [Keyboard Shortcuts](#keyboard-shortcuts)
   * Don't use the mouse!
@@ -53,7 +53,7 @@ well.**
 
 #### __Act 1: Text Editor__
 
-*In Atom:*
+*In IDE:*
 
 ```python
 # hello.py
@@ -157,6 +157,14 @@ you are developing.
 * To quit an application: __META__ + __q__
 * To close a window of an application: __META__ + __W__
 
+### Sublime Text Shortcuts
+
+* To open Sublime Text from the command line: $ subl file-or-directory
+* To open a new file: META + n
+* To close a tab: META + w
+* To save a file: META + s
+* To find a file in the same project directory: META + p
+
 ### Atom Shortcuts
 
 * To open Atom from the command line: `$ subl file-or-directory`
@@ -207,10 +215,10 @@ The ideal workflow is to write a little bit of code, then ensure that the code
 is doing what you expect by inspecting some output or playing with it in an
 interactive environment. Plus, having a tight feedback loop is more fun.
 
-You will most often be writing code in Atom and playing with it in
+You will most often be writing code in an IDE and playing with it in
 iPython (in iTerm2).
 
-*Atom:*
+*IDE:*
 
 ```
 # hello.py
@@ -226,7 +234,7 @@ Now you'd like to test out some of the code. The most straightforward way of
 doing so would be to insert some `print` statements into your file and run the
 file in the terminal.
 
-*Atom:*
+*IDE:*
 
 ```
 # hello.py
@@ -269,7 +277,7 @@ modifications to the file, iPython will automagically reload the module (This
 is a setting that has been enabled on all the Zipfian workstations). Let's take
 a look.
 
-*Atom:*
+*IDE:*
 
 ```
 # hello.py
@@ -316,7 +324,7 @@ guard).
 
 Now let's see how `autoreload` makes our life easier.
 
-*Atom:*
+*IDE:*
 
 ```
 # hello.py
@@ -377,7 +385,7 @@ more.
 An interactive debugger allows you to step through your code line by line and
 inspect the local scope and the value of variables. Here's how it's used:
 
-*Atom:*
+*IDE:*
 
 ```
 # hello.py
@@ -527,11 +535,11 @@ __DO NOT commit large files to a Github repo (anything larger than ~20mb).  In c
 
 1. Know the tools. Use the tools.
   * iTerm2
-  * Atom
+  * IDE - Integrated Development Environment (Sublime Text or Atom)
   * iPython
 1. Use the keyboard. Don't use the mouse. Know your shortcuts.
 1. Keep a tight feedback loop when writing code.
-  * Write code in Atom
+  * Write code in IDE
   * Import file into iPython
   * Write, run, repeat
 1. Use git. Always be committing (ABC).
