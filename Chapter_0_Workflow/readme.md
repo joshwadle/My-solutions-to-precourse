@@ -1,27 +1,27 @@
-# Chapter 0:  Zipfian Tools and Workflow
+# Chapter 0:  Galvanize Tools and Workflow
 
 ### This is an introduction to the tools and workflow we use during the course.  Please note, there are no assignments you need to hand in for this chapter.
 
 # Tools and Workflow
 
 Having a structured and effective workflow is foundational to your success at
-Zipfian and as a data scientist in the wild. This document will cover the core
+Galvanize and as a data scientist in the wild. This document will cover the core
 best practices that you will use over the next 12 weeks.
 
 #### A Note on Individual Style
 
-**While you are pairing here at Zipfian, please follow the tools and workflow as
-they are presented here. Consider it the Zipfian Way.**
+**While you are pairing here at Galvanize, please follow the tools and workflow as
+they are presented here. Consider it the Galvanize Way.**
 
 When you're working solo, go ahead and do whatever you'd like. Note however that
 it'll be easier to get help from the instructors if you're following the
-Zipfian Way.
+Galvanize Way.
 
 ## Overview
 
 1. [Toolchain](#toolchain): know the tools, use the tools, love the tools
   * iTerm2
-  * Sublime Text or Atom (IDEs)
+  * Atom (IDEs)
   * iPython
 1. [Keyboard Shortcuts](#keyboard-shortcuts)
   * Don't use the mouse!
@@ -119,7 +119,7 @@ document.**
   repository at anytime, which makes it an ideal place to host a master version of
   shared repositories. Many companies use GitHub in just that way.
 
-  Here at Zipfian, we have our curriculum in git repositories hosted on GitHub.
+  Here at Galvanize, we have our curriculum in git repositories hosted on GitHub.
   You'll be viewing, cloning, and forking those repositories quite a bit.
 
 * Anaconda Python and Packages
@@ -134,7 +134,7 @@ document.**
 
 * Google Chrome
 
-  Our browser of choice here Zipfian. Use it.
+  Our browser of choice here Galvanize. Use it.
 
 * Homebrew
 
@@ -157,13 +157,6 @@ you are developing.
 * To quit an application: __META__ + __q__
 * To close a window of an application: __META__ + __W__
 
-### Sublime Text Shortcuts
-
-* To open Sublime Text from the command line: $ subl file-or-directory
-* To open a new file: META + n
-* To close a tab: META + w
-* To save a file: META + s
-* To find a file in the same project directory: META + p
 
 ### Atom Shortcuts
 
@@ -274,7 +267,7 @@ guard.*
 
 You can instead import the file as a module in iPython, and as you make
 modifications to the file, iPython will automagically reload the module (This
-is a setting that has been enabled on all the Zipfian workstations). Let's take
+is a setting that has been enabled on all the Galvanize workstations). Let's take
 a look.
 
 *IDE:*
@@ -535,7 +528,7 @@ __DO NOT commit large files to a Github repo (anything larger than ~20mb).  In c
 
 1. Know the tools. Use the tools.
   * iTerm2
-  * IDE - Integrated Development Environment (Sublime Text or Atom)
+  * IDE - Integrated Development Environment (Atom)
   * iPython
 1. Use the keyboard. Don't use the mouse. Know your shortcuts.
 1. Keep a tight feedback loop when writing code.
