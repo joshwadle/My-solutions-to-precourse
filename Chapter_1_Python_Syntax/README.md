@@ -1,7 +1,7 @@
 # Chapter 1:  Python Best Practices
 
 **Read all instructions below, then fill in the functions provided for you in each file located in the code folder**
-Practice makes perfect, therefore our first official Zipfian assignments will be just that.  Practicing python.  In particular we'll be getting more comfortable with Python built-in functions and data structures.
+Practice makes perfect, therefore our first official Galvanize assignments will be just that.  Practicing python.  In particular we'll be getting more comfortable with Python built-in functions and data structures.
 
 The course will heavily use Python for most of its analyses/projects.  It is not
 necessary to be an expert in Python coming into the course (that is what we will
