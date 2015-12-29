@@ -160,7 +160,7 @@ you are developing.
 
 ### Atom Shortcuts
 
-* To open Atom from the command line: `$ subl file-or-directory`
+* To open Atom from the command line: `$ atom file-or-directory`
 * To open a new file: __META__ + __n__
 * To close a tab: __META__ + __w__
 * To save a file: __META__ + __s__
