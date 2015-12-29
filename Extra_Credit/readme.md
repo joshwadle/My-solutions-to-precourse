@@ -21,7 +21,7 @@ the easier ones to set up.
 You'll be writing lots of text files, so you'll be using a text editor a lot.
 Ordinarily, you'll be able to use any editor that you want.
 
-For a nice graphical interface I like [Sublime Text](http://www.sublimetext.com/).
+I like [Atom](https://atom.io/).
 
 Sometimes, you'll need to edit text files on a remote server without a graphical
 interface, so it would be good if you familiarized yourself with a non-graphical
