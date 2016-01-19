@@ -1,5 +1,9 @@
 import random, string
 
+### Fill in each function below.
+
+### Run "python 2_words.py" at the command line to test your work.
+
 def word_counts(f):
     '''
     INPUT: file
@@ -20,7 +24,6 @@ def word_counts(f):
     '''
     pass
 
-
 def associated_words(f):
     '''
     INPUT: file
@@ -35,10 +38,12 @@ def associated_words(f):
     Example:
     >>> with open('alice.txt') as f:
     ...     d = associated_words(f)
-    >>> d[('among', 'the')]
+    >>> print d[('among', 'the')]
     ['people', 'party.', 'trees,', 'distant', 'leaves,', 'trees', 'branches,', 'bright']
     '''
     pass
+
+
 
 
 def make_random_story(f, num_words):
@@ -55,19 +60,22 @@ def make_random_story(f, num_words):
     Use join method to turn a list of words into a string.
 
     Example:
-    (this is randomly generate, so you are unlikely to get the same result)
+    >>> # Seed the random number generator for consistent results
+    >>> random.seed('Is the looking-glass is half full or half-empty?')
+    >>> # Generate a random story (yours may not match the example)
     >>> with open('alice.txt') as f:
-    ...     print make_random_story(f, 10)
-    chapter i. down the middle, being held up by two
+    ...     story = make_random_story(f, 10)
+    ...     story
+    stick, and tumbled head over heels in its sleep 'twinkle,
+    ...     len(story.split())  # Verify story length is 10 words
+    10
     '''
     pass
-
 
 if __name__ == '__main__':
     # This code will be run if you on the command line run: python words.py
     with open('alice.txt') as f:
         print make_random_story(f, 100)
 
-
-
-
+    import doctest
+    doctest.testmod()
