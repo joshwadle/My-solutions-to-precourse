@@ -381,7 +381,7 @@ def twenty_two(M):
     OUTPUT:  M_sum, M_mean, M_std  (please return variables in that order)
 
     Example:
-    M_sum = 5050.0
+    M_sum = 4950.0
     '''
     return None, None, None
 
