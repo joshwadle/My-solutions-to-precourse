@@ -2,7 +2,7 @@ import itertools
 
 ### Fill in each function below. Each function should be a one-liner.
 
-### Run "python 1_problems.py" at the command line to test your work.
+### Run "python -m doctest 1_problems.py" at the command line to test your work.
 
 
 def sort_rows(mat):
@@ -175,7 +175,7 @@ def filter_words(word_list, letter):
     Use filter to return the words from word_list which start with letter.
 
     Example:
-    >>> filter_words(["salumeria", "dandelion", "yamo", "doc loi", "rosamunde", \
+    >>> filter_words(["salumeria", "dandelion", "yamo", "doc loi", "rosamunde",
                       "beretta", "ike's", "delfina"], "d")
     ['dandelion', 'doc loi', 'delfina']
     '''
@@ -356,8 +356,3 @@ def permutations_in_dict(string, words):
     ['act', 'cat']
     '''
     pass
-
-# Use examples as unit tests
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod()

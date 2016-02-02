@@ -2,7 +2,7 @@ import sys
 
 ### Fill in each function below.
 
-### Run "python 3_fizzbuzz.py" at the command line to test your work.
+### Run "python -m doctest 3_fizzbuzz.py" at the command line to test your work.
 
 def fizzbuzz(num, fizz, buzz):
     '''
@@ -29,6 +29,3 @@ def fizzbuzz(num, fizz, buzz):
 if __name__ == '__main__':
     if len(sys.argv) >= 2 and isnumeric(sys.argv[1]):
         print fizzbuzz(int(sys.argv[1]), 3, 5)
-
-    import doctest
-    doctest.testmod()
