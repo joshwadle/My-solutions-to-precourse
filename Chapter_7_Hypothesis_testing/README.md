@@ -7,11 +7,11 @@ Read [**this page**](http://stattrek.com/hypothesis-test/hypothesis-testing.aspx
 
 Then we are going to move onto one of the most common test in hypothesis
 testing **t-test**.  **T-tests** is used for samples of **continuous data** (e.g. height as oppose to color). Read the following to get up to speed as to how the different variants of the test is performed.
-- [**One sample t-test**](http://www.cliffsnotes.com/math/statistics/univariate-inferential-tests/one-sample-t-test): Test if a population mean is equal to the a hypothesized value
+- [**One sample t-test**](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/one-sample-t-test): Test if a population mean is equal to the a hypothesized value
 
-- [**Two sample unpaired t-test**](http://www.cliffsnotes.com/math/statistics/univariate-inferential-tests/two-sample-t-test-for-comparing-two-means): Test if 2 populations have the same mean value
+- [**Two sample unpaired t-test**](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/two-sample-t-test-for-comparing-two-means): Test if 2 populations have the same mean value
 
-- [**Two sample paired t-test**](http://www.cliffsnotes.com/math/statistics/univariate-inferential-tests/paired-difference-t-test): Test if 2 populations have the same mean value when
+- [**Two sample paired t-test**](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/paired-difference-t-test): Test if 2 populations have the same mean value when
 there is a one-to-one mapping between the 2 populations, i.e. blood pressure before
 treatment and after treatment
 
