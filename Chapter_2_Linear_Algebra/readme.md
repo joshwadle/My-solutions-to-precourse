@@ -3,7 +3,7 @@ Chapter 2: Precourse Chapter on Linear Algebra
 
 # Instructions
 Fill in the functions found in the provided linear_algebra_assignment.py file.  A test file is provided to check your answers (that is the `test_linear_algebra_assignment.pyc` file).  
-To run your code through the test, open a terminal window in the director you are working in, and type in
+To run your code through the test, open a terminal window in the directory you are working in, and type in
 ```shell
 $ nosetests test_linear_algebra_assignment.pyc
 ```
