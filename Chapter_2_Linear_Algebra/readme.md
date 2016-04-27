@@ -7,7 +7,7 @@ To run your code through the test, open a terminal window in the directory you a
 ```shell
 $ nosetests test_linear_algebra_assignment.pyc
 ```
-If you do not have noestests installed, please review the previous chapters instructions and install Anaconda.  
+If you do not have nosetests installed, please review the previous chapters instructions and install Anaconda.  
 
 1. Matrix vs Vectors  [questions one through eight]
 2. Scalar Operations [questions nine through 12]
