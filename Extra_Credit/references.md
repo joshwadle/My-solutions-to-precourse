@@ -13,7 +13,7 @@ List below are many great references to get a deeper dive in each of these topic
 * [Python Tutorial](http://docs.python.org/2/tutorial/index.html): The official docs and tutorial
 
 #### References
-* [IPython](http://ipython.org/) and IPython [notebooks](http://ipython.org/notebook.html): The core tools used to develop curriculum. [Notebook examples](https://github.com/ipython/ipython/tree/master/examples/notebooks#a-collection-of-notebooks-for-using-ipython-effectively) tutorial in IPython.
+* [IPython](http://ipython.org/) and IPython [notebooks](http://ipython.org/notebook.html): The core tools used to develop curriculum.
 * [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/) (like an opinionated bible)
 * [Coding Style](http://docs.python-guide.org/en/latest/writing/style/) (just advice)
 * [bpython](http://bpython-interpreter.org/about/): Interactively learn Python through a hyper-interactive REPL
