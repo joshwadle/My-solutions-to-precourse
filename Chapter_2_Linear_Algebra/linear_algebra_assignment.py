@@ -338,17 +338,17 @@ def nineteen():
 
 def twenty():
     '''
-    Create two matricies, A and B.
+    Create two matrices, A and B.
     Make Matrix 'A' a 4x1 shaped matrix with values 1 through 4.
     A = [ [1], [2], [3], [4] ]
 
     Make matrix B a 1x3 matrix that look like this:
     B = [[ 100.  200.  300.]]
 
-    answer = add Matrix A to Matrix B
+    answer = use numpy to add Matrix A to Matrix B
     return answer
     '''
-    return None, None
+    return None
 
 
 
