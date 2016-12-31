@@ -39,12 +39,40 @@ You should have the Anaconda distribution installed (see Chapter_0). If you do n
 
 #### Instructions
 
-Read all instructions below, then fill in the functions provided for you in each file located in the code folder.
+Read all instructions below, then fill in the functions provided for you in each file located in the [assignements folder](assignments). You will work with strings, numbers, lists, dictionaries, sets and even generators.
 
-### 1. Practice with built-ins
-Fill in the functions in [1_problems.py](code/1_problems.py).
+You should then check your work by running the following command in the Terminal:
 
-These are all one-liners that use a bunch of handy built-in functions.
+```
+$ python -m doctest assignment_1x.py
+```
+
+Make sure you are in the right directory (the one containing `assignment_1x.py`).
+
+We are using the `doctest` module, which is included in standard library, to test that the functions' output are as expected. The `doctest` module looks prompts `>>>` in a docstring to generate automatic tests.
+
+```python
+def my_function(argument1, argument2):
+  '''
+  this is a docstring, it describes what the function does and what the
+  parameters are. This is were the prompt is placed, as follows:
+  >>> my_function(value1, value2)
+  expected_output
+  '''
+```
+
+### 1. Practice with built-ins functions
+
+- Practice using the `map` function and list comprehensions with [assignment_1a](assignments/assignment_1a.py). With `map` functions you will be using the lambda operator/function, which is an easy way to create a quick, anonymous functions that will not need to be re-used. List comprehensions will allow you to achieve the same result without lambda operators. There are 7 functions to fill.
+
+- Practice writing `lambda x: f(x)` functions with `filter` and `reduce`. There are 5 functions to complete in [assignment_1b](assignments/assignment_1b.py).
+
+- Practice some more using indices and slicing in 4 functions with [assignment_1c](assignments/assignment_1c.py)
+
+- Practice some useful functions `enumerate` and `zip` as well as the methods `join` and `sort` with [assignment_1d](assignments/assignment_1d.py). There are 6 functions for you to complete.
+
+- Practice using `itertools` module, in particular `combinations` and `permutations`. There are only 2 functions to fill in for this [assignment_1e](assignments/assignment_1e.py). Take the time to understand how `generators` and `iterators` work.
+
 
 ### 2. Generating text
 
