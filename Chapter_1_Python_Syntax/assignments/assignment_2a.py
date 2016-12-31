@@ -1,8 +1,12 @@
+'''
+                Generating a random text: working with functions
+
+Fill in each of the 3 functions below. Complete the 'if __name__' block.
+
+Run "python -m doctest assignment_2a.py" at the command line to test your work.
+'''
+
 import random, string
-
-### Fill in each function below.
-
-### Run "python -m doctest 2_words.py" at the command line to test your work.
 
 def word_counts(f):
     '''
@@ -17,7 +21,7 @@ def word_counts(f):
     Use strip and string.punctuation to strip the punctuation from the words.
 
     Example:
-    >>> #example.txt is a file containing: "The cat chased the dog"
+    >>> #example.txt is a file containing: "The cat chased the dog."
     >>> with open('example.txt') as f:
     ...     word_counts(f)
     {'the': {'dog': 1, 'cat': 1}, 'chased': {'the': 1}, 'cat': {'chased': 1}}
@@ -35,6 +39,9 @@ def associated_words(f):
 
     Words should be included in the list the number of times they appear.
 
+    Suggestions on how to handle first words: create an entry in the dictionary
+    with a first key (None, None) and a second key (None, word1)
+
     Example:
     >>> with open('alice.txt') as f:
     ...     d = associated_words(f)
@@ -42,9 +49,6 @@ def associated_words(f):
     ['people', 'party.', 'trees,', 'distant', 'leaves,', 'trees', 'branches,', 'bright']
     '''
     pass
-
-
-
 
 def make_random_story(f, num_words):
     '''
@@ -72,7 +76,8 @@ def make_random_story(f, num_words):
     '''
     pass
 
+# This code will be run if you on the command line run: python assignment_2a.py
 if __name__ == '__main__':
-    # This code will be run if you on the command line run: python words.py
-    with open('alice.txt') as f:
-        print make_random_story(f, 100)
+    # open the 'alice.txt' file
+    # call the 'make_random_story' to print a 100 word long story
+    continue

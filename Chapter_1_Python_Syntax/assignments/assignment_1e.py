@@ -1,6 +1,10 @@
-### Fill in each function below. Each function should be a one-liner.
+'''
+                Module itertools: combinations and permutations
 
-### Run "python -m doctest assignment_1e.py" at the command line to test your work.
+Fill in each of the 2 functions below. Each function should be a one-liner.
+
+Run "python -m doctest assignment_1e.py" at the command line to test your work.
+'''
 
 import itertools
 

@@ -1,19 +1,16 @@
-###############################################################################
-###############################################################################
-#                     List comprehension and map function
-###############################################################################
-###############################################################################
+'''
+                     List comprehension and map function
 
-### Fill in each function below (there are 7).
-### Each function should be a one-liner.
-### You fill practice using 'map' and list comprehension with various datatypes.
+Fill in each function below (there are 7).
+Each function should be a one-liner.
+You fill practice using 'map' and list comprehension with various datatypes.
 
-### Run "python -m doctest assignment_1a.py" at the command line to test your work.
+Run "python -m doctest assignment_1a.py" at the command line to test your work.
+'''
 
 ###############################################################################
 #######                     Looking at Lists and Matrices
 ###############################################################################
-
 def average_rows1(mat):
     '''
     INPUT: 2 dimensional list of integers (matrix)
@@ -61,7 +58,6 @@ def sort_rows(mat):
 ###############################################################################
 #######                     Looking at Strings
 ###############################################################################
-
 def word_lengths1(phrase):
     '''
     INPUT: string
@@ -93,7 +89,6 @@ def word_lengths2(phrase):
 ###############################################################################
 #######                     Looking at Integers
 ###############################################################################
-
 def even_odd1(L):
     '''
     INPUT: list of integers

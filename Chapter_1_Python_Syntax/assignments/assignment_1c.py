@@ -1,16 +1,13 @@
-###############################################################################
-###############################################################################
-#                            Indices and Slicing
-###############################################################################
-###############################################################################
+'''
+                           Indexing and Slicing
 
 
-### Fill in each function below. There are 4 functions to complete.
-### Each function should be a one-liner unless otherwise specified.
-### You fill practice using index and slicing.
+Fill in each function below. There are 4 functions to complete.
+Each function should be a one-liner unless otherwise specified.
+You fill practice using index and slicing.
 
-### Run "python -m doctest assignment_1c.py" at the command line to test your work.
-
+Run "python -m doctest assignment_1c.py" at the command line to test your work.
+'''
 
 ###############################################################################
 #######                     Looking at Strings

@@ -1,17 +1,14 @@
-###############################################################################
-###############################################################################
-#                     Enumerate and Zip functions
-#                        Join and Sort methods
-###############################################################################
-###############################################################################
+'''
+                     Enumerate and Zip functions
+                        Join and Sort methods
 
-### Fill in each function below. There are 6 functions to complete.
-### Each function should be a one-liner unless otherwise specified.
-### You fill practice using 'enumerate' and 'zip' functions, as well as 2 handy
-### methods: 'join' and 'sort'.
+Fill in each function below. There are 6 functions to complete.
+Each function should be a one-liner unless otherwise specified.
+You fill practice using 'enumerate' and 'zip' functions, as well as 2 handy
+methods: 'join' and 'sort'.
 
-### Run "python -m doctest assignment_1d.py" at the command line to test your work.
-
+Run "python -m doctest assignment_1d.py" at the command line to test your work.
+'''
 
 ###############################################################################
 #######                     Enumerate

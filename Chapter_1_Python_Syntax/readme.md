@@ -39,15 +39,11 @@ You should have the Anaconda distribution installed (see Chapter_0). If you do n
 
 #### Instructions
 
-Read all instructions below, then fill in the functions provided for you in each file located in the [assignements folder](assignments). You will work with strings, numbers, lists, dictionaries, sets and even generators.
-
-You should then check your work by running the following command in the Terminal:
+Read all instructions given in the assignment markdown files. You will be needing to check your work. To do so via command line, go to the right directory (the one containing `assignment_x.py`) and type in the Terminal the command
 
 ```
-$ python -m doctest assignment_1x.py
+$ python -m doctest assignment_x.py
 ```
-
-Make sure you are in the right directory (the one containing `assignment_1x.py`).
 
 We are using the `doctest` module, which is included in standard library, to test that the functions' output are as expected. The `doctest` module looks prompts `>>>` in a docstring to generate automatic tests.
 
@@ -59,56 +55,24 @@ def my_function(argument1, argument2):
   >>> my_function(value1, value2)
   expected_output
   '''
+  return argument1 + argument2
 ```
 
 ### 1. Practice with built-ins functions
 
-- Practice using the `map` function and list comprehensions with [assignment_1a](assignments/assignment_1a.py). With `map` functions you will be using the lambda operator/function, which is an easy way to create a quick, anonymous functions that will not need to be re-used. List comprehensions will allow you to achieve the same result without lambda operators. There are 7 functions to fill.
+Python has many very useful functions, methods and libraries that can make coding much faster for the developer.
 
-- Practice writing `lambda x: f(x)` functions with `filter` and `reduce`. There are 5 functions to complete in [assignment_1b](assignments/assignment_1b.py).
+This [assignment_1.md](assignments/assignment_1.md) has 20 functions organized in 5 categories that you will need to complete. This will allow you to explore list comprehensions, lambda functions as well as several other very handy functions, methods and module. You will be working with strings, numbers, lists, dictionaries, sets and even generators.
 
-- Practice some more using indices and slicing in 4 functions with [assignment_1c](assignments/assignment_1c.py)
+### 2. Function-based programming: practice handling text
 
-- Practice some useful functions `enumerate` and `zip` as well as the methods `join` and `sort` with [assignment_1d](assignments/assignment_1d.py). There are 6 functions for you to complete.
+The aim of [assignment_2.md](assignments/assignment_2.md) is to practice reading files, to increase familiarity with strings and dictionaries as well as to call a program from the command line. This will be achieved in a function-based context. Functions, as we saw in the previous assignment, are blocks of reusable code, and as such are a great way to write your python code. They allow for a flexible, well-organized and easily-maintained modular approach to code development.
 
-- Practice using `itertools` module, in particular `combinations` and `permutations`. There are only 2 functions to fill in for this [assignment_1e](assignments/assignment_1e.py). Take the time to understand how `generators` and `iterators` work.
+### 3. Object Oriented Programming
 
 
-### 2. Generating text
 
-Fill in the functions `word_counts`, `associated_words` and `make_random_story`
-in [2_words.py](code/2_words.py). These will give you practice with reading files, strings and dictionaries.
 
-Take a look at the [Collections module](https://docs.python.org/2/library/collections.html).
-You may be able to use `DefaultDict` and `Counter` to simplify your code.
-
-### 3. Fizz Buzz fun with Python
-
-FizzBuzz is infamous for being a simple programming problem that [a lot of software
-engineers struggle with](http://blog.codinghorror.com/why-cant-programmers-program/).
-
-* Implement the function `fizzbuzz` in [3_fizzbuzz.py](code/3_fizzbuzz.py). Don't worry, this is not the main point of this question.
-
-* Modify the function definition so that the following calls all work. You should have 3 and 5 be the default parameters.
-([documentation](https://docs.python.org/2/tutorial/controlflow.html#default-argument-values))
-
-        fizzbuzz(15)                  # "FizzBuzz"
-        fizzbuzz(15, fizz=4)          # "Buzz"
-        fizzbuzz(15, buzz=4)          # "Fizz"
-        fizzbuzz(15, fizz=6, buzz=7)  # ""
-
-    Now in the main block you should be able to remove the 2nd and 3rd parameters.
-
-* Look at how the main function uses `sys.argv`. You can run your program with this
-command in the command line:
-
-        python 3_fizzbuzz.py 20
-
-    Modify `words.py` so that you can run your program like this:
-
-        python 2_words.py alice.txt 200
-
-    You'll have to import the `sys` module and use `sys.argv` ([documentation](https://docs.python.org/2/library/sys.html))
 
 ## Recap
 

@@ -1,17 +1,14 @@
-###############################################################################
-###############################################################################
-#                     More lambda functions: Filter and Reduce
-###############################################################################
-###############################################################################
+'''
+                More lambda functions: Filter and Reduce
 
 
-### Fill in each function below. There are 5 functions to complete.
-### Each function should be a one-liner unless otherwise specified.
-### You fill practice using 'filter' and 'reduce', which can be used with lambda
-### functions, just like 'map'.
+Fill in each function below. There are 5 functions to complete.
+Each function should be a one-liner unless otherwise specified.
+You fill practice using 'filter' and 'reduce', which can be used with lambda
+functions, just like 'map'.
 
-### Run "python -m doctest assignment_1b.py" at the command line to test your work.
-
+Run "python -m doctest assignment_1b.py" at the command line to test your work.
+'''
 
 ###############################################################################
 #######                     Filter Strings, Numbers, Lists
