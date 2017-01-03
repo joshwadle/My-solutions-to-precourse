@@ -51,7 +51,7 @@ We are using the `doctest` module, which is included in standard library, to tes
 def my_function(argument1, argument2):
   '''
   this is a docstring, it describes what the function does and what the
-  parameters are. This is were the prompt is placed, as follows:
+  parameters are. This is where the prompt is placed, as follows:
   >>> my_function(value1, value2)
   expected_output
   '''
@@ -120,7 +120,7 @@ You should be comfortable with everything below.
 ## Going Further: More resources
 
 If you still feel new to Python, you might benefit from looking at one of these resources (books with snippets of codes or exercises):
-* [Learn Python the Hard Way](http://learnpythonthehardway.org/), with the [free version](https://learnpythonthehardway.org/book/). Work your way through the exercises 0 to 39, it offers a great combination of explanations and exercises to apply the concepts.
+* [Learn Python the Hard Way](http://learnpythonthehardway.org/), with the [free version](https://learnpythonthehardway.org/book/). Work your way through the exercises 0 to 39, it offers a great combination of explanations and exercises to apply the concepts. Exercises 40 to 45 are a great introduction to object oriented programming.
 * [Dive Into Python](http://www.diveintopython.net/): Chapters 1 through 6 are particularly relevant to make sure you are familiar with dictionaries, lists, tuples and have some exposure to classes.
 * [Effective Python](http://www.effectivepython.com/) and its associated [GitHub account](https://github.com/bslatkin/effectivepython)
 
