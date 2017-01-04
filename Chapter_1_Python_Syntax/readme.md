@@ -70,6 +70,7 @@ The aim of [assignment_2.md](assignments/assignment_2.md) is to practice reading
 
 ### 3. Object Oriented Programming
 
+The aim of [assignment_3.md](assignments/assignment_3.md) is to practice implementing classes in Python. An optional [introductory assignment](assignment_3_intro_class.md) will walk through the creation of a `Complex` class if you feel you need the extra practice.
 
 
 
