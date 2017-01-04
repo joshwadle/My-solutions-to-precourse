@@ -7,16 +7,13 @@
 These will vary depending on your background.
 
 #### Confirmed coder
-Breeze through the exercises!
+  Breeze through the exercises!
 
 #### Confident coder
-Practice makes perfect. Maybe you come from another language or have used Python sporadically, these assignments will get you up to speed with Python quickly (both in terms of syntax
-and style).
+  Practice makes perfect. Maybe you come from another language or have used Python sporadically, these assignments will get you up to speed with Python quickly (both in terms of syntax and style).
 
 #### On the road to confident coder
-The course will heavily use Python for most of its analyses/projects.  It is not
-necessary to be an expert in Python coming into the course (that is part of what we will
-teach you!) but it is helpful to be familiar with its syntax.
+  The course will heavily use Python for most of its analyses/projects.  It is not necessary to be an expert in Python coming into the course (that is part of what we will teach you!) but it is helpful to be familiar with its syntax.
 
 ## Main Resources
 
@@ -33,9 +30,8 @@ Go to the [extra resources section](#going-further:-more-resources) for books, e
 #### Installation
 You should have the Anaconda distribution installed (see Chapter_0). If you do not (and you should!), follow the installation instructions directly below to get setup. Then continue on to the assignments.
 
-- Install the [Anaconda](https://store.continuum.io/cshop/anaconda/) Python 2.7
-(not Python 3) distribution
-- Use [conda](http://www.continuum.io/blog/conda) to install any additional packages.
+- Install the [Anaconda](https://store.continuum.io/cshop/anaconda/) Python 2.7 (not Python 3) distribution
+- Use `conda` to install any additional packages.
 
 #### Instructions
 
