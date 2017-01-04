@@ -3,6 +3,4 @@
 .ipynb_checkpoints
 *.bak
 *.swp
-Chapter_3_SQL/
-Chapter_0_Workflow/
 .DS_Store
