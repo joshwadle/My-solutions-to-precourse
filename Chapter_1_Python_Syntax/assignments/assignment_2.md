@@ -18,7 +18,7 @@ We want to generate a random text according to rules specified in the function d
 
  The [assignment_2a.py](assignments/assignment_2a.py) has functions for you to fill and an `if __name__ == '__main__'` block. This is a great layout to use in future scripts.
 
- Fill in the functions `word_counts`, `associated_words` and `make_random_story`.
+ Fill in the function `word_counts` to make sure you are familiar with nested dictionaries, and move on to the `associated_unigrams`, `associated_bigrams` , `associate_trigrams` and `make_random_story`.
 
  Hints:
  - You will work with dictionaries. Look into the `get` method. You may be able to use `DefaultDict` and `Counter` to simplify your code. Take a look at the [Collections module](https://docs.python.org/2/library/collections.html).
@@ -40,7 +40,7 @@ We want to generate a random text according to rules specified in the function d
 Modify the [assignment_2a.py](assignments/assignment_2a.py) to be able to run the program `make_random_story` from the command line:
 
   ```python
-  $ python assignment_2a.py alice.txt 200
+  $ python assignment_2a.py alice.txt 2 200
   ```
 
 Hint:
