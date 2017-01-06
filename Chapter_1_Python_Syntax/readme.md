@@ -41,7 +41,7 @@ Read all instructions given in the assignment markdown files. You will be needin
 $ python -m doctest assignment_x.py
 ```
 
-We are using the `doctest` module, which is included in standard library, to test that the functions' output are as expected. The `doctest` module looks prompts `>>>` in a docstring to generate automatic tests.
+We are using the `doctest` module, which is included in the standard library, to test that the functions' outputs are as expected. The `doctest` module looks for prompts `>>>` in a docstring to generate automatic tests.
 
 ```python
 def my_function(argument1, argument2):
@@ -60,15 +60,13 @@ Python has many very useful functions, methods and libraries that can make codin
 
 This [assignment_1.md](assignments/assignment_1.md) has 20 functions organized in 5 categories that you will need to complete. This will allow you to explore list comprehensions, lambda functions as well as several other very handy functions, methods and module. You will be working with strings, numbers, lists, dictionaries, sets and even generators.
 
-### 2. Function-based programming: practice handling text
+### 2. Function-based programming
 
 The aim of [assignment_2.md](assignments/assignment_2.md) is to practice reading files, to increase familiarity with strings and dictionaries as well as to call a program from the command line. This will be achieved in a function-based context. Functions, as we saw in the previous assignment, are blocks of reusable code, and as such are a great way to write your python code. They allow for a flexible, well-organized and easily-maintained modular approach to code development.
 
 ### 3. Object Oriented Programming
 
 The aim of [assignment_3.md](assignments/assignment_3.md) is to practice implementing classes in Python. An optional [introductory assignment](assignment_3_intro_class.md) will walk through the creation of a `Complex` class if you feel you need the extra practice.
-
-
 
 
 ## Recap
@@ -80,39 +78,12 @@ Can you answer these questions:
 
 You should be comfortable with everything below.
 
-- Basic data structures and associated methods
-  * int, float
-  * string
-  * list
-  * dict
-  * set
-  * range
-- Control structures
-  * if, elif, else
-  * while
-  * for
-  * break, continue, pass
-- Enumerations
-  * for loops
-  * list comprehensions
-  * enumerate
-  * zip
-- Functions
-  * Declaration
-  * Calling
-  * Keyword arguments
-- Object orientation
-  * Classes
-  * Methods
-  * Properties (instance variables)
-  * self
-- Modules
-  * import
-  * aliasing (`import pandas as pd`)
-  * global import (`from pandas import *`)
-- IO
-  * Read a file
-  * Write to a file
+- Basic data structures and associated methods (int, float, string, list, dict, set, range)
+- Control structures (`if`, `elif`, `else`, `while`, `for`, `break`, `continue`, `pass`) and enumerations (`for` loops, list comprehensions, `enumerate`, `zip`)
+- Declaring, calling functions and keyword arguments
+- Object orientation programming (Classes, Methods, instance variables, self)
+- Importing modules
+- Reading and writing a file
 
 ## Going Further: More resources
 

@@ -22,7 +22,7 @@ def word_counts(f):
 
     Example:
     >>> #example.txt is a file containing: "The cat chased the dog."
-    >>> with open('example.txt') as f:
+    >>> with open('../data/example.txt') as f:
     ...     word_counts(f)
     {'the': {'dog': 1, 'cat': 1}, 'chased': {'the': 1}, 'cat': {'chased': 1}}
     '''
@@ -43,7 +43,7 @@ def associated_unigrams(f):
     with a first key (None)
 
     Example:
-    >>> with open('alice.txt') as f:
+    >>> with open('../data/alice.txt') as f:
     ...     d = associated_unigrams(f)
     >>> d[('among')]
     ['the', 'those', 'them', 'the', 'the', 'the', 'the', 'the', 'the', 'mad', 'the', 'them']
@@ -65,7 +65,7 @@ def associated_bigrams(f):
     with a first key (None, None) and a second key (None, word1)
 
     Example:
-    >>> with open('alice.txt') as f:
+    >>> with open('../data/alice.txt') as f:
     ...     d = associated_bigrams(f)
     >>> d[('among', 'the')]
     ['people', 'party.', 'trees,', 'distant', 'leaves,', 'trees', 'branches,', 'bright']
@@ -88,7 +88,7 @@ def associated_trigrams(f):
     a third key (None, word1, word2)
 
     Example:
-    >>> with open('alice.txt') as f:
+    >>> with open('../data/alice.txt') as f:
     ...     d = associated_trigrams(f)
     >>> d[('among', 'the', 'trees')]
     ['as', 'a']
@@ -113,7 +113,7 @@ def make_random_story(f, n_gram=2, num_words=200):
     >>> # Seed the random number generator for consistent results
     >>> random.seed('Is the looking-glass is half full or half-empty?')
     >>> # Generate a random story
-    >>> with open('alice.txt') as f:
+    >>> with open('../data/alice.txt') as f:
     ...     story = make_random_story(f, 2, 10)
     ...     story  # Note: your random story may not match this example
     stick, and tumbled head over heels in its sleep 'twinkle,
@@ -124,6 +124,6 @@ def make_random_story(f, n_gram=2, num_words=200):
 
 # This code will be run if you on the command line run: python assignment_2a.py
 if __name__ == '__main__':
-    # open the 'alice.txt' file
+    # open the 'alice.txt' file, in the data directory
     # call the 'make_random_story' to print a 100 word long story based on bigrams
     continue

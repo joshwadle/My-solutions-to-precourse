@@ -2,6 +2,8 @@
 
 ## Objectives
 
+This assignment is designed to be a progressive construction of a `Complex` class.
+
 - Moving from functions to methods.
 - Defining a class and the `__init__` method.
 - Creating an instance of the class.
@@ -10,30 +12,32 @@
 - Importing a class as a module in iPython.
 
 #### Instructions
-Follow along the script, it will guide you in the creation of a class called Complex. You will need to apply the knowledge gain in so called ACTION items.
+Follow along the script, it will guide you in the creation of a class called Complex. You will need to apply the knowledge gained in so called CHALLENGE items.
 
 ## Define functions
 
-Let us first think about setting up functions that would allow us to manipulate complexes. If you are not familiar with complexes, you can check out this [Wikipedia article](https://en.wikipedia.org/wiki/Complex_number) and in particular the [elementary operations section](https://en.wikipedia.org/wiki/Complex_number#Elementary_operations). In particular, we want to be able to add, subtract and multiply complex numbers together.
+Let us first think about setting up functions that would allow us to manipulate complexes. If you are not familiar with complexes, you can check out this [Wikipedia article](https://en.wikipedia.org/wiki/Complex_number) and in particular the [elementary operations section](https://en.wikipedia.org/wiki/Complex_number#Elementary_operations).
 
-ACTION: Fill in the functions [complex_functions.py](../code/complex_functions.py).
+CHALLENGE: We want to be able to take the conjugate of a complex number and we want add, subtract and multiply complex numbers together.
 
-Filling in the functions [complex_functions.py](../code/complex_functions.py) is good programming practice, but not the main aim of this section, so a [solution file](../code/solns_complex_functions.py) is provided.
+YOUR ANSWER: Fill in the functions [complex_functions.py](../code/complex_functions.py).
+
+Note: Filling in the functions [complex_functions.py](../code/complex_functions.py) is good coding practice, but not the main aim of this section, so a [solution file](../code/solns_complex_functions.py) is provided.
 
 ## Setting up a class
 
-The aim of setting up a class is to regroup objects that have similar attributes, here complexes that have a real part and an imaginary part.
+The aim of setting up a class is to regroup objects that have similar attributes, here complexes that have a real part and an imaginary part. Let's make a `complex_class.py` script.
 
 ### 1. Defining a class
 
-This is very straightforward.
+This is very straightforward. Copy paste the following lines in `complex_class.py`.
 
 ```python
 class Complex(object):
   pass
 ```
 
-First use the reserved word `class`, and then indicate the class name. By convention, class names are usually capitalized. Everything in a class is indented
+First notice the use the reserved word `class`, and followed by the class name. By convention, class names are capitalized. Everything in a class is indented (here just the `pass`.)
 
 In the terminal, run `ipython` and import the class as you would a module.
 
@@ -43,6 +47,8 @@ In [1]: from complex_class import Complex
 ```
 
 ### 2. Initializing the Class:
+
+In the `complex_class.py`, replace the previous lines by
 
 ```python
 class Complex(object):
@@ -65,6 +71,8 @@ In [2]: complex_1 = Complex(3,4)
 In [3]: complex_1
 Out[3]: <complex_class.Complex at 0x102518a10>
 ```
+
+NB: Make sure you have the `autoreload` set up as described in Chapter_0. If you do not, start a new ipython session everytime. This ensures that you have access to the latest version of the Complex class.
 
 Within classes, we can define instance variable: these are variables that are used within the class. In this example, we can have access to `real` and `imaginary`, the real part and imaginary part of the complex number of interest. They belong only to the current instance of a class
 
@@ -93,13 +101,15 @@ Out[7]: 'a complex number'
 
 Note that input `In [5]` and `In [6]` shows how to modify the 'real' attribute. Input `In [7]` shows that it is possible to access instance variables not entered as arguments of the class, but present in the `__init__` method.
 
-ACTION: Use the [complex_class.py](../code/complex_class.py). Create an instance of the class Complex, `complex_2`, for the complex number 1 + 3i. Change its imaginary part to 2.
+CHALLENGE: Let us use the [complex_class.py](../code/complex_class.py). Open iPython in the terminal and import the `Complex` class. Create an instance of the class Complex, `complex_2`, for the complex number 1 + 3i. Change its imaginary part to 2. Access its real part, then its imaginary part.
+
+YOUR ANSWER: Copy paste the inputs and outputs obtained in iPython.
 
 ## Defining more methods
 
 Remember `join` and `sort` methods vs the `enumerate()` function from the `assignment_1.md`? `join` and `sort` are methods from the String class, already implemented in python. Methods are available through the `.` notation.
 
-### 1. Methods for relying on the class instance
+### 1. Methods relying on the class instance
 
 A very useful aspect of methods in a class is `self`, as it bounds the object’s data to the object. Let's add the following method to the class Complex (don't forget the indentation)
 
@@ -108,8 +118,24 @@ A very useful aspect of methods in a class is `self`, as it bounds the object’
       '''
       prints the complex in a standard format 'a + bi'
       with 'a' the real part and 'b' the imaginary one
+      if b = 0: 'a'
+      if a = 0: 'b'
+      else: 'a + bi'
+      a and b: rounded to 2 decimal
       '''
-      print '{0} + {1}i'.format(self.real, self.imaginary)
+      (r_1, i_1) = self.real, self.imaginary
+      if i_1 == 0:
+          complex_number = "{:.2f}".format(r_1)
+      elif r_1 == 0:
+          if i_1 >= 0:
+              complex_number = "{:.2f}i".format(i_1)
+          else:
+              complex_number = "-{:.2f}i".format(abs(i_1))
+      elif i_1 > 0:
+          complex_number = "{:.2f} + {:.2f}i".format(r_1, i_1)
+      else:
+          complex_number = "{:.2f} - {:.2f}i".format(r_1, abs(i_1))
+      return complex_number
 ```
 
 Notice that the complex number does not need to be passed in as an argument.
@@ -123,7 +149,9 @@ In [3]: complex_1.print_complex()
 3 + 4i
 ```
 
-ACTION: Implement the `conjugate` method, create instance `complex_1` and apply the `conjugate` method to it.
+CHALLENGE: Implement the `conjugate` method in `complex_class.py`. Open an iPython session, import the `Complex` class as a module and create the instance `complex_1` as shown above. Apply the `conjugate` method to obtain `conjugate_complex_1`, a class instance, and print it out.
+
+YOUR ANSWER: Copy paste the inputs and outputs obtained in iPython.
 
 ### 2. Methods using several instances of a class
 
@@ -155,30 +183,41 @@ In [3]: complex_2 = Complex(1,2)
 In [4]: complex_3 = complex_1.add(complex_2)
 
 In [5]: complex_3.print_complex()
-4 + 6i
+Out[5]: '4.00 + 6.00i'
 ```
 
-ACTION: Implement the `subtract` and the `multiply` method, create instances `complex_1` and `complex_2` before finally subtracting `complex_2` to `complex_1` and multiplying `complex_1` and `complex_2`.
+CHALLENGE: Implement the `subtract` and the `multiply` methods to create the resulting class instance. Open an iPython session, import the class, create instances `complex_1` and `complex_2` before finally subtracting `complex_2` to `complex_1` and printing the result. Multiply `complex_1` and `complex_2` and print the result.
+
+YOUR ANSWER: Copy paste the inputs and outputs obtained in iPython.
 
 ## Defining key magic methods
 
-It would be great to just be able to use the operand `+` to add 2 complex numbers together. Or to be able to `print` the instance and see the complex number. This is not possible yet.
+It would be great to just be able to use the operand `+` to add 2 complex numbers together. Or to be able to `print` the instance and see the complex number in human compatible format 'a + bi'. This is not possible yet.
 
 ```
-In [6]: complex_1 + complex_2
+In [1]: from complex_class import Complex
+
+In [2]: complex_1 = Complex(3,4)
+
+In [3]: complex_2 = Complex(1,2)
+
+In [4]: print complex_2
+<solns_complex_class.Complex object at 0x102519c50>
+
+In [5]: complex_3 = complex_1 + complex_2
 ---------------------------------------------------------------------------
 TypeError                                 Traceback (most recent call last)
-<ipython-input-21-df4ca884b615> in <module>()
-----> 1 complex_1 + complex_2
+<ipython-input-5-6a2bc4fd790a> in <module>()
+----> 1 complex_3 = complex_1 + complex_2
 
 TypeError: unsupported operand type(s) for +: 'Complex' and 'Complex'
 ```
 
-Let's use so-called python 'magic methods', with `__xxxx__` methods. This include:
+To achieve our aims, let's use so-called python 'key magic methods', with `__xxxx__` methods. This include:
 - `__str__`: print statement to compute the "informal" string representation of an object.
-- `__add__`, `__sub__`, `__mul__`, `__div__`, `__len__`: operand `+`, `-`, `*`, `/`, `len()` ...
+- `__add__`, `__sub__`, `__mul__`, `__div__`, `__len__`: use operand `+`, `-`, `*`, `/`, `len()` ...
 
-You do not need to call these double underscore methods directly, python knows to use them when you call functions (`print`, `len()`, ...) or operands (`+`, `-`, `*`, `/`, ...)
+Note that you do not need to call these double underscore methods directly, python knows to use them when you call functions (`print`, `len()`, ...) or operands (`+`, `-`, `*`, `/`, ...)
 
 Replace the `print_complex` function by:
 ```python
@@ -242,7 +281,9 @@ In [4]: print complex_1 + complex_2
 4.00 + 6.00i
 ```
 
-ACTION: Replace `substract` by  `__sub__` and `multiply` by `__mul__`. Check that your implementation is correct. Give the output obtained for `In [4]` and `In [5]`
+CHALLENGE: Replace `substract` by  `__sub__` and `multiply` by `__mul__` in your `complex_class.py`. Check that your implementation is correct by opening iPython, creating `complex_1` and `complex_2`, and printing the result of `complex_1 - complex_2` and `complex_1 * complex_2`.
+
+YOUR ANSWER: Copy paste the inputs and outputs obtained in iPython.
 
 ```
 In [1]: from complex_class import Complex
@@ -255,3 +296,4 @@ In [4]: print complex_1 - complex_2
 
 In [5]: print complex_1 * complex_2
 ```
+If you want to check your result, you should get `2.00 + 2.00i` for the subtraction and `-5.00 + 10.00i` for the multiplication.
