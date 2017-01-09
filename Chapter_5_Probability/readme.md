@@ -3,19 +3,19 @@
 ### This is a chapter that gives you the opportunity to cover various topics in probability.
 
 ## Learning Objectives
-A basic understanding of probability and statisitics is vital to becoming a
+A basic understanding of probability and statistics is vital to becoming a
 data scientist. Afterall, that is what makes you different from a software
 engineer. Please complete this chapter before moving on to ```Chapter_6_statistics```.
 
-  - Counting: permutation/combination (`itertools`)
+  - Counting: permutation/combination (python module: `itertools`)
   - Conditional probability and Bayes formula
   - Probability distribution functions for discrete random variables (binomial, geometric, Poisson distributions)
   - Probability distibution for continuous random variables (uniform, normal, exponential distributions)
-  - Generating simulations in python (`scipy.stats`)
+  - Generating simulations in python (python module `scipy` and in particular `scipy.stats`)
 
 ## Main Resources
 If you feel like you need a review, there are very abridged lecture notes in
-the ```resources``` folder that will catch you up to speed. Here is a recommended order to read the lecture notes in:
+the `resources` folder that will catch you up to speed. Here is a recommended order to read the lecture notes in:
 
  - combinatorics_lecture
  - conditional_probability_lecture
@@ -26,7 +26,7 @@ the ```resources``` folder that will catch you up to speed. Here is a recommende
 
 ## Assignments
 
-The following assignments cover various aspects of basic probability theory. They represent the baseline understanding you need to have about probability to understand the course material we are going to cover in the future weeks.
+The following assignments cover various aspects of basic probability theory. They represent the baseline understanding you need to have about probability to understand the course material we are going to cover in the future weeks. They also allow you to use `itertools` module once more, as well as to use `scipy.stats`.
 
 ### 1. Counting
 
