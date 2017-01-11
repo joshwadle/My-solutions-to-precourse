@@ -25,9 +25,8 @@ things and feel comfortable typing things in a terminal.
 
 ## Assignment
 
-1. [Complete git-it](http://nodeschool.io/#git-it).
-2. Initialize a git repository on your machine with a single file. Create an account (if you don't already have one) and a repository on [GitHub](https://github.com), push your local repository to GitHub.
-3. Submit solutions to the precourse curriculum project in a [pull request](https://help.github.com/articles/using-pull-requests).
+1. Initialize a git repository on your machine with a single file. Create an account (if you don't already have one) and a repository on [GitHub](https://github.com), push your local repository to GitHub.
+2. Submit solutions to the precourse curriculum project in a [pull request](https://help.github.com/articles/using-pull-requests).
 
 ## Additional Resources
 
