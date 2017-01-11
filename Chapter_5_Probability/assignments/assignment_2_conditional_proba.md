@@ -35,11 +35,13 @@ A worker has asked her supervisor for a letter of recommendation for a new job. 
 
 ### 3. Medical study and some code
 
-A medical study is looking at a test to detect disease that impacts 1 individual in 10 000. The data collected has shown that
+A medical study is looking at a test to detect disease that impacts 1 individual in 10. The data collected has shown that
 - when a patient has the disease, the test is positive in 90% of the cases
 - when a patient does not have the disease, the test is positive in 1% of the cases.
 
 If the test is positive, what is the probability that the patient as that disease?
+What if it is a rare disease, that impacts 1 in 10 000 individuals?
+
 Extra credit: How about if the test is negative?
 
   YOUR ANSWER:
