@@ -78,4 +78,4 @@ How many different strings can you make with 'name'? with 'data'? with 'better'?
 _______________________________________
 ## Extra resources
 
-- [Combinatorics lecture](../resources/combinatorics_lecture)
+- [Combinatorics lecture](../resources/combinatorics_lecture.pdf)
