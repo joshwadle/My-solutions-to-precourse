@@ -51,7 +51,6 @@ outside of the range of the population value
 
 <div align="center"><img src="imgs/mid50.png"></div>
 
-- IQR has a similar interpretation as standard deivation
+- IQR has a similar interpretation as standard deviation
 - IQR is less affected by the presence of extreme values compared to standard
 deviation
-
