@@ -65,4 +65,4 @@ _______________________________________
 
 - Khan Academy goes into the differences when computing the mean and variance for population vs for a sample, and gives some intuition into the differences.
 
-- a [cheatsheet](../resources/mean_variance.pdf) is available with formulas in the resources folder.
+- a [cheatsheet](../resources/mean_variance.pdf) is available in the resources directory with compared/contrasted formulas for population vs sample mean and variance.

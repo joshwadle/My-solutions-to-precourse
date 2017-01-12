@@ -11,8 +11,9 @@
   - Sample variance and standard deviation
 
 - Estimation
-  - MLE estimate (maximum likelihood estimation)
-  - Confidence interval: estimation of a population proportion/mean
+  - Confidence interval, point estimator and margin of error
+  - Estimating of a population proportion
+  - Estimating of a population mean
 
 Python modules: `numpy` and `scipy.stats`
 
@@ -35,17 +36,17 @@ Brief recap: notice the `if __name__ == '__main__':` block in the `.py` file. Th
 
 We will be drawing samples of various size from a population and computing summary statistics to understand the differences in computing values for a population vs for a sample. Make sure you understand how to load the data (`load_pickle` function) and fill in the functions in [assignment_2_sampling.py](code/assignment_2_sampling.py). Answer further questions in the [assignment_2_sampling.md](assignments/assignment_2_sampling.md).
 
-&nbsp;&nbsp;&nbsp;&nbsp;![](imgs/sampling_vs_inference.png)
-
 ### 3. Estimation
 
-Let us take a first look at inference, i.e. getting to estimates of population parameters from sample statistics. We will be estimating population proportions and means thanks to confidence intervals and then move on to using data to infer a parameter of a distribution thanks to Maximum Likelihood Estimation (MLE) in the specific case of coin flips. Answer the questions in [assignment_3_estimation.md](assignments/assignment_3_estimation.md) and fill in [assignment_3_sampling.py](code/assignment_3_sampling.py) when appropriate.
+Let us take a first look at inference, i.e. getting to estimates of population parameters from sample statistics. We will be estimating population proportions and means thanks to confidence intervals. Answer the questions in [assignment_3_estimation.md](assignments/assignment_3_estimation.md) and fill in [assignment_3_sampling.py](code/assignment_3_sampling.py) when appropriate.
 
 ## Recap
 
 Remember, no matter how useful summary statistics are, they can only capture facets of the data. Choose wisely and don't forget to visualize your data to better understand its structure.
 
 To obtain estimates of population parameters, which are often out of our reach, we rely on sampling and inference techniques.
+
+&nbsp;&nbsp;&nbsp;&nbsp;![](imgs/sampling_vs_inference.png)
 
 ## Going Further: More resources
 
