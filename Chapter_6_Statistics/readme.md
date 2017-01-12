@@ -35,7 +35,7 @@ Brief recap: notice the `if __name__ == '__main__':` block in the `.py` file. Th
 
 We will be drawing samples of various size from a population and computing summary statistics to understand the differences in computing values for a population vs for a sample. Make sure you understand how to load the data (`load_pickle` function) and fill in the functions in [assignment_2_sampling.py](code/assignment_2_sampling.py). Answer further questions in the [assignment_2_sampling.md](assignments/assignment_2_sampling.md).
 
-&nbsp;&nbsp;&nbsp;&nbsp;![](imgs/sampling_vs_inference.pdf)
+&nbsp;&nbsp;&nbsp;&nbsp;![](imgs/sampling_vs_inference.png)
 
 ### 3. Estimation
 
@@ -49,7 +49,7 @@ To obtain estimates of population parameters, which are often out of our reach, 
 
 ## Going Further: More resources
 
-Khan Academy offers a very nice statistics course online for free: https://www.khanacademy.org/math/statistics-probabilit
+Khan Academy offers a very nice statistics course online for free: https://www.khanacademy.org/math/statistics-probability
 
 This is a very shallow dive into the world of sampling and estimation. Do not hesitate to check out topics such as
 - simple random sampling vs systematic sampling, stratified sampling or clustered sampling.
