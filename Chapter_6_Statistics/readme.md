@@ -35,7 +35,7 @@ Brief recap: notice the `if __name__ == '__main__':` block in the `.py` file. Th
 
 We will be drawing samples of various size from a population and computing summary statistics to understand the differences in computing values for a population vs for a sample. Make sure you understand how to load the data (`load_pickle` function) and fill in the functions in [assignment_2_sampling.py](code/assignment_2_sampling.py). Answer further questions in the [assignment_2_sampling.md](assignments/assignment_2_sampling.md).
 
-&nbsp;&nbsp;&nbsp;&nbsp;![](resources/imgs/sampling_vs_inference.pdf)
+&nbsp;&nbsp;&nbsp;&nbsp;![](imgs/sampling_vs_inference.pdf)
 
 ### 3. Estimation
 
