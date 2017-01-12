@@ -29,7 +29,7 @@ The aim of this chapter is to
 
 In this assignment, you will be developing working with the 3 Ms (Mean, median, mode). We also take a quick look at ways to measure the spread of datasets and identify outliers. Fill in the functions in [assignment_1_summary_stats.py](code/assignment_1_summary_stats.py) and answer the questions in [assignment_1_summary_stats.md](assignments/assignment_1_summary_stats.md).
 
-Brief recap: notice the `if __name__ == '__main__':` block in the `.py` file. The code in this block will run when you type in the command prompt `python statistics.py`. Here it is mostly a check for our functions.
+Brief recap: notice the `if __name__ == '__main__':` block in the `.py` file. The code in this block will run when you type in the command prompt `python assignment_1_summary_stats.py`. Here it is mostly a check for our functions.
 
 ### 2. Sampling
 
