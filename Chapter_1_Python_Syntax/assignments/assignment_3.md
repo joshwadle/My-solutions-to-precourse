@@ -9,7 +9,6 @@
 - Writing and calling key 'magic' methods.
 - Importing a class as a module in iPython.
 
-If you are completely new to classes in Python, or want to practice, you can first complete an [introductory assignment](assignment_3_intro_class.md) that will walk through the creation of a `Complex` class.
 _______________________________________
 
 ## Questions & Answers
@@ -24,19 +23,19 @@ You can go back to the functions developed to [generate random text](assignment_
 
 You should be able to run the following code in iPython once you implemented the `RandomStory` class.
 
-```
-In [1]: from solns_assignment_3a import RandomStory
+  ```
+  In [1]: from solns_assignment_3a import RandomStory
 
-In [2]: rs = RandomStory('../data/sonnets.txt', 2)
+  In [2]: rs = RandomStory('../data/sonnets.txt', 2)
 
-In [3]: rs.train()
+  In [3]: rs.train()
 
-In [4]: rs.generate(100)
-Out[4]: "1 from fairest creatures we desire increase, that thereby beauty's rose might never die, but as the rich whose blessed key, can bring him to his side, for that sweet ornament which truth doth give! the rose looks fair, but fairer we it deem for that which doth in it live: the canker blooms have full as deep a dye, as the wardrobe which the robe doth hide, to make me give the lie to my bed, the dear heart's part. as thus, mine eye's due is thy good report. 37 as a fever longing still, for that same groan"
+  In [4]: rs.generate(100)
+  Out[4]: "1 from fairest creatures we desire increase, that thereby beauty's rose might never die, but as the rich whose blessed key, can bring him to his side, for that sweet ornament which truth doth give! the rose looks fair, but fairer we it deem for that which doth in it live: the canker blooms have full as deep a dye, as the wardrobe which the robe doth hide, to make me give the lie to my bed, the dear heart's part. as thus, mine eye's due is thy good report. 37 as a fever longing still, for that same groan"
 
-In [5]: len(rs.dict_words)
-Out[5]: 14454
-```
+  In [5]: len(rs.dict_words)
+  Out[5]: 14454
+  ```
 
 CHALLENGE: Open iPython, import the `RandomStory` class and create 3 instances:
 - `story_1` which is based on the `alice.txt` in the `data` directory and only uses one previous word to generate the next word,

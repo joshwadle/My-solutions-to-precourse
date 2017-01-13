@@ -48,33 +48,36 @@ def my_function(argument1, argument2):
   '''
   this is a docstring, it describes what the function does and what the
   parameters are. This is where the prompt is placed, as follows:
-  >>> my_function(value1, value2)
-  expected_output
+  >>> my_function(3, 4)
+  7
   '''
   return argument1 + argument2
 ```
+
+Here, 3 and 4 are the example parameters and 7 is the expected output. `doctest` will confirm if your function returns 7 when given the inputs 3 and 4.
 
 ### 1. Practice with built-ins functions
 
 Python has many very useful functions, methods and libraries that can make coding much faster for the developer.
 
-This [assignment_1.md](assignments/assignment_1.md) has 20 functions organized in 5 categories that you will need to complete. This will allow you to explore list comprehensions, lambda functions as well as several other very handy functions, methods and module. You will be working with strings, numbers, lists, dictionaries, sets and even generators.
+[Assignment 1:](assignments/assignment_1.md) This [assignment_1.md](assignments/assignment_1.md) has 20 functions organized in 5 categories that you will need to complete. This will allow you to explore list comprehensions, lambda functions as well as several other very handy functions, methods and module. You will be working with strings, numbers, lists, dictionaries, sets and even generators.
 
 ### 2. Function-based programming
 
-The aim of [assignment_2.md](assignments/assignment_2.md) is to practice reading files, to increase familiarity with strings and dictionaries as well as to call a program from the command line. This will be achieved in a function-based context. Functions, as we saw in the previous assignment, are blocks of reusable code, and as such are a great way to write your python code. They allow for a flexible, well-organized and easily-maintained modular approach to code development.
+[Assignment 2:](assignments/assignment_2.md) The aim of [assignment_2.md](assignments/assignment_2.md) is to practice reading files, to increase familiarity with strings and dictionaries as well as to call a program from the command line. This will be achieved in a function-based context. Functions, as we saw in the previous assignment, are blocks of reusable code, and as such are a great way to write your python code. They allow for a flexible, well-organized and easily-maintained modular approach to code development.
 
 ### 3. Object Oriented Programming
 
-The aim of [assignment_3.md](assignments/assignment_3.md) is to practice implementing classes in Python. An optional [introductory assignment](assignment_3_intro_class.md) will walk through the creation of a `Complex` class if you feel you need the extra practice.
+[Assignment 3:](assignments/assignment_3.md) The aim of [assignment_3.md](assignments/assignment_3.md) is to practice implementing classes in Python and to instantiate several instances of the class.
 
 
 ## Recap
 
 Can you answer these questions:
 
- 1. What's the difference between a list and a generator? And the advantages of either?
+ 1. What is the difference between a list and a generator? And the advantages of either?
  2. What is the advantage of storing a word list in a set rather than a list?
+ 3. What is the difference between a class definition and an instantiated instance of a class?
 
 You should be comfortable with everything below.
 

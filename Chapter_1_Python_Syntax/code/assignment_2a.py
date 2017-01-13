@@ -126,4 +126,4 @@ def make_random_story(f, n_gram=2, num_words=200):
 if __name__ == '__main__':
     # open the 'alice.txt' file, in the data directory
     # call the 'make_random_story' to print a 100 word long story based on bigrams
-    continue
+    pass
