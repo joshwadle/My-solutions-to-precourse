@@ -14,7 +14,9 @@ _______________________________________
 A simplified model for the movement of the price of a stock supposes that on each day the stock’s price either moves up 1 unit with probability `p` or moves down 1 unit with probability `1 − p`. The changes on different days are assumed to be independent.
 
 (a) What is the probability that after 2 days the stock will be at its original price?
+
 (b) What is the probability that after 3 days the stock’s price will have increased by 1 unit?
+
 (c) Given that after 3 days the stock’s price has increased by 1 unit, what is the probability that it went up on the first day?
 
   YOUR ANSWER:
@@ -26,7 +28,9 @@ A simplified model for the movement of the price of a stock supposes that on eac
 A worker has asked her supervisor for a letter of recommendation for a new job. She estimates that there is an 80 percent chance that she will get the job if she receives a strong recommendation, a 40 percent chance if she receives a moderately good recommendation, and a 10 percent chance if she receives a weak recommendation. She further estimates that the probabilities that the recommendation will be strong, moderate, and weak are .7, .2, and .1, respectively.
 
 (a) How certain is she that she will receive the new job offer?
+
 (b) Given that she does receives the offer, how likely should she feel that she received a strong recommendation? a moderate recommendation? a weak recommendation?
+
 (c) Given that she does not receive the job offer, how likely should she feel that she received a strong recommendation? a moderate recommendation? a weak recommendation?
 
   YOUR ANSWER:

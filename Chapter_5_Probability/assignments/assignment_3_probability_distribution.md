@@ -14,12 +14,14 @@ Common problems relying on discrete (Binomial, Geometric, Poisson) or continuous
 
 ### 0. Probability mass function and expected value
 
-1. A salesman has scheduled two appointments to sell encyclopedias. His first appointment will lead to a sale with probability .3, and his second will lead independently to a sale with probability .6. Any sale made is equally likely to be either for the deluxe model, which costs $1000, or the standard model, which costs $500. Determine the probability mass function of X, the total dollar value of all sales.
+1. A salesman has scheduled two appointments to sell encyclopedias. His first appointment will lead to a sale with probability 0.3, and his second will lead independently to a sale with probability 0.6. Any sale made is equally likely to be either for the deluxe model, which costs $1000, or the standard model, which costs $500. Determine the probability mass function of X, the total dollar value of all sales.
 
 2. A gambling book recommends the following “winning strategy” for the game of roulette: Bet $1 on red. If red appears (which has probability 18/38), then take the $1 profit and quit. If red does not appear and you lose this bet (which has probability 20/38 of occurring), make additional $1 bets of red on each of the next two spins of the roulette wheel and then quit. Let X denote your winnings when you quit.
 
 (a) Find P(X > 0).
+
 (b) Find E[X].
+
 (c) Are you convinced that the strategy is indeed a “winning” strategy?
 
 ### 1. Binomial distribution
