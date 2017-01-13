@@ -28,17 +28,15 @@ The aim of this chapter is to
 
 ### 1. Summary statistics
 
-In this assignment, you will be developing working with the 3 Ms (Mean, median, mode). We also take a quick look at ways to measure the spread of datasets and identify outliers. Fill in the functions in [assignment_1_summary_stats.py](code/assignment_1_summary_stats.py) and answer the questions in [assignment_1_summary_stats.md](assignments/assignment_1_summary_stats.md).
-
-Brief recap: notice the `if __name__ == '__main__':` block in the `.py` file. The code in this block will run when you type in the command prompt `python assignment_1_summary_stats.py`. Here it is mostly a check for our functions.
+* [Assignment 1:](assignments/assignment_1_summary_stats.md) In this assignment, you will be developing working with the 3 Ms (Mean, median, mode). We also take a quick look at ways to measure the spread of datasets and identify outliers. Fill in the functions in [assignment_1_summary_stats.py](code/assignment_1_summary_stats.py) and answer the questions in [assignment_1_summary_stats.md](assignments/assignment_1_summary_stats.md).
 
 ### 2. Sampling
 
-We will be drawing samples of various size from a population and computing summary statistics to understand the differences in computing values for a population vs for a sample. Make sure you understand how to load the data (`load_pickle` function) and fill in the functions in [assignment_2_sampling.py](code/assignment_2_sampling.py). Answer further questions in the [assignment_2_sampling.md](assignments/assignment_2_sampling.md).
+* [Assignment 2:](assignments/assignment_2_sampling.md) We will be drawing samples of various size from a population and computing summary statistics to understand the differences in computing values for a population vs for a sample. Make sure you understand how to load the data (`load_pickle` function) and fill in the functions in [assignment_2_sampling.py](code/assignment_2_sampling.py). Answer further questions in the [assignment_2_sampling.md](assignments/assignment_2_sampling.md).
 
 ### 3. Estimation
 
-Let us take a first look at inference, i.e. getting to estimates of population parameters from sample statistics. We will be estimating population proportions and means thanks to confidence intervals. Answer the questions in [assignment_3_estimation.md](assignments/assignment_3_estimation.md) and fill in [assignment_3_sampling.py](code/assignment_3_sampling.py) when appropriate.
+* [Assignment 3:](assignments/assignment_3_estimation.md) Let us take a first look at inference, i.e. getting to estimates of population parameters from sample statistics. We will be estimating population proportions and means thanks to confidence intervals. Answer the questions in [assignment_3_estimation.md](assignments/assignment_3_estimation.md) and fill in [assignment_3_sampling.py](code/assignment_3_sampling.py) when appropriate.
 
 ## Recap
 

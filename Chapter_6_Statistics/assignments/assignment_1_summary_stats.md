@@ -13,6 +13,8 @@ _______________________________________
 
 ## Questions & Answers
 
+Brief recap: notice the `if __name__ == '__main__':` block in the `.py` file. The code in this block will run when you type in the command prompt `python assignment_1_summary_stats.py`. Here it is mostly a check for our functions.
+
 1. Mean, median, mode
   Fill in the functions `get_mean`, `get_median`, and `get_mode` in [assignment_1.py](../code/assignment_1.py). For the sake of practice, do not use `np.mean`, `np.median` and `scs.mode`.
 
