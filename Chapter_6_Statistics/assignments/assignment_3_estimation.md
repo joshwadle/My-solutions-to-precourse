@@ -6,7 +6,6 @@ This is first glimpse into inference.
 - computing confidence intervals for population proportions
 - computing confidence intervals for population means
 - choosing the appropriate test statistics
-- applying Maximum Likelihood Estimation (MLE) to parameter estimation
 
 _______________________________________
 
