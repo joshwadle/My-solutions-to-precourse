@@ -25,32 +25,33 @@ def one_sample_ttest(sample, mu):
     """
     pass
 
-def scipy_vs_my_ttest():
+def isclose(a, b, rel_tol=1e-09, abs_tol=0.0):
     '''
-    Use the scipy library to find the t-statistic(FLOAT) and p-value(FLOAT) of your samples.  Check to see if they are the same as yours.
+    compare floats for almost-equality in Python?
+    from: http://stackoverflow.com/questions/5595425/
+            what-is-the-best-way-to-compare-floats-for-almost-equality-in-python
+    '''
+    return abs(a-b) <= max(rel_tol * max(abs(a), abs(b)), abs_tol)
+
+
+def scipy_vs_my_ttest(sample, mu):
+    '''
+    Compare the t-statistic(FLOAT) and p-value(FLOAT) of your samples given
+    by your function and the scipy.stats library.
 
     INPUT:
     - sample(LIST) [Values in the sample]
     - mu(FLOAT) [The hypothesized mean value of the population]
 
     OUTPUT:
-    - results(TUPLE) [Tuple containing t-statistic(FLOAT) and p-value(FLOAT)]
+    - BOOL if t-statistic(FLOAT) and p-value(FLOAT) are the same for your
+    function and the scipy.stats library
 
+    hint: use the isclose function provided for you
     '''
     pass
+
 
 if __name__ == '__main__':
     print 'First 5 values of sample 1: ', sample_1[:5]
     print 'First 5 values of sample 2: ', sample_2[:5]
-
-    print 'Answer to PART 2.2 in line below'
-    print ''
-
-    print 'Answer to PART 2.3 in line below'
-    print ''
-
-    print 'Answer to PART 2.4 in line below'
-    print ''
-
-    print 'Answer to PART 2.5 in line below'
-    print ''
