@@ -4,14 +4,14 @@
 
 ## Learning Objectives
 
-- hypothesis testing concepts: significance level, p-value, type I erro, type II errors
-- variants of the t-tests (one sample t-test, Inference for two means)
-- python `scipy.stats` module, and in particular functions such as `scs.ttest_1samp` `scs.ttest_ind` or `scs.ttest_rel`
+- Master basic hypothesis testing concepts: significance level, p-value, type I errors, type II errors
+- Explore variants of the t-tests (One sample t-test, Inference for two means)
+- Use python `scipy.stats` module, and in particular functions such as `scs.ttest_1samp` `scs.ttest_ind` or `scs.ttest_rel`
 
 ## Main Resources
 
 - [basics of hypothesis testing](http://stattrek.com/hypothesis-test/hypothesis-testing.aspx?tutorial=ap)
-- [One sample t-test](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/one-sample-t-test), [Two sample unpaired t-test](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/two-sample-t-test-for-comparing-two-means), [Two sample paired t-test](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/paired-difference-t-test):
+- [One sample t-test](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/one-sample-t-test), [Two sample unpaired t-test](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/two-sample-t-test-for-comparing-two-means), [Two sample paired t-test](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/paired-difference-t-test)
 
 NB. Answers to some of the assignments' questions can be found in these pages.
 
@@ -24,37 +24,29 @@ NB. Answers to some of the assignments' questions can be found in these pages.
 
 [Assignment 1:](assignments/assignment_1_general_ht.md) Take this opportunity to go back to basics:
   - define terms used in hypothesis testing,
-  - layout the 4 steps in setting up in hypothesis testing (choice of the test statistics, one vs two tailed),
+  - layout the 4 steps in setting up in hypothesis testing,
   - think about the errors that you could make and make relevant choices.
 Answer the questions in [assignment_1_general_ht.md](assignments/assignment_1_general_ht.md).
 
 ### 2. One sample t-tests
 
-[Assignement 2:](assignments/assignment_2_one_sample_ttest.md) One sample t-tests are useful to investigate if a population mean is equal to the a hypothesized value. They are used for samples of continuous data (e.g. height as oppose to color). We will implement a t-test in [assignment_2.py](code/assignment_2.py) and compare it to `scipy.stats`'s `scs.ttest_1samp`.
+[Assignement 2:](assignments/assignment_2_one_sample_ttest.md) One sample t-tests are useful to investigate if a population mean is equal to the a hypothesized value. They are used for samples of continuous data (e.g. height as oppose to color). We will implement our own one sample t-test in [assignment_2.py](code/assignment_2.py) and compare it to `scipy.stats`'s `scs.ttest_1samp`.
 
 ### 3. Inference for two means
 
-[Assignement 3:](assignments/assignment_3_two_sample_ttest.md):
-- Two sample unpaired t-test: Test if 2 populations have the same mean value
+[Assignement 3:](assignments/assignment_3_two_sample_ttest.md) Two samples t-tests are useful to investigate if:
+  - Test if 2 populations have the same mean value (Two sample unpaired t-test)
 
-- Two sample paired t-test: Test if 2 populations have the same mean value when
-there is a one-to-one mapping between the 2 populations, i.e. blood pressure before
-treatment and after treatment
+  - Test if 2 populations have the same mean value when there is a one-to-one mapping between the 2 populations (Two sample paired t-test), i.e. blood pressure before treatment and after treatment
 
 
 Hint:
-  - The unpaired two sample t-test function is ```scs.ttest_ind()```.
-  - The paired two sample t-test function is `scs.ttest_rel()`
-
-- PART 2.4:  
-    If I told you ```sample_1``` is the hours people have worked daily before we brought in a new blend of coffee, and ```sample_2``` is after the new coffee, use the correct function to tell if we should get the new coffee. Include in your answer of how sure you are of your conclusion
-
-- PART 2.5:  
-If I told you ```sample_1``` is the hours people have worked daily at company A and ```sample_2``` is hours for people at company B, use the correct function to determine if company A or company B is more productive. Include in your answer of how sure you are of your conclusion
-
-
+  - The unpaired two sample t-test function is `scs.ttest_ind`.
+  - The paired two sample t-test function is `scs.ttest_rel`
 
 ## Recap
+
+Checkout this great [chart](https://onlinecourses.science.psu.edu/stat200/node/186), that will walk you through questions you need to ask to determine the correct statistical technique.
 
 ## Going Further: More resources
 
