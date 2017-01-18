@@ -1,16 +1,16 @@
 # Chapter 7: Hypothesis Testing
 
-### This is a short foray into hypotesis testing.
+### This is a short foray into hypothesis testing.
 
 ## Learning Objectives
 
 - Master basic hypothesis testing concepts: significance level, p-value, type I errors, type II errors
 - Explore variants of the t-tests (One sample t-test, Inference for two means)
-- Use python `scipy.stats` module, and in particular functions such as `scs.ttest_1samp` `scs.ttest_ind` or `scs.ttest_rel`
+- Use python `scipy.stats` module, and in particular functions such as `scs.ttest_1samp`, `scs.ttest_ind` or `scs.ttest_rel`
 
 ## Main Resources
 
-- [basics of hypothesis testing](http://stattrek.com/hypothesis-test/hypothesis-testing.aspx?tutorial=ap)
+- [Basics of hypothesis testing](http://stattrek.com/hypothesis-test/hypothesis-testing.aspx?tutorial=ap)
 - [One sample t-test](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/one-sample-t-test), [Two sample unpaired t-test](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/two-sample-t-test-for-comparing-two-means), [Two sample paired t-test](http://www.cliffsnotes.com/study-guides/statistics/univariate-inferential-tests/paired-difference-t-test)
 
 NB. Answers to some of the assignments' questions can be found in these pages.
@@ -25,7 +25,8 @@ NB. Answers to some of the assignments' questions can be found in these pages.
 [Assignment 1:](assignments/assignment_1_general_ht.md) Take this opportunity to go back to basics:
   - define terms used in hypothesis testing,
   - layout the 4 steps in setting up in hypothesis testing,
-  - think about the errors that you could make and make relevant choices.
+  - think about the type of errors that you could make and make relevant choices.
+  
 Answer the questions in [assignment_1_general_ht.md](assignments/assignment_1_general_ht.md).
 
 ### 2. One sample t-tests

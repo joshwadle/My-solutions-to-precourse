@@ -57,7 +57,7 @@ From Wikipedia: This test is used when the samples are dependent; that is, when 
 |    144.0           |     135.0      |
 |    136.0           |     137.0      |
 
-What are your conclusions?
+1. What are your conclusions?
 
   YOUR ANSWER:
 
@@ -94,7 +94,7 @@ sample_2 = [10.81261135, 9.68035252, 9.87293556,  10.06308861,
 
   YOUR ANSWER:
 
-  
+
 Hint:
   - The unpaired two sample t-test function is `scs.ttest_ind`.
   - The paired two sample t-test function is `scs.ttest_rel`.

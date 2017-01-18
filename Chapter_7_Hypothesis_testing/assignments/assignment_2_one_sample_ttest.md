@@ -23,4 +23,4 @@ Fill in the function `one_sample_ttest` in [assignment_2.py](code/assignment_2.p
 _______________________________________
 ## Extra resources
 
-- Khan Academy has several videos that work through some examples of one sample significance tests (for instance: [tests about a population mean](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/tests-about-population-mean/v/small-sample-hypothesis-test)
+- Khan Academy has several videos that work through some examples of one sample significance tests (for instance: [tests about a population mean](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/tests-about-population-mean/v/small-sample-hypothesis-test))
