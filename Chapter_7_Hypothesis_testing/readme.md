@@ -34,15 +34,10 @@ Answer the questions in [assignment_1_general_ht.md](assignments/assignment_1_ge
 
 ### 3. Inference for two means
 
-[Assignement 3:](assignments/assignment_3_two_sample_ttest.md) Two samples t-tests are useful to investigate if:
-  - Test if 2 populations have the same mean value (Two sample unpaired t-test)
+[Assignement 3:](assignments/assignment_3_two_sample_ttest.md) Two samples t-tests are useful to investigate there is a significant difference between the means of some variable in two populations. You can
+  - test if 2 populations have the same mean value (Two sample unpaired t-test)
+  - test if 2 populations have the same mean value when there is a one-to-one mapping between the 2 populations (Two sample paired t-test), i.e. blood pressure before treatment and after treatment.
 
-  - Test if 2 populations have the same mean value when there is a one-to-one mapping between the 2 populations (Two sample paired t-test), i.e. blood pressure before treatment and after treatment
-
-
-Hint:
-  - The unpaired two sample t-test function is `scs.ttest_ind`.
-  - The paired two sample t-test function is `scs.ttest_rel`
 
 ## Recap
 
