@@ -31,16 +31,16 @@ Let us consider polling. We want to survey a population size of N=12000. We rand
 
 ### 2. Estimating a population mean
 
-1. In [assignment_3.py](../code/assignment_3.py), import the functions `load_pickle`, `draw_sample`, `get_mean` and `get_sem` from your completed version of [assignment_2.py](../code/assignment_2.py)
+In [assignment_3.py](../code/assignment_3.py), notice how the functions `load_pickle`, `draw_sample`, `get_mean` and `get_sem` from your completed version of [assignment_2.py](../code/assignment_2.py) were imported. You will use them in this part of the assignment.
 
   ```python
   from assignment_2 import load_pickle, draw_sample, get_mean, get_sem
   ```
 
-2. Implement `get_confidence_interval` to calculate the confidence intervals of the 100 sample and 1000 sample using confidence of `.95`.
+1. Implement `get_confidence_interval` to calculate the confidence intervals of the 100 sample and 1000 sample using confidence of `.95`.
   Use `scs.t.ppf(percentile)` to get a value at a given percentile in a t-distribution
 
-3. Define the variables `ci_100` and `ci_1000` and apply the function.
+2. Define the variables `ci_100` and `ci_1000` and apply the function.
 Print the variables.
 
     - Does the confidence intervals include the population mean? Can you explain
@@ -50,7 +50,7 @@ Print the variables.
 
     YOUR EXPLANATION:
 
-4. Modifying function arguments:
+3. Modifying function arguments:
     - Try lowering the confidence to `.70` instead of `.95`. What does it do to the range of the confidence interval?
 
     YOUR ANSWER:
@@ -63,7 +63,7 @@ Print the variables.
 
     YOUR EXPLANATION:
 
-5. Assumptions: What assumption are we making about the distribution of the population when we apply the confidence interval? Why are we able to make this assumption here without visualizing any plot?
+4. Assumptions: What assumption are we making about the distribution of the population when we apply the confidence interval? Why are we able to make this assumption here without visualizing any plot?
 
     YOUR ANSWER:
 

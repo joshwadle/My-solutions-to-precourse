@@ -58,7 +58,7 @@ sample and 1000 sample. Print the values.
     of 1000 and SEM of the sample of 100?
 
     YOUR ANSWER:
-    
+
     - What information the SEM tells us that the variance does not?
 
     YOUR ANSWER:
@@ -66,6 +66,6 @@ sample and 1000 sample. Print the values.
 _______________________________________
 ## Extra resources
 
-- Khan Academy goes into the differences when computing the mean and variance for population vs for a sample, and gives some intuition into the differences.
+- Khan Academy goes into the differences when computing the mean and variance for [population](https://www.khanacademy.org/math/statistics-probability/displaying-describing-data/pop-variance-standard-deviation/v/range-variance-and-standard-deviation-as-measures-of-dispersion) vs for a [sample](https://www.khanacademy.org/math/statistics-probability/displaying-describing-data/sample-standard-deviation/v/sample-variance), and gives some intuition into the differences.
 
 - a [cheatsheet](../resources/mean_variance.pdf) is available in the resources directory with compared/contrasted formulas for population vs sample mean and variance.
