@@ -26,16 +26,16 @@ NB. Answers to some of the assignments' questions can be found in these pages.
   - define terms used in hypothesis testing,
   - layout the 4 steps in setting up in hypothesis testing,
   - think about the type of errors that you could make and make relevant choices.
-  
+
 Answer the questions in [assignment_1_general_ht.md](assignments/assignment_1_general_ht.md).
 
 ### 2. One sample t-tests
 
-[Assignement 2:](assignments/assignment_2_one_sample_ttest.md) One sample t-tests are useful to investigate if a population mean is equal to the a hypothesized value. They are used for samples of continuous data (e.g. height as oppose to color). We will implement our own one sample t-test in [assignment_2.py](code/assignment_2.py) and compare it to `scipy.stats`'s `scs.ttest_1samp`.
+[Assignement 2:](assignments/assignment_2_one_sample_ttest.md) One sample t-tests are useful to investigate if a population mean is equal to the a hypothesized value. They are used for samples of continuous data (e.g. height as oppose to color). We will implement our own one sample t-test and compare it to `scipy.stats`'s `scs.ttest_1samp`.
 
 ### 3. Inference for two means
 
-[Assignement 3:](assignments/assignment_3_two_sample_ttest.md) Two samples t-tests are useful to investigate there is a significant difference between the means of some variable in two populations. You can
+[Assignment 3:](assignments/assignment_3_two_sample_ttest.md) Two samples t-tests are useful to investigate there is a significant difference between the means of some variable in two populations. You can
   - test if 2 populations have the same mean value (Two sample unpaired t-test)
   - test if 2 populations have the same mean value when there is a one-to-one mapping between the 2 populations (Two sample paired t-test), i.e. blood pressure before treatment and after treatment.
 
