@@ -20,17 +20,19 @@ ___________________________________
 
 ___________________________________
 
-## Main Resources
+## Main resources
 
-  - Cheatsheet n°1: [Basic Command Line](Resources/Command_Line_Basics.md)
-  - Cheatsheet n°2: [Git Key Concepts](Resources/Git_KeyConcepts.md)
-  - Cheatsheet n°3: [Keyboard Shortcuts](Resources/Keyboard_Shortcuts.md)
+  - Cheatsheet n°1: [Basic Command Line](resources/command_line_basics.md)
+  - Cheatsheet n°2: [Git Key Concepts](resources/git_keyconcepts.md)
+  - Cheatsheet n°3: [Keyboard Shortcuts](resources/keyboard_shortcuts.md)
 
 Further resources are available in each section if you wish to dig a little deeper.
 
 ___________________________________
 
 ## Assignment
+
+Instructors will be able to help you set up on MacOs. If you want to use Linux, the latest Ubuntu version should work. Some notes are included in various sections of this chapter to guide you in a Linux environment.
 
 <a name="text_editor">
 ### 1. Install a Text Editor (Atom)
@@ -44,27 +46,50 @@ NB: you can make many types of files in Atom (.sql, .py, .csv ...)
 
 Learning and using a programming editor is a foundational skill.  If you know `vi` or `emacs`, continue to use them.  If you haven't mastered them, then `Atom` is a good option.  Editors are a personal choice and the source of bitter religious disputes.  Choose a professional editor which works for you.
 
-Going further: you need to master basics skills in `vi` and `emacs`, as outlined in this [Survival Guide to vi and emacs](Resources/vi_emacs_survival_kit.md).
+Going further: you need to master basics skills in `vi` and `emacs`, as outlined in this [Survival Guide to vi and emacs](resources/vi_emacs_survival_kit.md).
 
 <a name="terminal">
 ### 2. Install and use a Terminal
 </a>
 
-The native Terminal is tucked away in MasOs Utilities and rarely used by everyday users. But it's a major tool for a Data Scientist!
+#### iTerm2
+The native Terminal is tucked away in MacOs Utilities and rarely used by everyday users. But it's a major tool for a Data Scientist!
 
 During the program, we will be using iTerm2. Install the stable release on https://www.iterm2.com/downloads.html.
 - Tip: pin it in your Dashboard, you will be using this app a lot!
-- Curious to know why we recommand iTerm2? Read this [apple.stackexchange conversation](http://apple.stackexchange.com/questions/25143/what-is-the-difference-between-iterm2-and-terminal).
+- Curious to know why we recommend iTerm2? Read this [apple.stackexchange conversation](http://apple.stackexchange.com/questions/25143/what-is-the-difference-between-iterm2-and-terminal).
 
-Complete the [Assignment_2_command_line.md](Assignments/Assignment_2_Command_Line.md). Feel free to go through the [sample version](Assignments/Assignment_2_Command_Line_sample.md) to get to know basic command lines and to use the [cheatsheet](Resources/Command_Line_Basics.md) at first.
+**Linux note:** You can use the native Linux terminal.
+
+#### Brew Install
+
+Homebrew is a Mac package utility. To install a package, thype the following in the command line `$ brew install package-name` (NB: do no actually type the `$` sign, this just indicates a command line environment). To see which packages are installed: `$ brew list`.
+
+Install the following package and research what it does on Google (you will be using in to check your assignment).
+
+  ```
+  $ brew install tree
+  ```
+
+**DO NOT INSTALL MACPORTS ON THE WORKSTATIONS.**
+
+**Linux Note:** Brew is just for Mac, in Linux you will need to use
+
+  ```
+  $ sudo apt-get install <package>
+  ```
+
+#### Command lines
+[Assignment 2](assignments/assignment_2_command_line.md): Use commands such as `ls`, `cd directory`, `cd ..`, `mkdir new-dir`, `rm some-file`, `mv`, etc to complete the [assignment_2_command_line.md](assignments/assignment_2_command_line.md). Feel free to go through the [sample version](assignments/assignment_2_command_line_sample.md) to get to know basic command lines and to use the [cheatsheet](resources/command_line_basics.md) at first.
+
 
 <a name="anaconda">
 ### 3. Install Anaconda
 </a>
 
-We use the Anaconda Python 2.7 (not Python 3) distribution and will therefore use conda to install any additional packages. This assignments makes sure you will have Anaconda on your machine and will take you through installing packages.
+[Assignment 3](assignments/assignment_3_anaconda.md): We use the `Anaconda Python 2.7` (not Python 3) distribution and will therefore use `conda` to install any additional packages. This assignments makes sure you will have Anaconda on your machine and will take you through installing packages.
 
-Complete the [Assignment_3_Anaconda.md](Assignments/Assignment_3_Anaconda.md).
+Complete the [assignment_3_anaconda.md](assignments/assignment_3_anaconda.md).
 
 <a name="developing">
 ### 4. Running a Python script from the Terminal
@@ -78,12 +103,16 @@ you're developing:
      interpreter [> your tool: iPython in iTerm2]
   2. Develop in an interactive 'repl' ('repl' stand for 'read-eval-print loop'), [> your tool: iPython in iTerm2]
 
-For the most part, you will use option 1. Option 2 (developing in a repl) is best
-when you are trying out small bits of code. Complete [Assignment_4_Developing.md](Assignments/Assignment_4_Developing.md) to try out both options.
+[Assignment 4 - part 1](assignments/assignment_4_developing.md): For the most part, you will use option 1. Option 2 (developing in a repl) is best
+when you are trying out small bits of code.
+
+Complete [assignment_4_developing.md](assignments/assignment_4_developing.md) to try out both options.
 
 #### Interactive Development Workflow
 
-When coding, you should build your programs incrementally and efficiently. This means keeping the feedback loop tight when writing code. Complete [Assignment_4_InteractiveDeveloping](Assignments/Assignment_4_InteractiveDeveloping.md) to make sure you are familiar with:
+[Assignment 4 - part 2](assignments/assignment_4_interactivedeveloping.md): When coding, you should build your programs incrementally and efficiently. This means keeping the feedback loop tight when writing code.
+
+Complete [assignment_4_interactivedeveloping.md](assignments/assignment_4_interactivedeveloping.md) to make sure you are familiar with:
 - Adding print statements
 - Importing modules and Autoreload
 - Interactive Debugging.
@@ -97,7 +126,7 @@ The key takehome message: <b>Always be committing</b>. Now let's see what that m
 
   * <b>GitHub</b>:  To make it perfectly clear, git is independent of GitHub. Each copy of a git repository is independent of all the others (hence, *distributed* version control system, or dvcs). GitHub is just a place to put a copy of a repository; the benefit is that because GitHub is web-based, anybody can access that repository at anytime, which makes it an ideal place to host a master version of shared repositories. Many companies use GitHub in just that way.
 
-The Galvanize way: Here at Galvanize, we have our curriculum in git repositories hosted on GitHub. You'll be viewing, cloning, and forking those repositories quite a bit. Let's practice with [Assignment_5_GitVersions](Assignments/Assignment_5_GitVersions.md).
+[Assignment 5 - The Galvanize way ](assignments/assignment_5_gitversions.md): Here at Galvanize, we have our curriculum in git repositories hosted on GitHub. You'll be viewing, cloning, and forking those repositories quite a bit. Let's practice with [assignment_5_gitversions.md](assignments/assignment_5_gitversions.md).
 
   __DO NOT commit large files to a Github repo (anything larger than ~20mb).__  In case you have accidentally committed a large file (or dataset) use this [tutorial](http://blog.jessitron.com/2013/08/finding-and-removing-large-files-in-git.html) or this [command line tool](http://rtyley.github.io/bfg-repo-cleaner/) to clean up your repo
 
@@ -119,8 +148,6 @@ Galvanize Way.
 #### Complements on the Galvanize workflow
 
 - Google Chrome: Our browser of choice here Galvanize. Use it.
-- Homebrew: Homebrew is a Mac package utility. To install a package: `brew install package-name`. To see which packages are installed: `brew list`.
-**DO NOT INSTALL MACPORTS ON THE WORKSTATIONS.**
 
 #### Recap:
 1. Know the tools. Use the tools.
@@ -136,6 +163,6 @@ Galvanize Way.
 
 #### Keyboard shortcuts
 
-It's a good idea to start learning how to navigate and work without a mouse. This will come in very handy when you will be accessing remote machine and will not have the possibility to use a mouse to switch from one app to the next or from one window to the next.
+[Assignment 6](assignments/assignment_6_avoiding_mouse.md): It's a good idea to start learning how to navigate and work without a mouse. This will come in very handy when you will be accessing remote machine and will not have the possibility to use a mouse to switch from one app to the next or from one window to the next.
 
-The aim of [Assignment_6_Avoiding_Mouse.md](Assignments/Assignment_6_Avoiding_Mouse.md) is to take you over some of the concepts you have been introduced to in this chapter. Try to do it without your mouse! A [cheatsheet](Resources/Keyboard_Shortcuts.md) is available to help you with shortcuts.
+The aim of [assignment_6_avoiding_mouse.md](assignments/assignment_6_avoiding_mouse.md) is to take you over some of the concepts you have been introduced to in this chapter. Try to do it without your mouse! A [cheatsheet](resources/Keyboard_Shortcuts.md) is available to help you with shortcuts.

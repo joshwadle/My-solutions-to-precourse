@@ -1,7 +1,7 @@
 # Assignment: Working with Command Lines
 
 ## Objectives
-Learn more about basic command lines to answer [Assignment_2_Command_Line.md](Assignment_2_Command_Line.md).
+Learn more about basic command lines to answer [assignment_2_command_line.md](assignment_2_command_line.md).
 
 ## What?
 
@@ -15,7 +15,7 @@ and enter Return to execute it.
 ## How?
 Let us see how a command line works.
 
-*Step 1:* Without using the Terminal, create a Sample_File.rtf with Text Edit (write whatever you want in it) and save it in a Sample_Directory directory on your Desktop.
+*Step 1:* Without using the Terminal, create a `sample_file.rtf` with Text Edit (write whatever you want in it) and save it in a `sample_directory` directory on your Desktop.
 
 *Step 2:* Open the iTerm2 application.
 
@@ -33,10 +33,10 @@ $ cd Desktop
 $ ls
 ```
 
-*Step 5:* You should see the Sample_Directory directory created in Step 1. Let us enter in it.
+*Step 5:* You should see the `sample_directory` directory created in *Step 1*. Let us enter in it.
 Try using tap completion.
 ```
-$ cd Sample_Directory
+$ cd sample_directory
 ```
 
 *Step 6:* Let us check our path.
@@ -45,28 +45,29 @@ $ pwd
 ```
 (`pwd` stands for present working directory)
 
-*Step 7:* One step back, 2 forward. Let us go back to the root directory, and enter the Sample_Directory directory directly. We then want to check its content.
-```
-$ cd
-$ cd Desktop/Sample_Directory
-$ ls
-```
+*Step 7:* One step back, 2 forward.
+- Let us go back to the root directory, and enter the sample_directory directory directly. We then want to check its content.
+  ```
+  $ cd
+  $ cd Desktop/sample_directory
+  $ ls
+  ```
 
-*Step 8:* Let's make a new directory, and call it Inside_Directory.
+*Step 8:* Let's make a new directory, and call it `inside_directory`.
 ```
-$ mkdir Inside_Directory
+$ mkdir inside_directory
 ```
-Don't hesitate to go check by hand (in Finder window) that you successfully created Inside_Directory.
+Don't hesitate to go check by hand (in Finder window) that you successfully created inside_directory.
 
-*Step 9:* Let's move the text file to that Inside_Directory.
+*Step 9:* Let's move the text file to that inside_directory.
 ```
-mv Sample_File.rtf Inside_Directory/Sample_File.rtf
+mv Sample_File.rtf inside_directory/Sample_File.rtf
 ```
-You can check that the text file is now in the Inside_Directory
+You can check that the text file is now in the inside_directory
 
-*Step 10:* Let's rename the text file to Hi_There.rtf. First enter the Inside_Directory, then use the `mv` command.
+*Step 10:* Let's rename the text file to Hi_There.rtf. First enter the inside_directory, then use the `mv` command.
 ```
-$ cd Inside_Directory
+$ cd inside_directory
 $ mv Sample_File.rtf Hi_There.rtf
 ```
 Make sure you now a Hi_There file.
@@ -91,10 +92,10 @@ You can check that the file was actually created (by hand in the Finder, or with
 *Step 13:* Now let's remove everything we have created so far. You cannot use the `rf`command on its own to erase a directory. Go back to the Desktop and type the following command:
 ```
 $ cd ../..
-$ rm -rf -i Sample_Directory
+$ rm -rf -i sample_directory
 ```
 
-Look at your desktop, we have just erased any sign of the Sample_Directory, and of the files and directories it contained... but now you know a few useful command lines!
+Look at your desktop, we have just erased any sign of the `sample_directory`, and of the files and directories it contained... but now you know a few useful command lines!
 
 There are naturally a lot of other commands, that you can look up online, such as copying a file (`cp`) or looking at the beginning of a file (`head some-file`). You are no sure what a command does, ask for documentation:
 ```

@@ -1,7 +1,7 @@
 # Assignment: Interactive Development Workflow
 
 ## Objectives
-When developing your code, remeber to keep a tight feedback loop. You can do so:
+When developing your code, remember to keep a tight feedback loop. You can do so:
 - Using print statements and boiler plates [3 Steps](#developing-with-print-statements).
 - Using modules and autoreload [4 Steps](#modules-and-autoreload).
 - Using interactive debugging [3 Steps](#interactive-debuggind).
@@ -16,18 +16,18 @@ The ideal workflow is to write a little bit of code, then ensure that the code
 is doing what you expect by inspecting some output or playing with it in an
 interactive environment. Plus, having a tight feedback loop is more fun.
 
-*Step 1:* Writing the script. Use the Terminal to open "hello.py" file with Atom.
-```
-# hello.py
+*Step 1:* Writing the script. Use the Terminal to open `hello.py` file with Atom.
+  ```
+  # hello.py
 
-def hello_world():
-  print "hello, world!"
+  def hello_world():
+    print "hello, world!"
 
-def add_em_up(a, b, c):
-  return a + b + c
-```
+  def add_em_up(a, b, c):
+    return a + b + c
+  ```
 
-Run the hello.py script using iPython in iTerm2.
+Run the `hello.py` script using iPython in iTerm2.
 
 ```
 $ ipython hello.py
@@ -38,35 +38,36 @@ YOUR ANSWER: The output in the Terminal is ____________
 *Step 2:* Testing some of code. The most straightforward way of
 doing so would be to insert some `print` statements into your file and run the
 file in the terminal.
-```
-# hello.py
+  ```
+  # hello.py
 
-def hello_world():
-  print "hello, world!"
+  def hello_world():
+    print "hello, world!"
 
-def add_em_up(a, b, c):
-  return a + b + c
+  def add_em_up(a, b, c):
+    return a + b + c
 
-hello_world()
-print add_em_up(3, 4, 5)
-```
-
-YOUR ANSWER: The output in the Terminal is _____________
-
-*Step 3:* Adding a boiler plate.
-```
-# hello.py
-
-def hello_world():
-  print "hello, world!"
-
-def add_em_up(a, b, c):
-  return a + b + c
-
-if __name__ == "__main__":
   hello_world()
   print add_em_up(3, 4, 5)
-```
+  ```
+
+YOUR ANSWER: Run the `hello.py` script using iPython in iTerm2. The output in the Terminal is _____________
+
+
+*Step 3:* Adding a boiler plate.
+  ```
+  # hello.py
+
+  def hello_world():
+    print "hello, world!"
+
+  def add_em_up(a, b, c):
+    return a + b + c
+
+  if __name__ == "__main__":
+    hello_world()
+    print add_em_up(3, 4, 5)
+  ```
 
 YOUR ANSWER: The output with the boiler plate is _________
 
@@ -89,46 +90,50 @@ is a setting that has been enabled on all the Galvanize workstations).
 To add `autoreload` functionality, feel free to inspect this
 [document](https://gist.github.com/rsepassi/2cdde6c6d4b36916cb37) and copy it to your own machine in the filepath `~/.ipython/profile_default/startup/autoreload_startup.ipy`
 
-*Step 1:* Let's re-use the 'hello.py' script.
+*Step 1:* Let's re-use the `hello.py` script.
 
-```
-# hello.py
+  ```
+  # hello.py
 
-def hello_world():
-  print "hello, world!"
+  def hello_world():
+    print "hello, world!"
 
-def add_em_up(a, b, c):
-  return a + b + c
+  def add_em_up(a, b, c):
+    return a + b + c
 
-if __name__ == "__main__":
-  hello_world()
-  print add_em_up(3, 4, 5)
-```
+  if __name__ == "__main__":
+    hello_world()
+    print add_em_up(3, 4, 5)
+  ```
 
-*Step 2:* Using modules. Open iTerm2 and go to the folder containing hello.py. Start iPython.
+*Step 2:* Using modules.
 
-```
-$ ipython
+Open iTerm2 and go to the folder containing `hello.py`. Start iPython.
 
-In [1]: import hello
+  ```
+  $ ipython
 
-# Notice how none of the print statments happened thanks to the
-# if __name__ == "__main__" guard.
+  In [1]: import hello
 
-In [2]: hello.hello_world()
+  # Notice how none of the print statements happened thanks to the
+  # if __name__ == "__main__" guard.
 
-In [3]: hello.add_em_up(3, 4, 5)
-```
+  In [2]: hello.hello_world()
+  ???
+
+  In [3]: hello.add_em_up(3, 4, 5)
+  Out[3]: ???
+  ```
 Note that you can import your files into iPython as modules. All the functions and classes defined in that file are available in the imported module.
 
 YOUR ANSWER: The output of line `In [2]` is ___________ and the output of line `In [3]` is ___________ .
 
 *Step 3:* Importing and aliasing. Start a new iPython session.
-```
-$ ipython
+  ```
+  $ ipython
 
-In [1]: import hello as lib
-```
+  In [1]: import hello as lib
+  ```
 
 Here, `hello.py` was imported and aliased as `lib`. How can you generate the same outputs as Step 2? Keep the session open for the next step.
 
@@ -141,36 +146,39 @@ guard).
 
 Now let's see how `autoreload` makes our life easier.
 
-*Step 4:* Modifying the script. Make the two changes to the file: we modified `hello_world` and we added a method `power_up`.
+*Step 4:* Modifying the script.
+- Make the two changes to the file: we modified `hello_world` and we added a method `power_up`.
 
-```
-# hello.py
+  ```
+  # hello.py
 
-def hello_world():
-  print "hello, cruel world!"
+  def hello_world():
+    print "hello, cruel world!"
 
-def add_em_up(a, b, c):
-  return a + b + c
+  def add_em_up(a, b, c):
+    return a + b + c
 
-def power_up(b, e):
-  return b ** e
+  def power_up(b, e):
+    return b ** e
 
-if __name__ == "__main__":
-  hello_world()
-  print add_em_up(3, 4, 5)
-```
+  if __name__ == "__main__":
+    hello_world()
+    print add_em_up(3, 4, 5)
+  ```
 
-*Step 4:* Go back to the Terminal and the iPython session from the previous step.
+- Go back to the Terminal and the iPython session from the previous step.
 
-```
-# A continuation of the above iPython session
+  ```
+  # A continuation of the above iPython session
 
-In [4]: lib.hello_world()
+  In [4]: lib.hello_world()
+  ????
 
-In [5]: lib.power_up(5, 2)
-```
+  In [5]: lib.power_up(5, 2)
+  ????
+  ```
 
-YOUR ANSWER: The output of line `In [4]` is ___________ and the output of line `In [3]` is ___________ .
+YOUR ANSWER: The output of line `In [4]` is ___________ and the output of line `In [5]` is ___________ .
 
 The file has been automatically reloaded for us! We can interact with all the
 functions and classes interactively without any fuss. And no need to hop back
@@ -194,43 +202,45 @@ inspect the local scope and the value of variables. Here's how it's used:
 
 *Step 1:* Importing ipdb module in the Python script.
 
-```
-# hello.py
-import ipdb # The interactive Python debugger
+Modify the `hello.py`file (modifications in the `import` statements and in the `if __name__ == "__main__":` guard).
+  ```
+  # hello.py
+  import ipdb # The interactive Python debugger
 
-def hello_world():
-  print "hello, cruel world!"
+  def hello_world():
+    print "hello, cruel world!"
 
-def add_em_up(a, b, c):
-  return a + b + c
+  def add_em_up(a, b, c):
+    return a + b + c
 
-def power_up(b, e):
-  return b ** e
+  def power_up(b, e):
+    return b ** e
 
-if __name__ == "__main__":
-  hello_world()
-  a = 22
-  ipdb.set_trace()
-  b = 33
-  print add_em_up(3, 4, 5)
-```
+  if __name__ == "__main__":
+    hello_world()
+    a = 22
+    ipdb.set_trace()
+    b = 33
+    print add_em_up(3, 4, 5)
+  ```
+
 
 *Step 2:* Run the script with iPython. You can step through the code by pressing `n`.
 
-```
-$ ipython hello.py
-hello, cruel world!
-> ~/hello.py(14)<module>()
-     13     ipdb.set_trace()
----> 14     b = 33
-     15     print add_em_up(3, 4, 5)
+  ```
+  $ ipython hello.py
+  hello, cruel world!
+  > ~/hello.py(14)<module>()
+       13     ipdb.set_trace()
+  ---> 14     b = 33
+       15     print add_em_up(3, 4, 5)
 
-ipdb> print a
-22
-ipdb> print b
-*** NameError: name 'b' is not defined
-ipdb>
-```
+  ipdb> print a
+  22
+  ipdb> print b
+  *** NameError: name 'b' is not defined
+  ipdb>
+  ```
 
 Note that `ipdb.set_trace()` opens up an interactive debugger just after it is
 called; the code is paused right at that line. `a` is defined and has the value
@@ -247,17 +257,17 @@ called; the code is paused right at that line. `a` is defined and has the value
 
 *Step 3:* Press `n`.
 
-```
-# continued from above
+  ```
+  # continued from above
 
-ipdb> n
-> /Users/Ryan/Dropbox/DataScience/Zipfian/dsr/assessment-day1/code/hello.py(15)<module>()
-     14     b = 33
----> 15     print add_em_up(3, 4, 5)
-     16
+  ipdb> n
+  > /Users/Ryan/Dropbox/DataScience/Zipfian/dsr/assessment-day1/code/hello.py(15)<module>()
+       14     b = 33
+  ---> 15     print add_em_up(3, 4, 5)
+       16
 
-ipdb> print b
-```
+  ipdb> print b
+  ```
 YOUR ANSWER: The output on the Terminal is ___________
 
 _______________________________________
@@ -271,5 +281,5 @@ _______________________________________
 3. Write some code
 4. Play with the code in iPython
 5. Write some more code
-6. Use ipdb (interactive debugger) as necessary
+6. Use `ipdb` (interactive debugger) as necessary
 7. Repeat until done
