@@ -1,7 +1,7 @@
 # Assignment: Working with Command Lines
 
 ## Objectives
-You will be using command lines to create, move and rename files and directories.
+You will be using commands to create, move and rename files and directories.
 
 If you have never used a Terminal before, follow the guided steps in [assignment_2_command_line_sample.md](assignment_2_command_line_sample.md). This will show you the commands you need to type to create directory, move them, copy files and delete them.
 
