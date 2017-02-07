@@ -64,37 +64,6 @@ def get_sem(sample):
     pass
 
 
-def get_confidence_interval(sample, confidence=.95):
-    """INPUT:
-    - sample(NUMPY ARRAY)
-    - confidence(FLOAT) [The confidence of the ci from 0 to 1, usually .95]
-
-    OUTPUT:
-    - (tuple) [mean, mean - half_rng, mean + half_rng]
-    """
-    pass
-
-
-def get_interquartile_range(population):
-    """INPUT:
-    - population(NUMPY ARRAY)
-
-    OUTPUT:
-    - iqr(FLOAT) [Interquartile range]
-    """
-    pass
-
-
-def get_outlier(population):
-    """INPUT:
-    - population(NUMPY ARRAY)
-
-    OUTPUT:
-    - outliers(NUMPY ARRAY) [List of outliers]
-    """
-    pass
-
-
 if __name__ == '__main__':
-    population = load_pickle('population.pkl')
+    population = load_pickle('../data/population.pkl')
     print 'First 10 element of the population: ', population[:5]
