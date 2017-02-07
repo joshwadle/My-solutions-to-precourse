@@ -3,7 +3,7 @@
 ## Objectives
 You will be using command lines to create, move and rename files and directories.
 
-If you have never use a Terminal before, consider following the indications in [assignment_2_command_line_sample.md](assignment_2_command_line_sample.md). This will show you the command lines you need to type to create directory, move them, copy files and delete them.
+If you have never used a Terminal before, follow the guided steps in [assignment_2_command_line_sample.md](assignment_2_command_line_sample.md). This will show you the commands you need to type to create directory, move them, copy files and delete them.
 
 If you are somewhat familiar with a Terminal, figure out the right command lines to achieve the action items described below. The command lines, in the order you typed them, should be placed in the YOUR ANSWER placeholder.
 
@@ -38,6 +38,6 @@ To check your work, you can run `$ tree` in the `testing_directory`. Your output
 _______________________________________
 
 ## Answers
-Please indicate the command lines necessary to execute steps 1-9.
+Please indicate the commands necessary to execute steps 1-9.
 
 YOUR ANSWER: ________
