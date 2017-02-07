@@ -79,8 +79,8 @@ Install the following package and research what it does on Google (you will be u
   $ sudo apt-get install <package>
   ```
 
-#### Command lines
-[Assignment 2](assignments/assignment_2_command_line.md): Use commands such as `ls`, `cd directory`, `cd ..`, `mkdir new-dir`, `rm some-file`, `mv`, etc to complete the [assignment_2_command_line.md](assignments/assignment_2_command_line.md). Feel free to go through the [sample version](assignments/assignment_2_command_line_sample.md) to get to know basic command lines and to use the [cheatsheet](resources/command_line_basics.md) at first.
+#### Command line
+[Assignment 2](assignments/assignment_2_command_line.md): Use commands such as `ls`, `cd directory`, `cd ..`, `mkdir new-dir`, `rm some-file`, `mv`, etc to complete the [assignment_2_command_line.md](assignments/assignment_2_command_line.md). Feel free to go through the [sample version](assignments/assignment_2_command_line_sample.md) to get to know basic commands and to use the [cheatsheet](resources/command_line_basics.md) at first.
 
 
 <a name="anaconda">
