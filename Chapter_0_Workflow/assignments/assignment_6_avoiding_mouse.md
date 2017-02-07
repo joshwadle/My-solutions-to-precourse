@@ -121,8 +121,8 @@ _______________________________________
 ## Answers
 YOUR ANSWER:
 
-* questions 1-6: give the command line and the output.
+* questions 1-6: give the commands and the output.
 * question 7: change the code in `my_script.py`.
-* question 8-14: give the command line and the output.
+* question 8-14: give the commands and the output.
 * question 15: answer the 2 questions about installing packages.
-* questions 16-19: give the command line and the output.
+* questions 16-19: give the commands and the output.
