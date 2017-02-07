@@ -17,7 +17,7 @@ Do not use finder, just stay in the Terminal
 
 1. Make a `testing_directory` on your Desktop.
 2. Inside this directory, make a `code` directory, a `data` directory, a `raw_data` directory and a `test` directory.
-3. 3. Enter the `testing_directory` and create a `readme.md` file and a `do_not_readme.md` file with Atom.
+3. Enter the `testing_directory` and create a `readme.md` file and a `do_not_readme.md` file with Atom.
 4. Create a `simple_script.py` in the `test` directory with Atom, add the following text: `print('Hello World!')`.
 5. Place the `raw_data` directory inside the `data` directory.
 6. Get the new path to the `raw_data` directory.
