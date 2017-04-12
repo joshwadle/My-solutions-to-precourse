@@ -35,10 +35,10 @@ ___________________________________
 Instructors will be able to help you set up on MacOs. If you want to use Linux, the latest Ubuntu version should work. Some notes are included in various sections of this chapter to guide you in a Linux environment.
 
 <a name="text_editor">
-### 1. Install a Text Editor (Atom)
+<h3>1. Install a Text Editor (Atom)</h3>
 </a>
 
-During the course, we will use Atom, as it is free and works across operating systems. You can dowloaded here: https://atom.io/.
+During the course, we will use Atom, as it is free and works across operating systems. You can dowload it [here](https://atom.io/).
 
 In Atom file menu, select 'Install Shell Commands'. This step will make more sense once you have gone through the next section.
 
@@ -49,13 +49,13 @@ Learning and using a programming editor is a foundational skill.  If you know `v
 Going further: you need to master basics skills in `vi` and `emacs`, as outlined in this [Survival Guide to vi and emacs](resources/vi_emacs_survival_kit.md).
 
 <a name="terminal">
-### 2. Install and use a Terminal
+<h3> 2. Install and use a Terminal </h3>
 </a>
 
 #### iTerm2
 The native Terminal is tucked away in MacOs Utilities and rarely used by everyday users. But it's a major tool for a Data Scientist!
 
-During the program, we will be using iTerm2. Install the stable release on https://www.iterm2.com/downloads.html.
+During the program, we will be using iTerm2. [Install the stable release](https://www.iterm2.com/downloads.html).
 - Tip: pin it in your Dashboard, you will be using this app a lot!
 - Curious to know why we recommend iTerm2? Read this [apple.stackexchange conversation](http://apple.stackexchange.com/questions/25143/what-is-the-difference-between-iterm2-and-terminal).
 
@@ -63,7 +63,7 @@ During the program, we will be using iTerm2. Install the stable release on https
 
 #### Brew Install
 
-Homebrew is a Mac package utility. To install a package, thype the following in the command line `$ brew install package-name` (NB: do no actually type the `$` sign, this just indicates a command line environment). To see which packages are installed: `$ brew list`.
+Homebrew is a Mac package utility. To install a package, type the following in the command line `$ brew install package-name` (NB: do no actually type the `$` sign, this just indicates a command line environment). To see which packages are installed: `$ brew list`.
 
 Install the following package and research what it does on Google (you will be using in to check your assignment).
 
@@ -84,7 +84,7 @@ Install the following package and research what it does on Google (you will be u
 
 
 <a name="anaconda">
-### 3. Install Anaconda
+<h3> 3. Install Anaconda </h3>
 </a>
 
 [Assignment 3](assignments/assignment_3_anaconda.md): We use the `Anaconda Python 2.7` (not Python 3) distribution and will therefore use `conda` to install any additional packages. This assignments makes sure you will have Anaconda on your machine and will take you through installing packages.
@@ -92,7 +92,7 @@ Install the following package and research what it does on Google (you will be u
 Complete the [assignment_3_anaconda.md](assignments/assignment_3_anaconda.md).
 
 <a name="developing">
-### 4. Running a Python script from the Terminal
+<h3> 4. Running a Python script from the Terminal </h3>
 </a>
 
 #### Developing code
@@ -118,20 +118,20 @@ Complete [assignment_4_interactivedeveloping.md](assignments/assignment_4_intera
 - Interactive Debugging.
 
 <a name="git">
-### 5. Version control with Git and GitHub
+<h3> 5. Version control with Git and GitHub </h3>
 </a>
 
-The key takehome message: <b>Always be committing</b>. Now let's see what that means and what tools we have for version control.
-  * <b>git</b>: git is used for version control. It will be a critical part of your development workflow. Being able to rollback changes and create branches will enable you to be more confident in developing programs because you can change code and try new approaches without worrying about losing a currently working version. git is on your local machine.
+The key takehome message: **Always be committing**. Now let's see what that means and what tools we have for version control.
+  * **git**: git is used for version control. It will be a critical part of your development workflow. Being able to rollback changes and create branches will enable you to be more confident in developing programs because you can change code and try new approaches without worrying about losing a currently working version. git is on your local machine.
 
-  * <b>GitHub</b>:  To make it perfectly clear, git is independent of GitHub. Each copy of a git repository is independent of all the others (hence, *distributed* version control system, or dvcs). GitHub is just a place to put a copy of a repository; the benefit is that because GitHub is web-based, anybody can access that repository at anytime, which makes it an ideal place to host a master version of shared repositories. Many companies use GitHub in just that way.
+  * **GitHub**:  To make it perfectly clear, git is independent of GitHub. Each copy of a git repository is independent of all the others (hence, *distributed* version control system, or dvcs). GitHub is just a place to put a copy of a repository; the benefit is that because GitHub is web-based, anybody can access that repository at anytime, which makes it an ideal place to host a master version of shared repositories. Many companies use GitHub in just that way.
 
 [Assignment 5 - The Galvanize way ](assignments/assignment_5_gitversions.md): Here at Galvanize, we have our curriculum in git repositories hosted on GitHub. You'll be viewing, cloning, and forking those repositories quite a bit. Let's practice with [assignment_5_gitversions.md](assignments/assignment_5_gitversions.md).
 
-  __DO NOT commit large files to a Github repo (anything larger than ~20mb).__  In case you have accidentally committed a large file (or dataset) use this [tutorial](http://blog.jessitron.com/2013/08/finding-and-removing-large-files-in-git.html) or this [command line tool](http://rtyley.github.io/bfg-repo-cleaner/) to clean up your repo
+**DO NOT commit large files to a Github repo (anything larger than ~20mb).**  In case you have accidentally committed a large file (or dataset) use this [tutorial](http://blog.jessitron.com/2013/08/finding-and-removing-large-files-in-git.html) or this [command line tool](http://rtyley.github.io/bfg-repo-cleaner/) to clean up your repo
 
 <a name="workflow">
-### 6. Know the Galvanize Workflow
+<h3> 6. Know the Galvanize Workflow </h3>
 </a>
 
 Having a structured and effective workflow is foundational to your success at Galvanize and as a data scientist in the wild.
@@ -145,7 +145,7 @@ When you're working solo, go ahead and do whatever you'd like. Note however that
 it'll be easier to get help from the instructors if you're following the
 Galvanize Way.
 
-#### Complements on the Galvanize workflow
+#### Complements of the Galvanize workflow
 
 - Google Chrome: Our browser of choice here Galvanize. Use it.
 
