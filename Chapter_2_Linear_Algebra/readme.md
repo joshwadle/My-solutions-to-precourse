@@ -2,30 +2,32 @@ Chapter 2: Precourse Chapter on Linear Algebra
 ===================================
 
 # Instructions
-Fill in the functions found in the provided linear_algebra_assignment.py file.  A test file is provided to check your answers (that is the `test_linear_algebra_assignment.pyc` file).  
+Fill in the functions found in the provided `linear_algebra_assignment.py` file.  A test file is provided to check your answers (that is the `test_linear_algebra_assignment.pyc` file).  
 To run your code through the test, open a terminal window in the directory you are working in, and type in
 ```shell
 $ nosetests test_linear_algebra_assignment.pyc
 ```
 If you do not have nosetests installed, please review the previous chapters instructions and install Anaconda.  
 
-1. Matrix vs Vectors  [questions one through eight]
-2. Scalar Operations [questions nine through 12]
+### Topics covered
+
+1. Matrix vs Vectors  [questions 1-9]
+2. Scalar Operations [questions 9-12]
 3. Matrix Vector Multiplication [questions 13-16]
-4. Matrix Matrix Multiplication [questions 17 and 18]
+4. Matrix Matrix Multiplication [questions 17, 18]
 5. Elementwise Matrix Operations [questions 19-24]
 6. Axis wise operations [none yet]
 7. Rank [none yet]
 8. Extra Credit
 
 
-This will cover all of the basic operations you can do with matrices, as well as some properties of linear algebra with relevant machine learning.
+This will cover all of the basic operations you can do with matrices, as well as some properties of linear algebra relevant to machine learning.
 
 For nearly all of our matrix operations, we will be using a python library named `numpy`
 
 Numpy basically takes native python data structures, like lists, and gives them super math powers. So  operations that would be very difficult when using a regular python list are a one liner when using numpy.  
 
-```
+```python
 import numpy as np
 
 row_vector = np.arange(0, 10, 1).reshape(1, 10)
@@ -51,10 +53,10 @@ print col_vector.shape
 
 Resources
 ====================
-Numpy is great, but it can be annoying.  What I see most people struggle with is the way that matrices are referenced. Basically its the opposite of what we are used to when reference objects.  If we have a matrix that has 5 columns and 3 rows. Its normal to think, `(rise over run)`, `(x, y)`,  aka `( 5 x 3 )`.  However, the shape of this matrix in numpy is `( 3 x 5 )`. They never use `x, y` variables to explain a matrix. Insetead they use `m, n` where `m` references to the `rows` or the height of the matrix. And `n` references the `columns` of the matrix or the `width` of the matrix.
-`y ~ m == rows == (axis=0)`
-`x ~ n == columns == (axis=1)`
-`(row,col) == (m,n) == (axis=0, axis=1) == (-y, x)`
+Numpy is great, but it can be annoying.  What I see most people struggle with is the way that matrices are referenced. Basically its the opposite of what we are used to when reference objects.  If we have a matrix that has 5 columns and 3 rows. Its normal to think, `(rise over run)`, `(x, y)`,  aka `( 5 x 3 )`.  However, the shape of this matrix in numpy is `( 3 x 5 )`. They never use `x, y` variables to explain a matrix. Insetead they use `m, n` where `m` references to the `rows` or the height of the matrix. And `n` references the `columns` of the matrix or the `width` of the matrix.  
+`y ~ m == rows == (axis=0)`  
+`x ~ n == columns == (axis=1)`  
+`(row, col) == (m, n) == (axis=0, axis=1) == (-y, x)`  
 
 In addition, it is very important to understand the syntax difference between the `:` and the `,` when indexing with numpy.  
 the `1:9` basically means through. So 1 through 9.  
