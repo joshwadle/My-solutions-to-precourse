@@ -20,4 +20,10 @@
   Description: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_1_Python_Syntax/readme.md
   Contents:
     - Type: Exercise
-      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_1_Python_Syntax/readme.md
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_1_Python_Syntax/assignments/assignment_1.md
+    - Type: Exercise
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_1_Python_Syntax/assignments/assignment_2.md
+    - Type: Exercise
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_1_Python_Syntax/assignments/assignment_3.md
+    - Type:
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_1_Python_Syntax/finish_up.md
