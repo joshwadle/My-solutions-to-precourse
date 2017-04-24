@@ -12,11 +12,11 @@ _______________________________________
 
 ## Questions & Answers
 
-We want to generate a random text according to rules specified in the function docstrings. We will be modifying [assignment_2a.py](../code/assignment_2a.py).
+We want to generate a random text according to rules specified in the function docstrings. We will be modifying [assignment_2a.py](../src/assignment_2a.py).
 
 ### Step 1: Writing the functions
 
- The [assignment_2a.py](../code/assignment_2a.py) has functions for you to fill and an `if __name__ == '__main__'` block. This is a great layout to use in future scripts.
+ The [assignment_2a.py](../src/assignment_2a.py) has functions for you to fill and an `if __name__ == '__main__'` block. This is a great layout to use in future scripts.
 
  Fill in the function `word_counts` to make sure you are familiar with nested dictionaries, and have experience with lowercasing text and removing the punctuation.
 
@@ -42,7 +42,7 @@ We want to generate a random text according to rules specified in the function d
 
 ### Step 2: Using keyword arguments
 
-Modify the [assignment_2a.py](../code/assignment_2a.py) to be able to call the function `make_random_story`, specifying only the `filename`, to make a random story 200 words long. The call to the function would therefore not be `make_random_story('alice.txt', 200)`, but rather `make_random_story('alice.txt')`.
+Modify the [assignment_2a.py](../src/assignment_2a.py) to be able to call the function `make_random_story`, specifying only the `filename`, to make a random story 200 words long. The call to the function would therefore not be `make_random_story('alice.txt', 200)`, but rather `make_random_story('alice.txt')`.
 
   Hint:
   - Keyword arguments have their default values specified in the function definition. See the `mood` argument in the `hello_word` function below:
@@ -57,7 +57,7 @@ Modify the [assignment_2a.py](../code/assignment_2a.py) to be able to call the f
 
 ### Step 3: Running a script from the command line
 
-  Modify the [assignment_2a.py](../code/assignment_2a.py) to be able to run the program `make_random_story` from the command line:
+  Modify the [assignment_2a.py](../src/assignment_2a.py) to be able to run the program `make_random_story` from the command line:
 
     ```
     $ python assignment_2a.py alice.txt 2 200
