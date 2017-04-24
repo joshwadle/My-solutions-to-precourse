@@ -1,0 +1,23 @@
+---
+- ContainerType: Unit
+  Title: Workflow
+  Description: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_0_Workflow/readme.md
+  Contents:
+    - Type: Exercise
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_0_Workflow/atom.md
+    - Type: Exercise
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_0_Workflow/terminal.md
+    - Type: Exercise
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_0_Workflow/anaconda.md
+    - Type: Exercise
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_0_Workflow/development.md
+    - Type: Exercise
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_0_Workflow/git.md
+    - Type: Exercise
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_0_Workflow/workflow.md
+- ContainerType: Unit
+  Title: Python Syntax
+  Description: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_1_Python_Syntax/readme.md
+  Contents:
+    - Type: Exercise
+      URL: https://github.com/gSchool/ds-precourse/tree/learnerize/Chapter_1_Python_Syntax/readme.md
