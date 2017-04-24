@@ -1,8 +1,7 @@
-# Chapter 4 Pandas
-<br>
-## Instructions
-In this chapter you will be answering  **the same exact questions you answered in the SQL chapter, but by using Pandas instead of SQL.**  <br>
-*Fill in your answers in the functions provided  `assignment.py` file. *
+# Chapter 4 Pandas  
+## Instructions  
+In this chapter you will be answering  **the same exact questions you answered in the SQL chapter, but by using Pandas instead of SQL.**  
+Fill in your answers in the functions provided  `assignment.py` file.
 
 
 ## The Data To Use
@@ -40,7 +39,7 @@ Or... take a few hours, and watch this video instead:
 
 Pandas main workhorse is the Pandas DataFrame. A DataFrame represents a tabular, spreadsheet-like data structure containing an ordered collection of columns, each of which can be a different value type (numeric, string, boolean, etc.).
 
-*The DataFrame has both a row and column index;* it can be thought of kind of like collection of dictionaries that have BOTH vertical and horizontal keys.  The vertical key is the like the column, all the horizontal key is like the index.  
+*The DataFrame has both a row and column index;* it can be thought of kind of like collection of dictionaries that have BOTH vertical and horizontal keys.  The vertical key is the like the column, and the horizontal key is like the index.  
 ## A simple starterfile.
 
 ```python
@@ -121,10 +120,11 @@ Load delimited data from a file, URL, or file-like object. Use comma as default 
 `df = pd.read_table()`
 Load delimited data from a file, URL, or file-like object. Use tab ('\t') as default delimiter
 
-`pd. read_fwf()` Read data in fixed-width column format (that is, no delimiters)
+`df = pd.read_fwf()` Read data in fixed-width column format (that is, no delimiters)
 
-`pd.read_clipboard()` Create a dataframe from your own damn cliboard!!! _wtf! im seriously_
+`df = pd.read_clipboard()` Create a dataframe from your own damn cliboard!!!
 
+## Writing data using Pandas
 
 `df.to_csv('output.csv', sep='|', index=False, header=False )` Using DataFrame’s to_csv method, we can write the data out to a comma-separated file:
 
@@ -190,7 +190,7 @@ I get the best use of this page just by hitting  `command+F` on my keyboard, and
 <tr>
 <th>5 </th>
 <td>                               df.set_index('col')</td>
-<td> make the index (aka row names) the values of a...</td>
+<td> make the index (aka row names) the values of col</td>
 </tr>
 <tr>
 <th>6 </th>
@@ -250,7 +250,7 @@ I get the best use of this page just by hitting  `command+F` on my keyboard, and
 <tr>
 <th>17</th>
 <td>                                   df.ix[0]['col']</td>
-<td>        select row and column, reterive cell value</td>
+<td>        select row and column, retrieve cell value</td>
 </tr>
 <tr>
 <th>18</th>
@@ -269,7 +269,7 @@ I get the best use of this page just by hitting  `command+F` on my keyboard, and
 </tr>
 <tr>
 <th>21</th>
-<td>            df = df.sort('col', ascending=False)\n</td>
+<td>              df = df.sort('col', ascending=False)</td>
 <td>                    sort data frame on this column</td>
 </tr>
 <tr>
@@ -397,7 +397,6 @@ I get the best use of this page just by hitting  `command+F` on my keyboard, and
 
 
 ---
-<br>
 ## Unique Values, Value Counts, and Conditional Selecting are so handy all the time
 
 ```python
@@ -442,7 +441,6 @@ texts['Weight'] = texts['msg'].apply(lambda x: len(str(x)))
 texts['Weight'] = texts['Weight'].astype(int)
 ```
 ---
-<br>
 # Learn More
 Pandas has many many functions, enough to fill a 300 page book (which we have in class).
 Here is a link to the official documentation: http://pandas.pydata.org/pandas-docs/stable/10min.html

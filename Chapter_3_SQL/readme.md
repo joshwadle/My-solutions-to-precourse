@@ -17,8 +17,8 @@ SQL as a query language. In the program, we will be using PostgreSQL.
 
 ## Main Resources
 
-- [SQLZoo](http://sqlzoo.net/wiki/SQL_Tutorial) is a great online tutorial where you can try out your queries and is a great reference when you want to check basics 'how to'. Chapters 1 through 7 are particularly relevant for the precourse work.
-- [Codacademy](https://www.codecademy.com/learn/learn-sql) has 4 chapters dedicated to SQL, in an interactive coding environment. You do not need to subscribe to the Pro Trial, the free material is already great if you want to practice basic SQL queries.
+- [SQLZoo](http://sqlzoo.net/wiki/SQL_Tutorial) is a great online tutorial where you can try out your queries and is a great reference when you want to check basic 'how to'. Chapters 1 through 7 are particularly relevant for the precourse work.
+- [Codecademy](https://www.codecademy.com/learn/learn-sql) has 4 chapters dedicated to SQL, in an interactive coding environment. You do not need to subscribe to the Pro Trial, the free material is already great if you want to practice basic SQL queries.
 - [PostgreSQL Snippet](resources/create_sql_table.md) is a markdown file that walks you through how to create SQL tables in PostgreSQL.
 - [Defaulting to SQLite](resources/defaulting_to_sqlite.md) is a markdown file that will help you to install SQLite and create SQL tables. Remember, only default to SQLite if you cannot get PostgreSQL up and running!
 
