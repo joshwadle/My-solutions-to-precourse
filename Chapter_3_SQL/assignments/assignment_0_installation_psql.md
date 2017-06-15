@@ -21,9 +21,9 @@ Here's the [postgres docs](http://www.postgresql.org/docs/9.3/interactive/), whi
 1. Install brew cask if you haven't already.
 
     * Install brew. Instructions [here](http://brew.sh/)
-    * Install brew cask with: `brew install caskroom/cask/brew-cask`
+    * Install brew cask with: `brew install cask`
     
-    If you already have them, update: `brew update && brew upgrade brew-cask`
+    If you already have them, update: `brew update && brew upgrade cask`
 
 1. Install your Postgres database. The easiest way to to install the pre-build application (with an adorable icon) using the following command:
 
