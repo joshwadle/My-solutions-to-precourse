@@ -40,4 +40,30 @@ _______________________________________
 ## Answers
 Please indicate the commands necessary to execute steps 1-9.
 
-YOUR ANSWER: ________
+YOUR ANSWER:Joshs-Air:Desktop joshwadle$ mkdir testing_directory
+Joshs-Air:Desktop joshwadle$ cd testing_directory
+Joshs-Air:testing_directory joshwadle$ mkdir code
+Joshs-Air:testing_directory joshwadle$ mkdir data
+Joshs-Air:testing_directory joshwadle$ mkdir raw_data
+Joshs-Air:testing_directory joshwadle$ mkdir test
+Joshs-Air:testing_directory joshwadle$ atom readme.md
+Joshs-Air:testing_directory joshwadle$ atom do_not_readme.md
+Joshs-Air:testing_directory joshwadle$ cd test
+Joshs-Air:test joshwadle$ atom simple_script.py
+Joshs-Air:test joshwadle$ cd ..
+Joshs-Air:testing_directory joshwadle$ mv raw_data data/raw_data
+Joshs-Air:testing_directory joshwadle$ cd data
+Joshs-Air:data joshwadle$ cd raw_data
+Joshs-Air:raw_data joshwadle$ pwd
+/Users/joshwadle/Desktop/testing_directory/data/raw_data
+Joshs-Air:raw_data joshwadle$ mv simple_script.py code/simple_script.py
+mv: rename simple_script.py to code/simple_script.py: No such file or directory
+Joshs-Air:raw_data joshwadle$ cd..
+-bash: cd..: command not found
+Joshs-Air:raw_data joshwadle$ cd ..
+Joshs-Air:data joshwadle$ cd ..
+Joshs-Air:testing_directory joshwadle$ mv test/simple_script.py code/simple_script.py
+Joshs-Air:testing_directory joshwadle$ cd code
+Joshs-Air:code joshwadle$ mv simple_script.py hello_world.py
+Joshs-Air:code joshwadle$ cd ..
+Joshs-Air:testing_directory joshwadle$ rm do_not_readme.md
