@@ -40,4 +40,27 @@ _______________________________________
 ## Answers
 Please indicate the commands necessary to execute steps 1-9.
 
-YOUR ANSWER: ________
+YOUR ANSWER:
+1. Joshs-Air:Desktop joshwadle$ mkdir testing_directory
+Joshs-Air:Desktop joshwadle$ cd testing_directory
+2. Joshs-Air:testing_directory joshwadle$ mkdir code
+Joshs-Air:testing_directory joshwadle$ mkdir data
+Joshs-Air:testing_directory joshwadle$ mkdir raw_data
+Joshs-Air:testing_directory joshwadle$ mkdir test
+3. Joshs-Air:testing_directory joshwadle$ atom readme.md
+Joshs-Air:testing_directory joshwadle$ atom do_not_readme.md
+4. Joshs-Air:testing_directory joshwadle$ cd test
+Joshs-Air:test joshwadle$ atom simple_script.py
+5. Joshs-Air:test joshwadle$ cd ..
+Joshs-Air:testing_directory joshwadle$ mv raw_data data/raw_data
+Joshs-Air:testing_directory joshwadle$ cd data
+Joshs-Air:data joshwadle$ cd raw_data
+6. Joshs-Air:raw_data joshwadle$ pwd
+/Users/joshwadle/Desktop/testing_directory/data/raw_data
+7. Joshs-Air:raw_data joshwadle$ cd ..
+Joshs-Air:data joshwadle$ cd ..
+Joshs-Air:testing_directory joshwadle$ mv test/simple_script.py code/simple_script.py
+8. Joshs-Air:testing_directory joshwadle$ cd code
+Joshs-Air:code joshwadle$ mv simple_script.py hello_world.py
+9. Joshs-Air:code joshwadle$ cd ..
+Joshs-Air:testing_directory joshwadle$ rm do_not_readme.md
